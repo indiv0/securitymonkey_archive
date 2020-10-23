@@ -1,0 +1,2515 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app100.us.archive.org';v.server_ms=328;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=BsQ6byDz" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://it.toolbox.com:80/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875","20110916175434","https://web.archive.org/","web","/_static/",
+	      "1316195674");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=NHuXCfBH" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Case Of The Innocent Iris: The Conclusion
+</title><link rel="shortcut icon" href="https://web.archive.org/web/20110916175434im_/http://images.ittoolbox.com/favicon.ico"/><script src="https://web.archive.org/web/20110916175434js_/http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script><link rel="Stylesheet" type="text/css" href="https://web.archive.org/web/20110916175434cs_/http://icdn.toolbox.com/BUILD_1612/css/master.css"/>
+    
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="keywords" content="security, securitymonkey, casefile, cocaine"/><meta name="description" content="Tick.  Tick.  Tick.  Tick.
+
+I sat in front of Rae's home computer reading through some E-mail to pass the time, and then decided to check a few ..."/><link rel="canonical" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875"></link></head>
+<body> 
+ <script type="text/javascript">	
+    var isCorpSite = false;
+    var signinURL = 'https://web.archive.org/web/20110916175434/https://login.toolbox.com/';            
+    var vertBaseURL = 'https://web.archive.org/web/20110916175434/http://it.toolbox.com/';
+    var CDNImageURL = 'https://web.archive.org/web/20110916175434/http://cdn.toolbox.com/BUILD_1612/';
+    var CurrentVerticalName = 'Toolbox for IT';
+</script>
+<div id="lightbox-panel"></div>
+
+<form action="https://web.archive.org/web/20110916175434/https://login.toolbox.com/1/signin" method="post">
+<div>
+    <a class="join-button" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20875%26&amp;r=http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20875%26&amp;trksubprod=joinnow_stationary&amp;opi_t=Case+Of+The+Innocent+Iris%3a+The+Conclusion&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875&amp;opi_o=4"></a>
+</div>
+<div>
+    <div id="signin">
+        <div id="signinPanel" class="signin-panel">
+            <div style="padding: 5px;">
+                <div class="signin-box anthracite">
+                    <div id="signin_result">
+                        <div class="windowclosebutton" id="signin-msgclose" onclick="javascript:hideSigninMessage();"></div>
+                        <div id="signin_message"></div>
+                    </div>
+                    <div id="signin_form">
+                        <div>E-mail or User ID</div>
+                        <div><input type="text" id="username" name="u" tabindex="900" class="signin-textbox"/></div>
+                        <div>Password</div>
+                        <div><input type="password" id="password" defaultbutton="btnSignIn" name="p" tabindex="901" class="signin-textbox"/></div>
+                    </div>
+                    <div class="floatright">
+                        <table cellspacing="0" cellpadding="0" class="button-outerblue">
+	                        <tbody><tr><td class="button-innerblue" id="m_btnSignIn_tdCt">
+                                    <input name="ctl00$ctl00$m$btnSignIn" type="submit" id="ctl00_ctl00_m_btnSignIn" value="Go" class="button" tabindex="905"/>
+                                </td></tr>
+                        </tbody></table>
+                    </div>
+                    <div class="floatleft">
+                        <div class="floatleft"><input type="checkbox" name="pageGroup" id="currentPage" value="currentPage" tabindex="902"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="currentPage">Stay on Current Page</label></div>
+                    </div>
+                    <div class="floatleft"> 
+                        <div class="clear floatleft"><input type="checkbox" name="keepMeSignedIn" id="kmsiCB" value="true" tabindex="903"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="kmsiCB">Keep me signed in</label></div>
+                    </div>
+                    <div class="clear floatright">
+                        
+<a class="splink-button" href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/help" style="margin: 0; padding-top: 1px">Help?</a>
+                    </div>
+                    
+<a class="splink-button" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/recover-password" style="margin: 0; padding-top: 1px">Recover&nbsp;Password</a>
+                </div>
+                <div class="signin-boxright anthracite">
+                    <div class="spacer-tiny">
+                        <span class="bold darkgray">Sign in using your account with</span>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/openid/signin/1/google" class="signin-link signin-google oidHrefHook"></a>
+                    <a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/openid/signin/1/yahoo" class="signin-link signin-yahoo oidHrefHook"></a>
+                    <div class="floatright signin-reglinkspacer">
+                        <div class="spacer-tiny"></div>
+                        <div class="clear floatleft"><input type="checkbox" name="retToPage" id="oidretToPage" value="currPage" tabindex="905"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="oidretToPage">Return to this page</label></div>                    
+                    </div>
+                    <div class="floatright signin-reglink">
+                        <div class="bold floatleft">Haven't registered yet?</div>
+                        <div class="floatleft">
+<a id="ctl00_ctl00_m_btnJoinNow_hl" tabindex="905" class="splink-button" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20875%26&amp;r=http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20875%26&amp;trksubprod=joinnow_flyout&amp;opi_t=Case+Of+The+Innocent+Iris%3a+The+Conclusion&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875&amp;opi_o=4" style="margin: 0; padding-top: 1px">Register&nbsp;now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="signin-button" id="signin-button" onclick="javascript:showSigninBox();"></a>
+    </div>
+</div>
+</form>
+
+<form name="aspnetForm" method="post" action="/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875" id="aspnetForm">
+<div>
+<input type="hidden" name="CounterCurrent" id="CounterCurrent" value="35638"/>
+
+</div>
+
+
+<div class="header-banner"><a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/new-logo" style="color:white;font:bold 16px arial;">Toolbox.com Introduces a New Logo. Learn More</a></div>
+<div id="header">
+    
+	<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/" class="header-logolink"></a>
+	<div class="header-ad">
+		<div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20110916175434js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=horizlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=cocaine;kw=addiction;kw=recovery;cont=DM;sz=728x90,468x60,1x1;tile=6;ord=481395503">
+
+	</script>
+</div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+
+<div id="nav">
+	<div id="nav-search">
+		
+<script type="text/javascript">
+    var _action = 'https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/search/';
+    var _mainArgumentName = 'r';
+    var _additionalArgumentName = null;
+</script>
+<div class="nav-search">
+    <div class="nav-searchcontainer">
+    <input class="nav-searchtextbox" id="query" type="text" watermark="Search Toolbox.com" defaultbutton="btnGlobalSearch"/>            
+    </div>
+    <input id="btnGlobalSearch" class="nav-searchbutton" type="button" onclick="GlobalSearch()"/>
+</div>
+
+	</div>
+	<div class="nav-tab" id="divmyhometab">
+		<!-- MY HOME -->
+		<div class="nav-myhometabdown-unrec">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/" class="anthracite">My Home</a>
+			<div class="nav-myhomepaneldown">
+                </div>
+		</div>
+		
+	</div>
+	<div class="nav-tab" id="divtopicstab">
+      
+		<!-- TOPICS -->
+		<div class="nav-topicstabup-unrec">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/topics/" class="white">Topics</a>
+              </div>
+        
+		<div class="nav-dividerup">
+		</div>
+	</div>
+    <div class="nav-tab">
+		<!-- PEOPLE -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/" class="anthracite">People</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+	<div class="nav-tab">
+		<!-- Companies -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/companies/" class="anthracite">Companies</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+    <div class="nav-tab">
+		<!-- Jobs -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/jobs/" class="anthracite">Jobs</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+	<div class="nav-tab">
+		<!-- WHITEPAPERS -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/companies/white-papers/" class="anthracite">White Paper Library</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+</div>
+
+<!-- SUBNAV -->
+<div class="clear height0">
+</div>
+<div id="subnav">
+	
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/">Home</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemup" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/blogs/">Blogs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/groups/">Groups</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/wiki/index.php/CommunityTopic?a=security">Wiki</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/communities/">Communities</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/research/">White Papers</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/documents/">Q&amp;A and Docs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/directory/">Directory</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/events/">Events</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/subscriptions/">Subscriptions</a>
+				
+			</div>
+		
+			<div style="clear: both;">
+			</div>
+		
+</div>
+
+
+        
+
+
+
+
+<div id="content">		
+	<div class="content-leftcol">
+            
+    
+    <div class="spacer-small">
+        
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/" class="gray">
+            Toolbox for IT</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/topics/" class="gray">
+            Topics</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/" class="gray">
+            Security</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/blogs/" class="gray">
+            Blogs</a>
+        </div>
+	
+		<span class="breadcrumb-separator"></span>
+	
+<div class="clear"></div>
+<div class="spacer-ittybitty"></div>
+<span class="gray size17"></span>
+
+                    
+                    
+                    
+                            
+        
+        <div class="spacer-tiny"></div>
+    </div>
+    
+    <div class="clear spacer-small">
+        
+        <div class="clear"></div>
+    </div>
+    <div class="clear spacer-small">
+        
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+               <div class="content-title">
+                    
+			        
+                    <h1 class="anthracite size17 bold content-title">Case Of The Innocent Iris: The Conclusion</h1>
+               </div>
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+                
+<span class="size11 gray"> | Comments </span>
+                
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875#comments" class="size11">(31)</a>
+                
+
+            </div>
+			
+		</td>
+	</tr>
+</table>
+    </div>
+    <div class="left-gutter spacer-small">
+        
+
+<div id="fb-root"></div>
+<script type="text/javascript">
+    $(document).ready(function () { 
+        window.fbAsyncInit = function () {
+            FB.init({ appId: '237674746269801', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+        (function () {
+            var e = document.createElement('script'); e.async = true;
+            e.src = document.location.protocol + '//web.archive.org/web/20110916175434/http://connect.facebook.net/en_US/all.js';
+            document.getElementById('fb-root').appendChild(e);
+        } ());
+    });
+</script>
+
+<div class="sharebar">
+    <div class="sharebar-item" id="sharebar-twitter">
+        <a href="https://web.archive.org/web/20110916175434/http://twitter.com/share" class="twitter-share-button" data-url="https://web.archive.org/web/20110916175434/http://it.toolbox.com/trd/73/2/20875/3/twitter" data-counturl="http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875" data-count="horizontal">Tweet</a>
+    </div>
+    <div class="sharebar-item" id="sharebar-fb">
+        <fb:like href="http://it.toolbox.com/trd/73/2/20875/3/facebook" send="false" layout="button_count" width="0" show_faces="true" action="recommend" font=""></fb:like>
+    </div>
+
+    
+    <style>    
+        #sharebar-li > span > span + span
+        {
+        	border-bottom: 4px solid white;
+        }
+    </style>
+
+    <div class="sharebar-item" id="sharebar-li">
+    <script type="in/share" data-url="http://it.toolbox.com/trd/73/2/20875/3/linkedin" data-counter="right"></script>
+    </div>
+    <div class="sharebar-item" style="margin-top: -2px" id="sharebar-googleplus">
+        <g:plusone href="http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875"></g:plusone>
+    </div>
+    
+    <div style="float: right; width: 95px; margin-right: -25px">
+        <div id="ctl00_ctl00_m_m_m_m_shareBar_divVoteUp" class="sharebar-item" style="margin: 3px 6px 0px 0px">
+            <a href="https://web.archive.org/web/20110916175434/http://rss.ittoolbox.com/rss/security-investigator.xml" id="blogs-rssicon" class="blog-meta icons-rssblogentry displayblock"></a>
+        </div>
+        <div class="sharebar-item">
+            <div class="vote blogs-votebox">
+                <a href="javascript:void(0)" onclick="voteHandler(0,20875,3,3);" id="imgHelpful20875">
+                    <table cellpadding="0" cellspacing="0" border="0" class="ach_votebox">
+                        <tr>
+                            <td class="vote-button-wrapper pointer">
+                                <div id="ctl00_ctl00_m_m_m_m_shareBar_voteImage" class="ach_vote">
+                                </div>
+                            </td>
+                            <td class="ach_votecount bold background-lightblue" id="S20875">
+                                0
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+            <div class="ach_confirm" style="display: none; margin-left: -188px;" id="rateMsg20875">
+                Please <a href="https://web.archive.org/web/20110916175434/https://login.toolbox.com/1/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875">Sign In</a> or <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875&amp;trksubprod=bloglikelink">Register</a> to like this blog.
+            </div>
+            <div id="loading20875" class="ach_confirm" style="display: none;">
+                <div style="width: 16px; height: 16px" lazysource="http://cdn.toolbox.com/BUILD_1612/rds/icon-refresh.gif"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            // google plus one
+            (function () {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://web.archive.org/web/20110916175434/https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+
+            // twitter
+            $.getScript('https://web.archive.org/web/20110916175434/http://platform.twitter.com/widgets.js');
+
+            // linkedin
+            $.getScript('https://web.archive.org/web/20110916175434/http://platform.linkedin.com/in.js');
+        });
+    </script>
+</div>
+
+
+        
+        
+
+
+    </div>
+    <div class="spacer blog-content content-entryindent ">
+        Tick.  Tick.  Tick.  Tick.
+<br/>
+<br/>I sat in front of Rae's home computer reading through some E-mail to pass the time, and then decided to check a few popular websites for news.  I clicked around in Internet Explorer and by reflex entered Rae's browsing history.
+<br/>
+<br/>After reviewing the last five entries, my mind was made up and my theory confirmed.
+<br/>
+<br/>The clock on the wall in Rae's living room announced the arrival of a new second with an unnerving metallic sound.  I compared the time on my watch several times in anticipation of an inevitable confrontation that was about to take place.
+<br/>
+<br/>"Who forgot to lock the front door again?" Rae bellowed as she entered the living room.  "You still here?  You have nothing better to do?" she asked sarcastically as she caught my stare.
+<br/>
+<br/>I got up from her computer chair and walked towards her.
+<br/>
+<br/>"Funny you should mention that.  I canceled a number of important things so I could be here for you Rae.  And now I'm wondering if I've been wasting my time." I replied.
+<br/>
+<br/>Rae dropped her eye contact and slowly walked into her bedroom.
+<br/>
+<br/>"What the hell happened to my bedroom? You guys have a party while I was gone?" Rae nervously joked.
+<br/>
+<br/>"Cut the crap." I said sternly.  "You owe me an explanation and an apology."
+<br/>
+<br/>Rae stood with her back to me for what seemed to be an eternity.   She placed her purse on her overturned bed and slowly turned to face me.
+<br/>
+<br/>"Explanation for WHAT?" 
+<br/>
+<br/>I removed the chain of custody bag from my pocket and, while holding the top with my fingers, allowed the bag to unravel to reveal the former guts of her cat's toy.
+<br/>
+<br/>"That's not mine." 
+<br/>
+<br/>I was losing my patience.
+<br/>
+<br/>"Of course.  It's probably your brother's, right?  Or maybe a former boyfriend's?  Or maybe your cat has a problem and we should perform an intervention right now?  Here kitty kitty!  Mommy needs to talk to you because she loves you!" I said in an impatient tone. 
+<br/>
+<br/>"How can you accuse me of such a thing?  After all I've been through recently, you're throwing this back on me now because you really can't find out what's going on?" Rae fired back.
+<br/>
+<br/>"This isn't about anyone but you.  You've been lying to me and those around you from the start, and as a matter of fact, I DO know what's going on.  You can tell the story or I can, it's your choice." I replied.
+<br/>
+<br/>Rae stood perfectly still and stared a hole into the floor.
+<br/>
+<br/>"Fine.  I'll tell it.  Let's start at the beginning, shall we?" I asked.
+<br/>
+<br/>Rae sat down on the ground and looked at me like a child accused of sneaking into the cookie jar.
+<br/>
+<br/>"You failed the drug test at work and panicked.  It should have been no surprise to you that you were going to fail, considering you have several empty drug test boxes in your bathroom's trash can hid under a God awful amount of toilet paper.  How are you going to get out of this?  You call the one person that you know that has a knack for connecting the dots and presenting a factual case to your employer: me.  How am I doing so far?" I asked.
+<br/>
+<br/>Rae sat quietly.
+<br/>
+<br/>"You start doing research on the internet for substances that can produce a false positive on a cocaine drug test, only to find out that it's nearly impossible to get a false positive for such a substance.  I found your searches on your computer - it took all of five minutes.  Then you find that certain imported products contain trace amounts of cocaine due to their inclusion of raw coca leaves.  Ah ha!  The perfect alibi.  You knew from my previous stories that I'd take a close look at anything that came into contact with you including your food, personal care products, etc.  Ironically enough, this was my first clue that you were lying to me." I bellowed.
+<br/>
+<br/>"I didn't lie to you!" Rae exclaimed.
+<br/>
+<br/>"I'm not done.  All of the products that I sent to my friend in Las Vegas were tested, and some did contain trace amounts of coca.  However, you would have had to ingest several bottles of the stuff right before your test to have a results level as high as you received.  The interesting part is that my friend found higher trace levels of cocaine OUTSIDE the bottles than in the bottles - specifically on the lid of one of the larger bottles.  Let me be clear that the substance found wasn't coca - it was cut cocaine.  Any of this ringing a bell yet?" I queried.
+<br/>
+<br/>Rae stared at me blankly, and her eyes started to water up.
+<br/>
+<br/>"Let's not forget the pee test that you so eagerly agreed to.  The results came back showing your level to still be two-thirds of your original testing level.  The only way to sustain a level that high is daily usage.  You've been using this entire time.  And to make matters worse, the real victim in all of this is probably your cat.  The cat toy that you hid your stash in under your bed - you know, the one next to the mirror that I stepped on which also tested positive for cocaine - used to have catnip in it.  Your cat has been chewing and licking that toy for an unknown period of time.  Do you have any idea what even the smallest amounts of a stimulant like cocaine can do to an animal that small?" I asked, my tone growing more impatient with every sentence.
+<br/>
+<br/>The sounds of Rae's sobbing overtook my accusatory ranting.  Her face was red with stress and embarrassment. 
+<br/>
+<br/>"I need help." 
+<br/>
+<br/>-
+<br/>
+<br/>The strangest stories aren't those imagined by ordinary folks.  They are tales crafted from real people caught up in real situations, most of which are of their own doing.  No matter one's sex, race, creed or color - all are susceptible to the evils of addictions. 
+<br/>
+<br/>This story is obviously a tangent from my typical case files.  However, it is a perfect example of how investigative skills can cross all categorical boundaries.  It also shows that even the most experienced investigator will encounter their most challenging cases not in an empty warehouse, an office building, or a datacenter - but two feet inside their own doors.
+<br/>
+<br/>Rae underwent an extensive rehabilitation treatment, and is still drug free (and addiction free) to this day.<p><a href="https://web.archive.org/web/20110916175434/http://www.numly.com/numly/verify.asp?id=82289-071129-740029-52"><img alt="numly esn" src="https://web.archive.org/web/20110916175434im_/http://numly.com/numly/icon.asp?id=8228907112974002952" border="0"> 82289-071129-740029-52<br><img src="https://web.archive.org/web/20110916175434im_/http://numly.com/numly/barcode.asp?code=8228907112974002952&amp;height=20&amp;width=1&amp;mode=code39"></a><br><br>Â© 2007 All Rights Reserved.</p>
+    </div>    
+    <div class="spacer marginleftgutter">
+            <hr/>
+    <table width="100%" bgcolor="#FFFFCC" cellpadding="9px">
+        <tr>
+            <td>
+                <div style="margin-right: 9px; float: left; height: 60px; width: 60px" lazysource="http://userimages.ittoolbox.com/user/s_610000.jpg"></div>
+<font face="Arial" size="4"><b>DID YOU KNOW?</b></font><font face="Arial" size="2">
+                        <p style="margin-top: 2px">
+                            You can read all of SecurityMonkey's case files!
+                            <br/>
+                            Find them <b><a href="https://web.archive.org/web/20110916175434/http://blogs.ittoolbox.com/security/investigator/archives/official-securitymonkey-case-file-index-14787">
+                                here</a></b>.
+                            <br/>
+                            <br/>
+                            You can also read all of SecurityMonkey's
+                            <br/>
+                            'Banana Cupboard' stories <a href="https://web.archive.org/web/20110916175434/http://blogs.ittoolbox.com/security/investigator/archives/banana-cupboard-stories-index-25647">
+                                here</a>.
+                            <br/>
+                            <br/>
+                            You may not get a lot done for a few hours... or even days.</p>
+                    </font>
+                <br/>
+                <br/>
+                The reviews are in...<br/>
+                <br/>
+                <i>"Completely addictive... suspenseful and informative at the same time!"<br/>
+                    "A mix of classic detective scripting, timing, and technology..."<br/>
+                    "Cleverly injected humor makes these case files easy to read and hard to put down!"</i>
+            </td>
+        </tr>
+    </table>
+    <hr/>
+
+        <div class="clear"></div>
+    </div>
+    
+    <div class="related-white-papers left-gutter spacer-large">
+        <div class="spacer-small">
+            <h2 class="anthracite size12 bold">
+                Popular White Paper On This Topic</h2>
+            
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:PopWP" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/research/love-thy-logs-24374?sp=cm&amp;r=BlogPopular">Love Thy Logs</a></li>
+	
+        </ul>
+    
+
+        </div>
+        <div class="spacer-small">
+            <h2 class="anthracite size12 bold">
+                Related White Papers</h2>
+            
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20110916175434/http://storage.ittoolbox.com/research/five-tips-for-effective-backup-and-recovery-in-virtual-environments-23390?sp=kw&amp;r=BlogRelated">Five Tips for Effective Backup and Recovery in Virtual ...</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20110916175434/http://cloud.ittoolbox.com/research/best-practices-for-proactive-disaster-recovery-and-business-continuity-24507?sp=kw&amp;r=BlogRelated">Best Practices for Proactive Disaster Recovery and Business ...</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/research/how-to-effectively-navigate-and-manage-cyber-security-24440?sp=kw&amp;r=BlogRelated">How to Effectively Navigate and Manage Cyber Security</a></li>
+	
+        </ul>
+    
+
+        </div>
+        <div class="floatright">
+            
+<a class="link-button" href="/web/20110916175434/http://it.toolbox.com/companies/white-papers/">More&nbsp;White&nbsp;Papers</a>
+        </div>
+    </div>
+    <div class="left-gutter spacer-large">
+        <div class="related-white-papers spacer">
+    <h2 class="anthracite size12 bold">Related Products</h2>            
+	<div class="spacer-small">
+		
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a title="In today's economy, companies must be able to move large quantities of product quickly to locations across the globe. Overnight delivery methods have drastically altered customers' expectations..." hpx="Blogs:RelTraining" href="https://web.archive.org/web/20110916175434/http://store.toolbox.com/inventory-management-p2011.aspx">Inventory Management</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a title="Billions of people around the world depend on the pharmaceutical industry to help them live longer, healthier, and happier lives. However, the pharmaceutical industry is continually tasked with..." hpx="Blogs:RelTraining" href="https://web.archive.org/web/20110916175434/http://store.toolbox.com/pharmaceutical-industry-overview-version-2-p2418.aspx">The Pharmaceutical Industry Overview: Version 2</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a title="As an administrative professional, there are many skills and competencies you must master, ranging from organizational skills to technical aptitude. In order to be truly successful, though, you..." hpx="Blogs:RelTraining" href="https://web.archive.org/web/20110916175434/http://store.toolbox.com/product.aspx?zpid=2104">Administrative Professionals: Putting Your Best Foot Forward</a></li>
+	
+        </ul>
+    
+
+	</div>
+	<div class="floatright">
+		
+<a class="link-button" href="https://web.archive.org/web/20110916175434/http://store.toolbox.com/it-training-c141.aspx">More&nbsp;Products</a>
+	</div>
+	<div class="clear"></div>
+</div>
+    </div>
+    
+<a name="comments"></a>
+<div class="spacer-tiny">
+    <div class="icons-commentlist floatleft marginleft10"></div>
+    <h2 class="anthracite size15 bold floatleft">
+        31
+        Comments
+    </h2>
+    <a href="https://web.archive.org/web/20110916175434/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="icons-rss displayblock floatleft blog-meta"></a>
+    <div class="clear"></div>
+</div>
+<div class="content-entryindent clear">
+    
+    
+    
+            <a name="1736748"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/ki4rex/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/3/5/1/b_1070153.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/ki4rex/" class="size11">Ryan Russell</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Dang, I was wrong in my guesses.  Great story, and lesson SM
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1736786"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/tws01/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/9/3/8/b_1138839.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/tws01/" class="size11">Travis Stevenson</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Wow - after reading all the previous stories leading up to this one,   I had assumed that something would have shown her as the victim, but everything thing you described before was pretty clear. I was just hoping for a twist.  I'm glad that everything worked out for the best and the story is now moving forward for the better.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1736832"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Holy cow, sarcastic Gavin from the very first post was right ! Bonus points I think !<br><br>Gav<br><br><a href="https://web.archive.org/web/20110916175434/http://blogs.ittoolbox.com/security/investigator/archives/case-of-the-innocent-iris-part-i-18959#1608905">Gav's comment</a>
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1736841"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/cornelius_root/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/cornelius_root/" class="size11">Cornelius Root</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Chief, among all your case files this one stands out as a human interest piece like no other. Like Travis, I was hoping for a twist. I have experience with what happens when people have addictions to cocaine, methamphetamines, and other drugs. It is not pretty. Hopefully her brother got counseling as well. And lets not forget poor kitty cat. I imagine that kitty went to rehab too?
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1736970"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/drkkgt/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/drkkgt/" class="size11">Wraith</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">That was an excellent close to an excellent tale, thanks Chief.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737056"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">My cat's crazy enough without drugs, I can't even imagine him beig a cokehead... Poor Kitty :(
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737110"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/clumber/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/clumber/" class="size11">clumber</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">wait... so what did the conversation with the brother sound like? And who is Iris, then?  Is the cat Iris?<br><br>Bummer, though.  I was expecting a twist too.  And ya' gotta wonder at the decision process that resulted in her contacting Chief to investigate.<br><br>Thanks Chief!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737121"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/spyke01/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/spyke01/" class="size11">Paden Clayton</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">wow im really shocked as well, i didnt even guess that Rae was actually at fault, i was expecting some kind of twist even at the end. great post Chief!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737122"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/clumber/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/clumber/" class="size11">clumber</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">oops, left out a word "... <i>rest </i>of the conversation sound like"
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737172"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">It goes to show that you need to be careful about making assumptions and need to keep an open mind. It had to be tough wanting to think that your friend is not doing drugs and that belief can blind you to the truth. 
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737424"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/rdwilson2/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/9/8/1/b_853189.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/rdwilson2/" class="size11">Ralph Wilson</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Chief,<br><br>I, too, am wondering what came up during the rest of the conversation with the brother and what became of the cat.  (Here is an opportunity for a postlogue. ;-)<br><br>Not having dealt (at least to the best of my knowledge) with anyone who was addicted to cocaine and not having researched the potentiality of false positives due to ingestion of other substances, I was hoping/assuming from experience with other false positives that Rae was clean . . . the good news is that she now <u>is</u>; however, I am wondering how the employment situation resolved itself.<br><br>There are still questions, Chief . . . any hope of a few answers . . . at least about the cat? ;-)
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737468"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/" class="size11">Pollywog</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+I too want to know if the cat recovered.<br>
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737469"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/blueknight/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/4/8/6/b_560684.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/blueknight/" class="size11">BlueKnight</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Wow, what a finish Chief!  It didn't end up the way I thought it would, but your conclusion was super. An excellent reminder on the facets of investigation also.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737497"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+Wow. I agree, brilliant story, if sad. I hope "Rae" is able to stay clean, and that her employment worked out OK. It must have been really hard for both of you.<br><br>Thanks, Chief.<br>Bob
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737597"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Stay tuned...<br><br>Next case file going up soon...<br><br>"Case Of The Robotic Reflex"<br><br>Much to Scrap's displeasure, it's not about the adult film industry.<br><br>:-)<br><br>Sorry I've been so busy folks - thanks for hanging in there!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737643"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">To answer some questions...<br><br>Rae is doing fine.<br><br>Cat survived (I have no idea how).<br><br>Brother moved out - he was using as well, which made it hard for Rae to say 'no'.  I personally helped carry his stuff out.  :-)<br><br>Rae kept her job on probation for a year, and is still there to this day!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737701"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/kecge/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/2/8/6/b_1201682.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/kecge/" class="size11">Ken Crosby</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Good luck with that! Relapses are common as the mind will always want for the effects. I used many drugs in my younger years and have been clean for over 15 years and still get the taste of meth in my mouth on ocasion whenever I am conjested.<br><br>Just have to take it one day at a time.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737753"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/rohnskii/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/rohnskii/" class="size11">rohnskii</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite"><i>Thanks for the timely fix, my withdrawal cravings had almost subsided<br></i><br>Ooh, good one! You sucked me in ...<br><br>The unexpected twist was "life imitates life", or the drug user was a liar.<br><br>The thing I like about this story is that it reminds us that the "system" (drug screening in this case) works and often the accused really is guilty.<br><br>Keep up the good work, I'm looking forward to the next one.<br>R
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737764"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/cwroblew/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/cwroblew/" class="size11">cwroblew</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Wow.  I was expecting a twist too!  In fact, I'm a bit disappointed.  But I always expect people to be better than they are sometimes (I'm an optimist).<br><br>But the bit about it being in her hair, I knew deep down that she was probably using it.<br><br>I'm glad the cat survived.<br><br>Reminds me of a situation with my sister when she was a teen-ager.  She had a razor blade sitting around her room.  I didn't say a word, but she tried to explain it away.  From the way I acted about it she knew I wasn't buying her story.  BTW I only knew about razor blades from hanging around cokeheads, but never actually using (unless it was through casual touch or in the air since I was with the cokeheads when they were snorting away).
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737844"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+Great story.  Always worth the wait.  The writer's strike has probably made these stories very marketable if you chose to sell...
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1737845"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/wired/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/wired/" class="size11">Wired</a>
+
+				
+<span class="size11 gray"> | Nov 29, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">OMG I was right, <a rel="nofollow" href="https://web.archive.org/web/20110916175434/http://blogs.ittoolbox.com/security/investigator/archives/case-of-the-innocent-iris-part-viii-19791#1657942">the cat WAS using</a>!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1739853"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/jbmv22/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/jbmv22/" class="size11">jonny22</a>
+
+				
+<span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Poor Kitty.  <br> It all adds up now but I beleived she was innocent all along.   <br><br>Great story as usual.   
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1739989"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/" class="size11">Pollywog</a>
+
+				
+<span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+Chief,<br><br>Is Scrap a writer for those films?
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1740047"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/" class="size11">Pollywog</a>
+
+				
+<span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+I was just wondering whether the writers' strike was affecting movies too, in addition to television.
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1740066"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/quartzman/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/quartzman/" class="size11">Abraham Miller</a>
+
+				
+<span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Dang - so much for Andean tea!<br><br>You added the following for my crazy wikipedia searches didn't ya?  :)<br>"Then you find that certain imported products contain trace amounts of cocaine due to their inclusion of raw coca leaves. Ah ha! The perfect alibi."<br><br>Well - fun to know I am good for alibi generation... perhaps I should open up a website called "ExcuseCentral.com"<br><br>In any case, it's easy to forget your stories involve real people - glad to hear she was able to get (and stay) clean.<br>
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1740365"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/macghee/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/macghee/" class="size11">Peter MacGhee</a>
+
+				
+<span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Wow.  That one got me.  I figured that she was a victim.  That somehow she was getting dosed without her consent.  I was wrong.  Glad that it worked out the way it did and that she's clean and moving on.  One day at a time.<br><br>Pete
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1740473"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/burtontechsupport/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/burtontechsupport/" class="size11">Barry Morgan</a>
+
+				
+<span class="size11 gray"> | Dec 1, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">So you get us all again with a 'flashback' storyline and the red herring 'innocent' - you really should go into writing full time when you retire from the security business. Move over Carre, Archer et al... <br><br>PS - good to see Rae  and the cat ( Iris ??? ) got clean, how about her brother ?
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1740963"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/pollywog/" class="size11">Pollywog</a>
+
+				
+<span class="size11 gray"> | Dec 1, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+Chief is a bigger man than I am.  I don't think I could have stuck by someone who lied to me and used me the way Rae lied to Chief.
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1741159"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/sidzilla/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/8/0/2/b_1144208.jpg"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/sidzilla/" class="size11">Sid Gilbert</a>
+
+				
+<span class="size11 gray"> | Dec 1, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">I guess the Chief knows how valuable friends are, even when they mess up. Great story and my hat is off to you, Chief!
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1750870"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+
+				
+<span class="size11 gray"> | Dec 6, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+Well I can't say I'm entirely surprised after reading about the hair test awhile back (how she had been using for a year) and connecting that the brother only being there a month, but I can't exactly say I'm not surprised either.<br><br>One other possibility I had considered was the brother sent back "souvenirs" that just happened to contain quantities of Cocaine..apparently not.<br><br>In any case, I'm glad Rae got help and that her cat didn't die and I definitely don't think anybody here could have predicted the entirety of that (real life) twist at the end.
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="1800405"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/adoni/"><div class="userimage-defaultbadge"></div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/adoni/" class="size11">legacy</a>
+
+				
+<span class="size11 gray"> | Dec 31, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Somewhere I once read something like this: when all other solutions do not appear likely (you've been able to rule them out to a degree, at least), the most obvious solution is usually THE solution.<br><br>Too often we discount the most obvious solution, even after we rule out all the others, simply because it is too obvious.<br><br>Simply remembering that has led me to the correct answer so many times in many areas of life, especially work.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+
+</div>
+
+    
+    <div style="display: none">
+        <input name="ctl00$ctl00$m$m$m$m$ctl01" type="text" id="ctl00_ctl00_m_m_m_m_ctl01"/>
+    </div>
+    
+    
+    <div class="spacer">
+        
+        
+        
+        <h2 class="anthracite size14 bold paddingtop5 marginleftgutter">Leave a Comment</h2>
+        <div id="blogs-entercomment" class="marginleftgutter">
+            
+            <div class="clear spacer-tiny">
+                <a href="javascript:formatStr('strong');" class="blogs_boldbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('u');" class="blogs_underlinebutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('i');" class="blogs_italicbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('strike');" class="blogs_strikebutton displayblock floatleft"></a>
+                <a href="javascript:insertLink();" class="blogs_linkbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('code');" class="blogs_codebutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('blockquote');" class="blogs_blockquotebutton displayblock floatleft"></a>
+                <div class="clear"></div>
+            </div>
+            <a name="commentAnchor"></a>
+            <div class="spacer-tiny">
+                <textarea name="ctl00$ctl00$m$m$m$m$commentText" rows="2" cols="20" id="ctl00_ctl00_m_m_m_m_commentText" class="textareamedium blog-comment-box"></textarea>
+                <input name="ctl00$ctl00$m$m$m$m$txtSpecialTitle" type="text" id="ctl00_ctl00_m_m_m_m_txtSpecialTitle" class="displaynone"/>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" style="width:488px">
+                <tr>
+                    <td valign="bottom" style="padding:0">
+                        <div class="clear spacer-small form-label">
+                            <input id="ctl00_ctl00_m_m_m_m_connecttoblog" type="checkbox" name="ctl00$ctl00$m$m$m$m$connecttoblog"/>
+                            <span>Connect to this blog to be notified of new entries.</span>
+                        </div>
+                        <input name="ctl00$ctl00$m$m$m$m$cN" type="text" value="Name" id="ctl00_ctl00_m_m_m_m_cN" class="textbox marginright5" watermark="Name" style="width:150px;"/>
+                            <input name="ctl00$ctl00$m$m$m$m$cE" type="text" value="Your email address" id="ctl00_ctl00_m_m_m_m_cE" class="textbox" watermark="Your email address" style="width:150px;"/>
+                        
+                    </td>
+                    <td valign="bottom" style="width: 155px">
+                        <div class="floatright">
+                            <table id="ctl00_ctl00_m_m_m_m_submitCommentButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_submitCommentButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$submitCommentButton$btnCTA" value="Submit" id="ctl00_ctl00_m_m_m_m_submitCommentButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+                        </div>
+                        <div class="floatright marginright5">
+                            <table id="ctl00_ctl00_m_m_m_m_previewButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_previewButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$previewButton$btnCTA" value="PREVIEW" id="ctl00_ctl00_m_m_m_m_previewButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="spacer-small clear">
+                <a id="ctl00_ctl00_m_m_m_m_submitAnchor" name="submitAnchor"></a>
+            </div>
+            <div class="darkgray">
+                
+                <div class="spacer-tiny">
+                    You are not logged in.
+                </div>
+                <img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a href="https://web.archive.org/web/20110916175434/https://login.toolbox.com/1/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875">Sign In</a> to post unmoderated comments.<br/>
+                <img class="link-image-carat" src="https://web.archive.org/web/20110916175434im_/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png" style="border-width:0px;"/>
+<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875&amp;trksubprod=postcomment">Join the community</a> to create your free profile today.                
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    
+    <div class="marginleftgutter size14 anthracite spacer">
+        Want to read more from
+        Chief Monkey? Check out the <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/monthly/" class="size14 bold">
+            blog archive</a>.
+    </div>
+    <div class="marginleftgutter spacer">
+        <div>
+            <strong>Archive Category:</strong>&nbsp;<a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/categories/Casefiles/2275">Casefiles</a></div>
+        
+                <strong>Keyword Tags:</strong>&nbsp;
+                security
+                &nbsp;
+                 securitymonkey
+                &nbsp;
+                 casefile
+                &nbsp;
+                 cocaine
+                &nbsp;
+                 addiction
+                &nbsp;
+                 recovery
+        <div class="spacer">
+        </div>
+        <div class="size11">
+            Disclaimer: Blog contents express the viewpoints of their independent authors and
+            are not reviewed for correctness or accuracy by
+            Toolbox for IT. Any opinions, comments, solutions or other commentary
+            expressed by blog authors are not endorsed or recommended by
+            Toolbox for IT
+            or any vendor. If you feel a blog entry is inappropriate, <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/contact/blogs">
+                click here</a> to notify
+            Toolbox for IT.
+        </div>
+    </div>
+    <img src="/web/20110916175434im_/http://it.toolbox.com/api/t/2/dal/?lid=20875&amp;tid=3"/>
+
+    <div class="clear floatright spacer-small" style="margin-top: 5px">
+        
+<a class="link-button" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/it-blogs">Browse&nbsp;all&nbsp;IT&nbsp;Blogs</a>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+	    
+
+        <div class="sponsoredlinks clear">
+            <div id="ctl00_ctl00_m_marchexAd" class="spacer">
+	
+                <script type="text/javascript" src="https://web.archive.org/web/20110916175434js_/http://jlinks.industrybrains.com/jsct?sid=940&amp;ct=TOOLBOX_ROS&amp;num=5&amp;layt=560x350&amp;fmt=simp"></script>
+            
+</div>
+            
+		</div>
+    </div>
+    <div class="content-rightcol">
+        
+        
+    
+    
+<script language="javascript" type="text/javascript">
+    function showHideMore() {
+        var element;
+        element = document.getElementById("lessVersion")
+        element.style.display = (element.style.display == "none") ? "block" : "none";
+        element.style.visible = (element.style.visible == "false") ? "true" : "false";
+        element = document.getElementById("moreVersion")
+        element.style.display = (element.style.display == "none") ? "block" : "none";
+        element.style.visible = (element.style.visible == "false") ? "true" : "false";
+    }
+</script>
+
+<div class="box-containerbase box-standard">
+    
+        
+        <div class="spacer-small" id="blogs-titlewithmeta">            
+            <h2>
+                <div>
+                    <div class="blogs-title">    
+                        <table>
+                            <tr>
+                                <td valign="top" align="left">
+                                    <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg"></div></a>
+
+                                </td>
+                                <td valign="top" align="left">
+                                    
+                                        <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/securitymonkey/" class="size15 bold">
+                            
+                                        A Day in the Life of an Information Security Investigator
+                                
+                                    </a>
+                                    
+                                    <div id="blog-authorintitle">
+                                        by <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/chiefmonkey/">
+                                            Chief Monkey</a>&nbsp;Information Security Investigator 
+                                    </div>
+                                    <div class="spacer-tiny"></div>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>                    
+                    
+                </div>
+            </h2>
+            
+            
+            <div>
+                <div id="lessVersion" class="size13 anthracite">
+                    Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to ...
+                    <a href="javascript:showHideMore();" class="hoverS">more</a>
+                </div>
+                <div style="display: none" id="moreVersion" class="size13 anthracite">
+                    Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to an investigator with over 18 years of experience?  You'll find the entire casefile library here for your reading pleasure.  Not only are the educational and entertaining, but highly addictive.  You've been warned!
+                    <a href="javascript:showHideMore();" class="hoverS">less</a>
+                </div>                
+            </div>            
+            <div>
+	
+    <div id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_pnlSeparator">
+		
+        <div class="spacer-small"></div>
+        <div class="rule-gray spacer-tiny"></div>
+    
+	</div>
+    <div class="cta-connecttoblog spacer-small">
+        
+        <div class="spacer-small">
+            <span class="size13 bold black spacer-small">Receive the latest blog posts:</span>
+        </div>
+    </div>
+    <div class="clear">
+        
+        <input name="ctl00$ctl00$m$r$r$r$blogsMeta$standardContainer$ConnectToBlog1$tbEmail" type="text" value="Your email address" id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_tbEmail" class="textboxtiny cta-followblog-textbox" watermark="Your email address" defaultbutton="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_btnCTA"/>
+        <div class="floatright">
+            <table id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$blogsMeta$standardContainer$ConnectToBlog1$btnSubmit$btnCTA" value="Follow" onclick="return TrackCallToAction(this,'BlogsConnect');" id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_btnCTA" class="button"/>
+            
+        </td>
+		</tr>
+	</table>
+	
+
+        </div>
+    </div>    
+
+</div>                    
+
+
+<script language="javascript" type="text/javascript">
+// CALL TO ACTION TRACKING
+var IsCallToActionSet = false;
+var ctaBtnClicked = null;
+var ctaDtClicked = null;
+var ckUrl = null;
+function TrackCallToAction(sender, ctaName)
+{
+    try
+    {
+        if (sender != null && sender != ctaBtnClicked)
+        {
+            ctaBtnClicked = sender;
+            ctaDtClicked = new Date();
+	        var myUrl = 'http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20875%26';
+	        ckUrl = 'https://web.archive.org/web/20110916175434/http://it.toolbox.com/api/ctatools/CreateCookie.aspx?CTAPage=' + myUrl + '&CTA=' + ctaName;
+        	
+	        document.getElementById('ctaimage').src = ckUrl;
+            // Give the image a second
+            setTimeout("ctaBtnClicked.click()", 1500);
+	    }
+        if ((new Date() - ctaDtClicked) > 1499)//the wait is over
+        {
+            IsCallToActionSet = true;
+        }
+        return IsCallToActionSet;
+    }
+    catch(e){}
+}
+function CallToActionSet(el)
+{
+    if (el.src)
+    {
+        IsCallToActionSet = true;
+        ctaBtnClicked.click();
+    }
+}
+</script>
+<img id="ctaimage" alt="" width="1" height="1" onload="CallToActionSet(this)"/>
+            
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+
+    <div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20110916175434js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=cocaine;kw=addiction;kw=recovery;cont=DM;sz=1x1,336x280,300x250,300x600;tile=7;ord=481395503">
+
+	</script>
+</div>
+    
+<div class="box-containerbase box-standard">
+    
+        <div class="background-lightblue spacer-tiny">
+            <div class="size15 bold blue cta-shareperspective">Share Your Perspective</div>
+        </div>
+        <div class="cta-startblog">
+            <div class="spacer-small">
+            Share your professional knowledge and experience with peers. Start a blog on Toolbox for IT today!
+            </div>
+            
+            <div class="floatright spacer">
+                <table id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_tbCt" class="button-outerorange" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_tdCt" class="button-innerorange">
+            
+            <a id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_hlCTA" class="button" hpx="Blogs:BeginNow" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/start">Begin Now</a>
+        </td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+
+
+    <div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20110916175434js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge2;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=cocaine;kw=addiction;kw=recovery;cont=DM;sz=1x1,336x280,300x250,300x600;tile=8;ord=481395503">
+
+	</script>
+</div>
+    
+<div class="spacer">
+    <div class="box-standardtitlebase box-standardtitle">
+    <span class="bold anthracite size12 floatleft">Chief's Twitter-ings</span>
+    <div class="floatright">
+        
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="box-containerbase box-standard">
+    
+        <div>
+            <span><script src="https://web.archive.org/web/20110916175434js_/http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().setUser('chiefmonkey').start();
+</script></span>        
+        </div>        
+        <div class="floatright">
+            
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+<div class="box-standardtitlebase box-standardtitle">
+    <span class="bold anthracite size12 floatleft">Categories</span>
+    <div class="floatright">
+        
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="box-containerbase box-standard">
+    
+        <div>
+            <div class="floatleft">
+                <select name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$categoryListDD" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD">
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/banana-cupboard-stories/2796">Banana Cupboard Stories</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/casefiles/2275">Casefiles</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/index/2277">Index</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/opinion/278">Opinion</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/outsourcing/31">Outsourcing</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/rant/2324">Rant</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/stay-current/276">Stay Current</option>
+
+</select>
+            </div>
+            <div class="floatleft">
+                <table id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$goButton$btnCTA" value="Go" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt').click(function () {
+                    document.location = ($('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD option:selected').val());
+                    return false;
+                })
+            });
+        </script>
+    
+    <div style="clear:both"></div>
+</div>
+
+
+</div>
+    
+    
+	<div id="divRJ" style="display:none;">
+    <div class="box-standardtitlebase box-standardtitle">
+    <span class="bold anthracite size12 floatleft">Related Jobs</span>
+    <div class="floatright">
+        
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="box-containerbase box-standard">
+    
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <div id="ctl00_ctl00_m_r_r_r_cStandardContainer_relJobs_out">
+
+</div><script type="text/html" id="ctl00_ctl00_m_r_r_r_cStandardContainer_relJobs_template">
+	<# var inse=document.createElement('script'); inse.type = 'text/javascript'; inse.src = 'https://web.archive.org/web/20110916175434/http://www.indeed.com/ads/apiresults.js'; $(document).append(inse); #>                
+							<div style="padding-bottom:5px">                                
+                                <a href="https://web.archive.org/web/20110916175434/http://www.indeed.com/" target="_blank" style="color:black;text-decoration:none" title="Job Search">
+			                    <strong>Jobs</strong> <span class="size15 bold darkgray">by</span> 
+				                    <img src="https://web.archive.org/web/20110916175434/http://www.indeed.com/p/jobsearch.gif" style="border:0px; margin-bottom:-4px" alt="Indeed job search">
+                                </a>
+		                    </div>
+                
+                            <ul>
+                            <# for ( var i = 0; i < jobs.length; i++ ) { var job = jobs[i];#>   
+                                <li class="link-indent">             
+                                <img class="link-image-carat" src="https://web.archive.org/web/20110916175434/http://cdn.toolbox.com/BUILD_1612/rds/carat-blue.png"  style="border-width:0px;"/>
+                                <a href="<#= job.URL #>" target="_blank" onclick="SiteCatalystLinkTracking('Blogs:RelJobs')" onmousedown=\"<#= unescape(job.onmousedown) #>\" ><#= job.title #></a>
+                                <br /><span class="gray"><#= job.location #></span></li>                    
+                            <# } document.getElementById('divRJ').style.display = 'block'; #>    
+                            </ul>
+                        
+</script><script type="text/javascript">
+	$(document).ready(function(){PullJobs('security,securitymonkey,casefile,cocaine,addiction,recovery','ctl00_ctl00_m_r_r_r_cStandardContainer_relJobs_template','ctl00_ctl00_m_r_r_r_cStandardContainer_relJobs_out','blogCM');});
+</script>
+                    <div class="floatright">
+                        
+<a class="link-button" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/jobs">Search&nbsp;More&nbsp;Jobs</a>
+                    </div>
+                    <div class="clear"></div>
+                </td>
+            </tr>
+        </table>
+        
+    <div style="clear:both"></div>
+</div>
+
+	</div>
+
+
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<div>
+	
+ <div id="footer">
+ <div id="footer-inner">
+ <div>
+ <div>
+		
+  <div class="footer-colsmall">
+   
+<div class="footer-header lightgray spacer-small">Toolbox for IT</div>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/">My Home</a>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/topics/">Topics</a>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/people/">People</a>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/companies/">Companies</a>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/jobs/">Jobs</a>
+<a class="footer-link" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/companies/white-papers/">White Paper Library</a>
+<a href="https://web.archive.org/web/20110916175434/http://store.toolbox.com/it-training-c141.aspx" class="footer-link">Store</a>
+   <br/>
+   
+<div class="footer-colsmall spacer-small">
+<div>
+			
+ <div class="footer-header lightgray">Collaboration Tools</div>
+ <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/groups/" class="footer-link">Discussion Groups</a>
+ <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/blogs/" class="footer-link">Blogs</a>
+ <a href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/wiki/" class="footer-link">Wiki</a>  
+
+		</div>
+
+
+</div>
+   
+<div class="footer-header lightgray">Follow Toolbox.com</div>
+
+<a href="https://web.archive.org/web/20110916175434/http://twitter.com/toolboxforit" class="footer-link" target="_blank">Toolbox for IT on Twitter</a>  
+
+<a href="https://web.archive.org/web/20110916175434/http://twitter.com/toolboxdotcom" class="footer-link" target="_blank">Toolbox.com on Twitter</a>  
+<a href="https://web.archive.org/web/20110916175434/http://www.facebook.com/pages/Toolboxcom/117012708708" class="footer-link" target="_blank">Toolbox.com on Facebook</a>  
+
+  </div>
+  <div class="footer-colwide">
+<div class="footer-header lightgray spacer-small">Topics on Toolbox for IT</div>
+<div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Data Center</div>
+    <a href="https://web.archive.org/web/20110916175434/http://datacenter.ittoolbox.com/" class="footer-link">Data Center</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Development</div>
+    <a href="https://web.archive.org/web/20110916175434/http://c.ittoolbox.com/" class="footer-link">C Languages</a>
+    <a href="https://web.archive.org/web/20110916175434/http://java.ittoolbox.com/" class="footer-link">Java</a>
+    <a href="https://web.archive.org/web/20110916175434/http://visualbasic.ittoolbox.com/" class="footer-link">Visual Basic</a>
+    <a href="https://web.archive.org/web/20110916175434/http://webdesign.ittoolbox.com/" class="footer-link">Web Design &amp; Development</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Enterprise Applications</div>
+    <a href="https://web.archive.org/web/20110916175434/http://crm.ittoolbox.com/" class="footer-link">CRM</a>
+    <a href="https://web.archive.org/web/20110916175434/http://erp.ittoolbox.com/" class="footer-link">ERP</a>
+    <a href="https://web.archive.org/web/20110916175434/http://infor.ittoolbox.com/" class="footer-link">Infor</a>
+    <a href="https://web.archive.org/web/20110916175434/http://peoplesoft.ittoolbox.com/" class="footer-link">PeopleSoft</a>
+    <a href="https://web.archive.org/web/20110916175434/http://sap.ittoolbox.com/" class="footer-link">SAP</a>
+    <a href="https://web.archive.org/web/20110916175434/http://supplychain.ittoolbox.com/" class="footer-link">SCM</a>
+    <a href="https://web.archive.org/web/20110916175434/http://siebel.ittoolbox.com/" class="footer-link">Siebel</a>
+ </div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Enterprise Architecture &amp; EAI</div>
+    <a href="https://web.archive.org/web/20110916175434/http://eai.ittoolbox.com/" class="footer-link">Enterprise Architecture &amp; EAI</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray"> Information Management</div>
+    <a href="https://web.archive.org/web/20110916175434/http://businessintelligence.ittoolbox.com/" class="footer-link">Business Intelligence</a>
+    <a href="https://web.archive.org/web/20110916175434/http://database.ittoolbox.com/" class="footer-link">Database</a>
+    <a href="https://web.archive.org/web/20110916175434/http://datawarehouse.ittoolbox.com/" class="footer-link">Data Warehouse</a>
+    <a href="https://web.archive.org/web/20110916175434/http://knowledgemanagement.ittoolbox.com/" class="footer-link">Knowledge Management</a>
+    <a href="https://web.archive.org/web/20110916175434/http://oracle.ittoolbox.com/" class="footer-link">Oracle</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">IT Management &amp; Strategy</div>
+    <a href="https://web.archive.org/web/20110916175434/http://emergingtech.ittoolbox.com/" class="footer-link">Emerging Technology &amp; Trends</a>
+    <a href="https://web.archive.org/web/20110916175434/http://cio.ittoolbox.com/" class="footer-link">IT Management &amp; Strategy</a>
+    <a href="https://web.archive.org/web/20110916175434/http://projectmanagement.ittoolbox.com/" class="footer-link">Project &amp; Portfolio Management</a>
+
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Cloud Computing</div>
+    <a href="https://web.archive.org/web/20110916175434/http://cloud.ittoolbox.com/" class="footer-link">Cloud Computing</a>
+ </div>
+
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Networking &amp; Infrastructure</div>
+    <a href="https://web.archive.org/web/20110916175434/http://hardware.ittoolbox.com/" class="footer-link">Hardware</a>
+    <a href="https://web.archive.org/web/20110916175434/http://wireless.ittoolbox.com/" class="footer-link">Mobile &amp; Wireless</a>
+    <a href="https://web.archive.org/web/20110916175434/http://networking.ittoolbox.com/" class="footer-link">Networking</a>
+    <a href="https://web.archive.org/web/20110916175434/http://telephony.ittoolbox.com/" class="footer-link">Telephony</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Operating Systems</div>
+    <a href="https://web.archive.org/web/20110916175434/http://linux.ittoolbox.com/" class="footer-link">Linux</a>
+    <a href="https://web.archive.org/web/20110916175434/http://unix.ittoolbox.com/" class="footer-link">UNIX</a>
+    <a href="https://web.archive.org/web/20110916175434/http://windows.ittoolbox.com/" class="footer-link">Windows</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Security</div>
+    <a href="https://web.archive.org/web/20110916175434/http://security.ittoolbox.com/" class="footer-link">Security</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Storage</div>
+    <a href="https://web.archive.org/web/20110916175434/http://storage.ittoolbox.com/" class="footer-link">Storage</a>
+ </div>
+ </div>    
+
+
+</div>
+  
+<div class="footer-colsmall">
+<div class="footer-header gray spacer-small">Toolbox.com</div>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/about/" class="footer-link-gray">About</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/news/" class="footer-link-gray">News</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/PrivacyPolicy.aspx" class="footer-link-gray">Privacy</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/TermsofUse.aspx" class="footer-link-gray">Terms of Use</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/careers/" class="footer-link-gray">Work at Toolbox.com</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/it/advertising/" class="footer-link-gray">Advertise</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/contact/" class="footer-link-gray">Contact us</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Provide Feedback</a>
+<br/>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/help" class="footer-link-gray">Help Topics</a>
+<a href="https://web.archive.org/web/20110916175434/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Technical Support</a>
+
+<br/>
+<div>
+			
+ <div class="footer-header gray spacer-small">Other Communities</div>
+ 
+ <span>
+    <a href="https://web.archive.org/web/20110916175434/http://hr.toolbox.com/" class="footer-link-gray">Toolbox for HR</a> 
+ </span>
+ <span>
+    <a href="https://web.archive.org/web/20110916175434/http://finance.toolbox.com/" class="footer-link-gray">Toolbox for Finance</a> 
+ </span>
+
+		</div>
+
+</div>
+ 
+	</div>                
+ </div>
+ 
+ 
+<div style="clear:both"></div>
+<div id="footer-disclaimer">
+    Copyright 1998-2011 Toolbox.com, LLC (Toolbox.com). All rights reserved. All product names are trademarks of their respective companies. Toolbox.com is not<br/>
+    affiliated with or endorsed by any company listed at this site. Toolbox.com is a subsidiary of the <a href="https://web.archive.org/web/20110916175434/http://www.exbd.com/">Corporate Executive Board</a>.
+</div>
+<br/><br/>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="minidash-outerbox" id="mdouter">
+    <div class="minidash-innerbox">
+            
+            <div class="floatleft">
+                <a><div class="userimage-defaulttiny"></div></a>
+                
+            </div>
+            <div class="minidash-divider"></div>
+
+            <!-- newToToolbox -->
+            <div class="minidash-item" id="mindash-newToToolbox" popup="true">
+                <div class="minidash-lgtrigger-up" id="mindash-newtotoolboxup" popdownbutton="true">New to Toolbox?</div>
+                <div popupbutton="true" class="anthracite">
+                    
+<div class="floatleft">
+    <div buttonview="true" style="display:none;">
+        <table class="button-outerminidash" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="button-innerminidash">
+                    <span class="bold size11 white">New to Toolbox?</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div buttonview="false">
+        <span class="anthracite">New to Toolbox?</span>
+    </div>
+</div>
+<div id="ctl00_ctl00_m_MiniDash1_newttb_notifierDiv" class="floatleft" notifierdiv="true" style="display:none;">
+    <table class="button-outernotifier" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="button-innernotifier">
+                <span class="bold size11 white" notifiercount="true">0</span>
+            </td>
+        </tr>
+    </table>
+</div>                 
+                </div>
+                <!-- NEW TO TOOLBOX panel -->
+                <div class="minidash-lgpanel" popuppanel="true">
+                    <div class="minidash-lgpanel-top white bold size12">New to Toolbox.com?</div>
+                    <div class="minidash-lgpanel-middle">
+                        <div class="minidash-joinmessage">
+                            The Toolbox.com community helps you solve workplace problems.<br/>
+                            <div class="spacer-small"></div>
+                            Get started today - solve your problems and stay current.
+                            <div class="spacer-tiny clear"></div>
+                            <div class="floatright">
+                                
+<a class="categorynode" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register?trksubprod=ctajoin" style="margin: 0; padding-top: 1px">Join Now</a>&nbsp;
+                            </div>
+                            <div class="clear"></div>
+                       </div>                       
+                    </div>
+                    <div class="minidash-lgpanel-bottom"></div>
+                </div>
+            </div>
+            <div class="minidash-divider"></div>
+            
+            <!-- Unrecognized Ask A Question-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" hpx="Minidash:UnRecognized:AskAQuestion" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/ask-a-question">Ask A Question</a>
+            </div>
+            <div class="minidash-divider"></div>
+
+             <!-- Unrecognized Join-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" hpx="Minidash:UnRecognized:Join" href="https://web.archive.org/web/20110916175434/http://it.toolbox.com/home/register?trksubprod=ctajoin">Join</a>            
+            </div>
+            <div class="minidash-divider"></div>
+        
+    </div>
+</div>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFALbop6GCAKW0MqVDwLspq/1AgLl0tOdCALSr9DMDwL7xYS8BwKn0ZHODgKn0f3NDgLivob8DAKC2KzxBwK/9/6mCwKO1+vRDAKNjNibDwLU4NDQBAKJ+piZCAKpiLGhDwKB4IKJAQK/8r6iDAL19N/cCQKh47DbDVt0GK5pjxFt1bM5ose3DeZrRtNX"/>
+</div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQzMjUwNTQ1NA9kFgJmD2QWAmYPZBYCZg9kFgQCAxBkZBYKAgMPDxYCHgdWaXNpYmxlaGRkAg0PFgIfAGhkAg8PZBYEAgEPZBYCAgEPZBYEAgEPZBYCAgIPFgIeBWNsYXNzBRBzcGFjZXItaXR0eWJpdHR5ZAIDD2QWDGYPZBYCAgEPZBYEZg8PFgIfAGhkZAICDw8WBB4LTmF2aWdhdGVVcmwFO2h0dHA6Ly9pdC50b29sYm94LmNvbS9ob21lL2Jsb2cvZW50cmllcy8/ZWlkPTIwODc1JmJsb2dpZD0yHwBnZGQCBA9kFgQCAQ8WAh8AZxYCAgEPZBYCZg8WAh4LXyFJdGVtQ291bnQCAWQCAw8WAh8AZxYCAgEPZBYCZg8WAh8DAgNkAgUPZBYCZg9kFgQCAQ9kFgJmDxYCHwMCA2QCAw9kFgRmDw8WAh8AaGRkAgIPDxYEHwIFLmh0dHA6Ly9zdG9yZS50b29sYm94LmNvbS9pdC10cmFpbmluZy1jMTQxLmFzcHgfAGdkZAIJD2QWBAIGDw9kFgIeCXdhdGVybWFyawUETmFtZWQCBw8PZBYCHwQFEllvdXIgZW1haWwgYWRkcmVzc2QCCw8WAh8DAgYWDAIBD2QWAmYPFQEIc2VjdXJpdHlkAgMPZBYCZg8VAQ8gc2VjdXJpdHltb25rZXlkAgUPZBYCZg8VAQkgY2FzZWZpbGVkAgcPZBYCZg8VAQggY29jYWluZWQCCQ9kFgJmDxUBCiBhZGRpY3Rpb25kAgsPZBYCZg8VAQkgcmVjb3ZlcnlkAgwPZBYCZg8WAh4EVGV4dAUqPGltZyBzcmM9Ii9hcGkvdC8yL2RhbC8/bGlkPTIwODc1JnRpZD0zIi8+ZAIDDxYCHwBnFgICAQ8PFgIfAGdkZAIRD2QWBAIBDw8WAh8AaGRkAgMPZBYCZg9kFgICAQ9kFggCAg9kFgJmD2QWAgICD2QWAgIBD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYEAgEPDxYCHwBoFgIeA2hweAUOQmxvZ3M6QmVnaW5Ob3dkAgMPDxYEHwIFIWh0dHA6Ly9pdC50b29sYm94LmNvbS9ibG9ncy9zdGFydB8AZxYCHwYFDkJsb2dzOkJlZ2luTm93ZAIED2QWAgIBD2QWAgIBDw8WAh8AaGRkAgUPZBYCZg8WAh8AaGQCBg9kFgICAg9kFgICAQ9kFgICAw9kFgICAg8PFgIfAgUaaHR0cDovL2l0LnRvb2xib3guY29tL2pvYnNkZAIVD2QWAgIBD2QWAgIBD2QWBAIBD2QWAmYPZBYCZg8WAh8BBRV1c2VyaW1hZ2UtZGVmYXVsdHRpbnlkAgMPZBYEAgEPFgIeBXN0eWxlBQ1kaXNwbGF5Om5vbmU7ZAIFDxYCHwcFDWRpc3BsYXk6bm9uZTtkAgQPDxYEHg5KYXZhU2NyaXB0RmlsZQUxaHR0cDovL2ljZG4udG9vbGJveC5jb20vQlVJTERfMTYxMi9qcy9vbW5pdHVyZS5qcx8AZ2RkGAMFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBSFjdGwwMCRjdGwwMCRtJG0kbSRtJGNvbm5lY3R0b2Jsb2cFG2N0bDAwJGN0bDAwJG0kTWluaURhc2gxJG1tdg8PZAIBZAUgY3RsMDAkY3RsMDAkbSRHTiR0b3BpY3NNdWx0aVZpZXcPD2RmZBVy5wGxHvDzlryZIuGAOHXMO+Nc"/></form>
+<div>
+<!-- SiteCatalyst code version: H.17.
+Copyright 1997-2008 Omniture, Inc. More info available at 
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript">
+var s_account="ittoolglobalit,ittoolitsecurity,ittoolglobal"
+</script>
+<script language="JavaScript" type="text/javascript" src="https://web.archive.org/web/20110916175434js_/http://icdn.toolbox.com/BUILD_1612/js/omniture.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.referrer=document.referrer
+s.channel="blogs"
+s.prop3="Unrecognized"
+s.prop5="IT"
+s.prop6="Security"
+s.prop40="24"
+s.prop7="blogs"
+s.prop27="blogs:securitymonkey"
+s.prop28="blogs:securitymonkey:entry"
+s.prop29="blogs:securitymonkey:entry"
+/* E-commerce Conversion Variables */
+s.events=""
+s.eVar20="blogs"
+s.hier1="IT,Security,blogs,securitymonkey,entry"
+s.hier2="blogs,IT,Security"
+s.pageName="IT:Security:blogs:securitymonkey:entry:Case Of The Innocent Iris: The Conclusion"
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="https://web.archive.org/web/20110916175434/http://www.omniture.com/" title="Web Analytics"><img src="https://web.archive.org/web/20110916175434im_/http://metrics.toolbox.com/b/ss/ittoolglobalit,ittoolitsecurity,ittoolglobal/1/H.17--NS/0" height="1" width="1" border="0" alt=""/></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.17. -->
+
+</div>
+
+	
+    
+    <script language="javascript" type="text/javascript" src="https://web.archive.org/web/20110916175434js_/http://icdn.toolbox.com/BUILD_1612/js/groupmessagevoting.js"></script>
+    <script language="javascript" type="text/javascript">
+        var cTextId = "ctl00_ctl00_m_m_m_m_commentText"
+        $(document).ready(function () {
+            $.getScript('https://web.archive.org/web/20110916175434/http://icdn.toolbox.com/BUILD_1612/js/groupmessagevoting.js');
+            $.getScript('https://web.archive.org/web/20110916175434/http://icdn.toolbox.com/BUILD_1612/js/blogedit.js');
+        });
+    </script>
+
+
+
+<script src="https://web.archive.org/web/20110916175434js_/http://icdn.toolbox.com/BUILD_1612/js/toolbox.common.js" language="javascript" type="text/javascript"></script> 
+<script type="text/javascript">
+    InitCodeHighlighting('https://web.archive.org/web/20110916175434/http://cdn.toolbox.com/BUILD_1612/', 'https://web.archive.org/web/20110916175434/http://it.toolbox.com/');
+</script>
+<script>$.get('/api/t/2/rt/?u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-innocent-iris-the-conclusion-20875&r='+document.referrer);</script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 17:54:34 Sep 16, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:59:26 Oct 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.189
+  CDXLines.iter: 20.862 (3)
+  load_resource: 224.947
+  exclusion.robots: 0.202
+  RedisCDXSource: 19.935
+  captures_list: 79.079
+  PetaboxLoader3.resolve: 196.777
+  PetaboxLoader3.datanode: 39.245 (4)
+  esindex: 0.016
+  LoadShardBlock: 34.659 (3)
+-->

@@ -1,0 +1,1059 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_ctl00_ctl00_Head1"><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app31.us.archive.org';v.server_ms=804;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=BsQ6byDz" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://it.toolbox.com:80/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402","20100707131808","https://web.archive.org/","web","/_static/",
+	      "1278508688");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=NHuXCfBH" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Case Of The Leaky Leaf - The Conclusion
+</title><link id="ctl00_ctl00_ctl00_faviconinclude" rel="shortcut icon" href="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/favicon.ico"/>
+    <style type="text/css">
+        .BannerMessage  { text-align:center; border:none; *margin-bottom:-2px }
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20100707131808cs_/http://images.ittoolbox.com/vt/css/tb.css"/>
+    <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20100707131808cs_/http://images.ittoolbox.com/vt/css/blogs.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="keywords" content="security, securitymonkey, casefile, investigation"/><meta name="description" content="I knew I picked the wrong week to quit drinking coffee. lamented John as he sat back in his chair.  I hoped that he was kidding about the coffee.
+
+I ..."/><link rel="canonical" href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402"></link><script src="https://web.archive.org/web/20100707131808js_/http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript">$(document).ready(function (){try{onJQueryLoad();}catch(e){}});</script></head>
+<body>
+	
+	<!-- NEW HEADER -->
+
+    
+	<div class="globalheader_bg">
+	    <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/" id="ctl00_ctl00_ctl00_toolboxLogoLink" class="globalheader_logoLink"></a>
+	    <h2 class="globalheader_sitetitle">
+			<div style="float:left">
+				Toolbox for IT
+			</div>
+			<div class="globalheader_tm"></div>
+	    </h2>
+	    <div style="float:right">
+	        <div align="center" style="margin-top:inherit;margin-bottom:5px">
+	<script src="https://web.archive.org/web/20100707131808js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=peel;role=0;cs=0;ind=0;kw=;cont=DM;sz=80x83,1x1;tile=5;ord=1484173158">
+
+	</script>
+</div>
+	    </div>	    
+	    
+
+<script type="text/javascript">
+
+var inMenu = false;
+var globalHead = null;
+
+function checkSearch() { var searchTerm = document.getElementById('r').value; if (searchTerm == '' || searchTerm == ' Search')  { alert('Please enter a search term.'); return false; } return true; }
+function doSearchDropDown() { inMenu = true; getGlobalHeadMenu().style.display = 'block';}
+function setInMenu() { inMenu = true; }
+
+function getGlobalHeadMenu()
+{
+	if (! this.globalHead )
+		this.globalHead = document.getElementById('globalheader_menu');
+	return this.globalHead;
+}
+function hideSearchDropDown() { if (!inMenu) getGlobalHeadMenu().style.display = 'none'; }
+function leaveMenu() { inMenu = false; setTimeout("hideSearchDropDown()", 1500); }
+
+function setSearchHeader(sender) 
+{
+	var s = sender.innerHTML;
+	var a = sender.attributes["action"];
+	var r = sender.attributes["mainargumentname"]
+	var n = sender.attributes["additionalargumentname"];
+	var m = sender.attributes["additionalargumentvalue"];
+	var text = document.getElementById('searchHeaderMainItem');
+	if (navigator.appName == 'Microsoft Internet Explorer')
+	{ // Internet Explorer removes the menu contents if we change the innerHTML of the list item, so use the inner span tag
+		text = document.getElementById('searchHeaderMainItem_Text');
+	}
+	text.innerHTML = s;
+	if (a) document.getElementById('globalheader_searchform').action = a.value; else document.getElementById('globalheader_searchform').action = 'https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/search/';
+	if (r) document.getElementById('r').name = r.value; else document.getElementById('r').name = 'r';
+	if (n) document.getElementById('searchHeader_m').name = n.value; else document.getElementById('searchHeader_m').name = '';
+	if (m) document.getElementById('searchHeader_m').value = m.value; else document.getElementById('searchHeader_m').value = '';
+	inMenu = false;
+	hideSearchDropDown();
+}
+
+</script>
+
+
+<div id="ctl00_ctl00_ctl00_SearchHeader1_searchDiv" class="globalheader_searchdiv">
+    <form id="globalheader_searchform" action="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/search/blogs/" method="GET" onsubmit="javascript:return checkSearch();">
+        <input class="globalheader_input" name="r" id="r" value=" Search" type="text" onclick="this.value='';"/>
+        <input type="hidden" id="searchHeader_m" name="" value=""/>
+        <div class="globalheader_dropdown">
+            <div class="globalheader_dropdownitem" style="cursor: pointer;" id="searchHeaderMainItem" onclick="javascript:doSearchDropDown();"><span id="searchHeaderMainItem_Text">Blogs</span></div>
+            <div class="globalheader_dropdownup" id="globalheader_menu" style="display: none; position: absolute;">
+            
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/home/search/blogs/" mainargumentname="r" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();" style="border-top: solid 1px #9a9b9d;">Blogs</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">Toolbox for IT</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" additionalargumentvalue="0" additionalargumentname="community" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">Toolbox.com</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/home/search/white-papers/" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">White Papers</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/home/search/communities/" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">Communities</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/people/" mainargumentname="txtSearch" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();" style="border-bottom: solid 1px #9a9b9d;">People</div>
+				
+			</div>
+        </div>        
+        <input class="globalheader_searchbutton" type="submit" value=""/>
+    </form>
+</div>
+	    <div class="globalheader_links">
+	        <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/register?trksubprod=joinnow&amp;opi_t=Case+Of+The+Leaky+Leaf+-+The+Conclusion&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-leaky-leaf-the-conclusion-8402&amp;opi_o=4" class="globalheader_joinlink">Join Now</a><span class="gh_slash">&nbsp;/&nbsp;</span><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/signin" class="globalheader_link">Sign In</a>
+	    </div>
+        		    
+	    
+	</div>
+
+    <!-- get rid of this minidash 
+    
+-->
+	<div class="master_box">
+		<table id="ctl00_ctl00_ctl00_LeaderBoardAd" cellspacing="1" cellpadding="0" border="0" class="ads_leaderboard">
+	<tr>
+		<td><div align="center" style="margin-top:inherit;margin-bottom:5px">
+			<script src="https://web.archive.org/web/20100707131808js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=horizlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=investigation;cont=DM;sz=728x90,468x60,1x1;tile=6;ord=1484173158">
+
+			</script>
+		</div></td>
+	</tr>
+</table>
+
+		<ul class="gn_box">
+	<li class="gn_small-down" onmouseover="gn_dropdown(0, 3,event)" onmouseout="gn_dropdown(0, 3,event)" id="home" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_link" id="homelink">My Home</a><div class="gn_panel-small" id="home-sub">
+		<div class="gn_innerpanel-small">
+			<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Posts</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink" style="margin-bottom:0px">Connections</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublinksmall">Groups</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublinksmall">Blogs</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublinksmall">People</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublinksmall">Communities</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublinksmall" style="margin-bottom:5px">Vendors</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Messages</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Profile</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Achievements</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Journal</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Blog</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Bookmarks</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/" class="gn_sublink">Account / E-mails</a>
+		</div>
+	</div></li><li class="gn_small-up" onmouseover="gn_dropdown(3, 3,event)" onmouseout="gn_dropdown(3, 3,event)" id="topics" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/topics/" class="gn_linkup" id="topicslink">Topics</a><div class="gn_panel-flex" id="topics-sub">
+		<div class="gn_innerpanel-flex">
+			<table border="0" cellpadding="0" cellspacing="0" style="width:350"><tr><td style="padding-right:10px"><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://businessintelligence.ittoolbox.com/">Business Intelligence</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://c.ittoolbox.com/">C Languages</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://crm.ittoolbox.com/">CRM</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://database.ittoolbox.com/">Database</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://cio.ittoolbox.com/">IT Management and Strategy</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://datacenter.ittoolbox.com/">Data Center</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://datawarehouse.ittoolbox.com/">Data Warehouse</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://emergingtech.ittoolbox.com/">Emerging Technology and Trends</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://eai.ittoolbox.com/">Enterprise Architecture and EAI</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://erp.ittoolbox.com/">ERP</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://hardware.ittoolbox.com/">Hardware</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://knowledgemanagement.ittoolbox.com/">Knowledge Management</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://networking.ittoolbox.com/">Networking</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://projectmanagement.ittoolbox.com/">Project and Portfolio Management</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://supplychain.ittoolbox.com/">SCM</a></td><td><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/">Security</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://storage.ittoolbox.com/">Storage</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://telephony.ittoolbox.com/">Telephony</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://webdesign.ittoolbox.com/">Web Design and Development</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://wireless.ittoolbox.com/">Wireless</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://infor.ittoolbox.com/">Infor</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://java.ittoolbox.com/">Java</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://linux.ittoolbox.com/">Linux</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://oracle.ittoolbox.com/">Oracle</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://peoplesoft.ittoolbox.com/">PeopleSoft</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://sap.ittoolbox.com/">SAP</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://siebel.ittoolbox.com/">Siebel</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://unix.ittoolbox.com/">UNIX</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://visualbasic.ittoolbox.com/">Visual Basic</a><a class="gn_sublink" href="https://web.archive.org/web/20100707131808/http://windows.ittoolbox.com/">Windows</a></td></tr></table>
+		</div>
+	</div></li><li class="gn_nopulldown-down" onmouseover="gn_dropdown(2, 3,event)" onmouseout="gn_dropdown(2, 3,event)" id="communities" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/communities/" class="gn_link" id="communitieslink">Communities</a></li><li class="gn_nopulldown-down" onmouseover="gn_dropdown(1, 3,event)" onmouseout="gn_dropdown(1, 3,event)" id="people" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/people/" class="gn_link" class="gn_link" id="peoplelink">People</a></li><li class="gn_nopulldown-down" onmouseover="gn_dropdown(5, 3, event)" onmouseout="gn_dropdown(5, 3, event)" id="jobs" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/jobs/" class="gn_link" class="gn_link" id="jobslink">Jobs</a></li><li class="gn_wp-down" onmouseover="gn_dropdown(4, 3,event)" onmouseout="gn_dropdown(4, 3,event)" id="whitepapers" style="position:relative"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/vendors/white-papers/" class="gn_link" id="whitepaperslink">White Paper Library</a></li>
+</ul>
+		
+
+
+        <div class="cb_cardtop"></div>
+        <div class="cb_cardmid" style="margin-top:0px; *margin-top:0px; min-height: 1px;">
+                
+    
+<script type="text/javascript" language="javascript">
+    function searchBoxOnMouseDown(obj){
+        if (obj.value == "Search Blogs"){
+            obj.value = "";
+        }
+    }   
+</script>
+<div id="ctl00_ctl00_ctl00_m_Tabs_BlogsTabs"><h2 class="ln_titleplain" style="margin:0px 0px -5px 0px; *margin:0px 0px 0px 0px; border:0px"> Security</h2><div class="ln_nav" id="blogTabDiv"><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com//topics" class="ln_down">Home</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/blogs" class="ln_up">Blogs</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/groups" class="ln_down">Groups</a><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/wiki/index.php/CommunityTopic?a=security" class="ln_down">Wiki</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/research/" class="ln_down">White Papers</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/documents/" class="ln_down">Q&A; and Docs</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/topics/" class="ln_down">Topics</a><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/subscriptions/" class="ln_down">Subscriptions</a></div></div>
+<div align="center" style="margin-top:inherit;margin-bottom:5px">
+	<script src="https://web.archive.org/web/20100707131808js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=band;role=0;cs=0;ind=0;kw=;cont=DM;sz=920x45;tile=9;ord=1484173158">
+
+	</script>
+</div>
+    
+    <!--<div id="ctl00_ctl00_ctl00_m_breadCrumbing"></div>-->
+    
+    
+<form name="aspnetForm" method="post" action="/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402" id="aspnetForm">
+<div>
+
+</div>
+
+<script type="text/javascript">function onJQueryLoad() { try { $('[badgeEntityID]').badge(); } catch (e) { } try { $('[badgeAchievementID]').badge(); } catch (e) { } } </script>
+<script src="/web/20100707131808js_/http://it.toolbox.com/js/jquery.badge.js" type="text/javascript"></script>
+<script src="/web/20100707131808js_/http://it.toolbox.com/js/groupmessagevoting.js" type="text/javascript"></script>
+<script src="/web/20100707131808js_/http://it.toolbox.com/js/toolbox.common.js" type="text/javascript"></script>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">       
+        <thead>
+            <tr>
+                <td colspan="2">
+                    
+                    
+                </td>
+            </tr>
+        </thead>
+		<tr>
+			<td width="550" style="font:10pt arial; padding-right:20px" valign="top">
+                <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_metaBox">
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+<div class="meta-top"></div>
+<table cellpadding="0" cellspacing="0" class="meta-mid" style="width: 539px;"><tr><td>
+    <div id="divPhoto" class="meta_authorpic">	
+        <img src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/0/0/0/s_610000.jpg" id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_s_610000" alt="Security Monkey" badgeentityid="610000"/>
+        <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_dojo" style="display: inline;"></div>
+    </div>
+    <h2 id="divTitle" class="meta">
+	    A Day in the Life of an Information Security Investigator
+    </h2>
+    <div id="divName">
+	    by <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/people/chiefmonkey/" id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_authorName" class="hoverM">Security Monkey</a>&nbsp;(Information Security Investigator / CISO)
+    </div>
+    <div id="divDescription" class="meta_description">
+	    <div id="lessVersion">Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to ...<a href="javascript:showHideMore();" class="hoverS">more</a></div><div style="visible:false;  display:none" id="moreVersion">Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to an investigator with over 18 years of experience?  You'll find the entire casefile library here for your reading pleasure.  Not only are the educational and entertaining, but highly addictive.  You've been warned!<a href="javascript:showHideMore();" class="hoverS">..less</a></div>
+    </div>
+    <div id="divLinks" class="meta_linksbox">
+	    <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/" id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_blogMain" class="hoverS">Blog Main</a><span class="slash">&nbsp;/&nbsp;</span>
+	    <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/monthly/" id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_blogArchive" class="hoverS">Archive</a><span class="slash">&nbsp;/&nbsp;</span>
+	    <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/invite/?t=1003584" id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl00_invite" class="hoverS">Invite Peers</a>&nbsp;
+        <div id="divRSS" class="meta_rssbox">
+	        <img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com//vt/icons/rssfeed.png" alt="RSS" style="margin-bottom:-3px"/>
+	        <a href="https://web.archive.org/web/20100707131808/http://rss.ittoolbox.com/rss/security-investigator.xml" class="hoverS">RSS for Posts</a><span class="slash">&nbsp;/&nbsp;</span>
+	        <a href="https://web.archive.org/web/20100707131808/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="hoverS">RSS for Comments</a>
+        </div>	    
+    </div>
+
+</td></tr></table>
+<div class="meta-bottom"></div></div>
+                
+
+<script language="javascript" type="text/javascript">
+    
+    function formatStr(cTextId,v) {              
+		var browserName=navigator.appName;
+		var txt = '';
+		if (browserName=="Microsoft Internet Explorer"){
+			txt = document.selection.createRange().text;
+			//if(txt !="") document.selection.createRange().text = '[' + v + ']' + txt + '[/' + v + ']';
+			if(txt !="") document.selection.createRange().text = '<' + v + '>' + txt + '</' + v + '>';
+		}
+		else
+		{
+			txt = getSelection(v,"",cTextId);
+			document.getElementById("ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_"+cTextId).value = txt;
+		}
+	}
+    function getSelection(v,url,txtBxId)
+	{
+		el = document.getElementById("ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_"+txtBxId);				
+		var text = el.value;		
+		if ( el.selectionStart == undefined )
+		{
+			var r = window.selection.createRange();
+			//return new Array( r.start, r.end );
+		}
+		else
+		{
+			if(v == "link"){
+				return text.substring(0,el.selectionStart) + "<a href=\""+url+"\">"+text.substring(el.selectionStart,el.selectionEnd )+ "</a>" + text.substring(el.selectionEnd ,text.length);
+			}
+			else{
+				return text.substring(0,el.selectionStart) + "<" +v+ ">"+text.substring(el.selectionStart,el.selectionEnd )+ "</"+v+">" + text.substring(el.selectionEnd ,text.length);
+			}
+			//return new Array( el.selectionStart, el.selectionEnd );
+		}
+	}
+
+	function insertLink (cTextId) {
+		var str
+		var my_link = prompt('Enter URL. Please replace any "=" with "&#61;" for the URL to work properly', 'http://');
+		var browserName=navigator.appName;
+		if (browserName=="Microsoft Internet Explorer"){
+			str = document.selection.createRange().text;
+			if (my_link != null && str !=null)
+			document.selection.createRange().text = '<a href="' + my_link + '">' + str + '</a>';
+		}
+		else{
+			str = getSelection("link",my_link,cTextId);
+			if (my_link != null && str !=null)
+				document.getElementById("ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_"+cTextId).value = str;
+		}
+	}
+
+</script>
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_EntryPage"><div>
+	<div>
+		<div style="margin:-15px 0px 17px 0px"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/sleeper-cell-bots-8389" class="hoverS">Previous Entry</a> /  <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/discussion-case-of-the-leaky-leaf-8419" class="hoverS">Next Entry</a></div>
+	</div><h1 class="blog_entrytitle">
+		Case Of The Leaky Leaf - The Conclusion
+	</h1>
+<div class="blogs_entryattribution">
+		<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/people/chiefmonkey/" class="hoverS">Security Monkey</a>&nbsp;<span class="blogs_postdetails">(Information Security Investigator / CISO)&nbsp;posted&nbsp;3/22/2006 | <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#commentsform" class="hoverS">Comments</a>&nbsp;(15)</span>
+	</div>
+<div class="blogs_sharebar">
+
+		<div style="float: left">
+			
+            <div style="float:left; margin:-5px 14px 0px 0px"><a class="hoverM" href="javascript:void(0)" onclick="voteHandler(0,8402,3,3);" id="imgHelpful8402"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/thumbsup.png" border="0" style="margin-bottom:-3px; margin-right:4px">Like</a> (<span id="S8402">0</span>)</div>
+            <div class="ach_confirm-collapsed" style="margin-top: 5px; display: block; visibility: hidden;" id="rateMsg8402">
+                Please <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-leaky-leaf-the-conclusion-8402">Sign In</a> or <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/register/?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-leaky-leaf-the-conclusion-8402&amp;trksubprod=bloglikelink">Register</a> to like this blog.
+            </div>
+            <div class="ach_confirm-collapsed" style="margin-top: 5px; display: none; visibility: hidden;" id="loading8402">
+                <img alt="Working" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/userBadge/loadingSmall.gif">
+            </div>    
+        
+		</div>
+<div style="float:left;">
+			<span class="addthis_toolbox addthis_default_style" style="float:left;margin-top:1px;"><a href="https://web.archive.org/web/20100707131808/http://addthis.com/bookmark.php?v=250&amp;amp;username=ittoolbox" class="addthis_button_compact hoverS">Share</a></span>
+		</div><script type="text/javascript" src="https://web.archive.org/web/20100707131808js_/http://s7.addthis.com/js/250/addthis_widget.js#username=ittoolbox">
+
+		</script><script type="text/javascript">
+			var addthis_config={data_track_linkback:true}
+		</script>
+<div style="float:left; margin-left:15px">
+			<a href="https://web.archive.org/web/20100707131808/http://twitter.com/home?status=&quot;Case Of The Leaky Leaf - The Conclusion&quot; http://it.toolbox.com/trd/73/2/8402/3/twitter" title="Click to share this post on Twitter" target="_blank"><div class="share_twitter" style="border:0px">
+
+			</div></a>
+		</div>
+<div style="float:left; margin-left:15px">
+			<a href="https://web.archive.org/web/20100707131808/http://www.facebook.com/sharer.php" type="button" name="fb_share" share_url="http://it.toolbox.com/trd/73/2/8402/3/facebook">Share</a><script type="text/javascript" id="fb_external_script" src="https://web.archive.org/web/20100707131808js_/http://static.ak.fbcdn.net/connect.php/js/FB.Share">
+
+			</script>
+		</div>
+	</div><div>
+
+	</div><div class="blogs_entrybody" style="clear:both">
+		"I knew I picked the wrong week to quit drinking coffee." lamented John as he sat back in his chair.  I hoped that he was kidding about the coffee.<br/><br/>I changed to the next slide in my presentation, a series of emails from Eric."My associate conducted a thorough search of email accounts for specific keywords that are listed in the handouts you received.  As you can see on this slide, Eric had numerous email conversations with a 'bblack'.  Unfortunately for Eric, bblack screwed up and replied to him from the wrong email address.  If you'll flip to the next page in your handouts, you'll see excerpts from these emails." I said as I brought up the emails on a slide.<br/><br/><b>To: eman@treesoft.com<br/>From: bblack@yagoo.com<br/>Subj: ok<br/>i still dont see them and my limewire proggie is working just fine<br/><br/>To: bblack@yagoo.com<br/>From: eman@treesoft.com<br/>Subj: re: ok<br/>OK - try now.  The peer servers take forever to update or somthing [sic].  <br/><br/>To: eman@treesoft.com<br/>From: bblack@gamersbeatches.net<br/>Subj: re: re: ok<br/>damn there are like ahundred[sic] files!  ok i see gloom_gfx5.txt and stuff like that.  cool.<br/></b><br/><br/>John was shaking his head from side to side, clearly not happy with what the evidence suggested.  Ed raised his eyebrows at me, and I returned with a quick nod that nobody noticed.  Ed quickly excused himself and left the room.<br/><br/>"Speaking of mail ..." I continued, "my associate noticed some irregularities with your mail server."<br/><br/>Scrap piped up.  "While recording some standard information about the mail server, I noticed that it had recently gone down hard due to a system crash.  The mail server was a linux server running postfix mail services and used '.mailbox' format mail boxes.  Upon examining /var/log/wtmp, I saw that a system crash occurred while we were on site investigating these matters.  I queried Kurt, your systems administrator, about the crash.  Kurt advised me that the server developed a problem with its RAID controller and needed replacement.  Kurt then proceeded to tell me that after replacing the RAID controller and examining his homemade performance logs, the linux server was at an extremely high load when the server failed." <br/><br/>The members of the management team were relatively technical (especially John) and seemed to follow the flow of the conversation.<br/><br/>"In Kurt's logs, he recorded a 'ps aux' snapshot seconds before the server crashed.  Examining this snapshot showed that a user was creating a large load on the server through an imap mail session.  I investigated the imap application's logs and found that the same user was initiating a large delete of the contents of their 'trash' folder.  When I inspected the user's home directory and looked at the contents of their mail trash folder, I found that the server had not deleted all of the emails in the folder due to the crash.  It was in these emails that several artifact discoveries were made." Scrap reported as the conference room door opened.<br/><br/>Ed entered the room followed by Rosa, the human resources director, and three uniformed private security guards.   All of them stood against the wall.<br/><br/>"What's going on here?" Peter asked.<br/><br/>Scrap cleared his throat, clearly trying to get everyone's attention back on his presentation.  <br/><br/>I nodded at Ed &amp; Rosa. <br/><br/>Ed decided to take control of the situation.<br/><br/>"The mail folder belonged to Dave.  Inside Dave's trash folder were several email exchanges between Dave and you, Peter." Ed said as he removed hard copies of the emails and slid them towards Peter.  <br/><br/>"You and Dave have worked together to over-inflate the value of Treesoft for a year.  And perhaps the most damning thing about the contents of the emails?  Your private negotiation attempts with Majorcorp to buy John out cheap, sell the intellectual property, and take your money to the bank." Ed said.  <br/><br/>Rosa approached Ed with a letter in her hand.  Ed unfolded the letter and slipped his glasses back on to his face.<br/><br/>"Peter Warginoff.  Dave McEww.  You are hereby notified that you are relieved of your duties with Treesoft, Inc. and are ordered to vacate the premises immediately.  Signed today by the Treesoft board of directors and agreed to by a majority vote conducted this morning." Ed read in a very Perry Mason-ish tone.  <br/><br/>I glanced at John.  He appeared to be watching a car accident of sorts, and in shock.<br/><br/>Peter and Dave rose from their seats without saying a word, and were escorted out of the building by the uniformed security guards under Ed's watchful eye.<br/><br/>"My company.  My company!" John moaned as he held his face in his hands.  "I trusted those guys with my life's work.  This is all unbelievable." <br/><br/>I grimaced.  <br/><br/>"Look at it this way John.  Today is the first day of a rebuilding of sorts for Treesoft." I said with a large monkey grin.<br/><br/>"John, I have something that you should read." said Rosa as she passed a folded piece of white paper to John.  Either Rosa was a lady in the know, or she had origami as a hobby.<br/><br/><b>John,<br/>You are hereby appointed as acting President and Chief Executive Officer of Treesoft.  Please join us during an emergency board meeting today at Noon.<br/><br/>- Treesoft Board Of Directors<br/></b><br/>"I guess congratulations are in order, man!" Scrap bellowed with a flash of monkey teeth.<br/><br/>The conference room door opened slowly.  Kurt entered the room, cracking his knuckles as he walked.<br/><br/>"What a morning.  First, I see Manditt escorted out to his car by Rosa.  A few minutes later I see Svenson getting yelled at by Rosa, and he disappears back behind his desk with his tail between his legs.  Then, to top it all off, I see the CEO and CFO of my company escorted out by uniformed security guards.  I think I'm going home early today!" Kurt exclaimed as he sat down in a conference room chair.<br/><br/>Ed was right behind Kurt and approached John.<br/><br/>"John, I have our outside legal counsel preparing cease and desist orders for the websites that are publishing those documents.  I made a few phone calls to gamerbeatches' counsel, and they are all over this on their side.  We won't be the only ones terminating employees today.  This was quite a double-punch, and some damn good detective work by our consultants." Ed said with a satisfied grin on his face.  "So John, what now?" <br/><br/>John sat up straight in his chair and looked Ed right in the eyes.<br/><br/>"I could really use a cup of coffee." <br/><br/>Music to my ears.<br/><br/><p><a href="https://web.archive.org/web/20100707131808/http://www.esbn.org/esbn/verify.asp?id=98605-060322-903191-69"><img alt="esbn" src="https://web.archive.org/web/20100707131808im_/http://esbn.org/esbn/esbnicon.asp?id=9860506032290319169" border="0"> 98605-060322-903191-69</a> Rate content: <a href="https://web.archive.org/web/20100707131808/http://esbn.org/esbn/verify.asp?id=9860506032290319169&amp;rate=yes"><img src="https://web.archive.org/web/20100707131808im_/http://esbn.org/esbn/thumbup.gif" border="0"></a><a href="https://web.archive.org/web/20100707131808/http://esbn.org/esbn/verify.asp?id=9860506032290319169&amp;rate=no"><img src="https://web.archive.org/web/20100707131808im_/http://esbn.org/esbn/thumbdown.gif" border="0"></a><br><img src="https://web.archive.org/web/20100707131808im_/http://esbn.org/esbn/barcode.asp?code=9860506032290319169&amp;height=20&amp;width=1&amp;mode=code39"></p><p><hr><table width="100%" bgcolor="#FFFFCC" cellpadding="9px">
+<tr><td><img style="margin-right: 9px; float: left" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/s_610000.jpg"><b><font face="Arial" size="4">DID YOU KNOW?</b></font><font face="Arial" size="2"><p style="margin-top: 2px">You can read all of SecurityMonkey's case files! <br>Find them <b><a href="https://web.archive.org/web/20100707131808/http://blogs.ittoolbox.com/security/investigator/archives/official-securitymonkey-case-file-index-14787">here</a></b>. <br><br>You can also read all of SecurityMonkey's <br>'Banana Cupboard' stories <a href="https://web.archive.org/web/20100707131808/http://blogs.ittoolbox.com/security/investigator/archives/banana-cupboard-stories-index-25647">here</a>.  <br><br>You may not get a lot done for a few hours... or even days.</font><br><br>The reviews are in...<br><br><i>"Completely addictive... suspenseful and informative at the same time!"<br>"A mix of classic detective scripting, timing, and technology..."<br>"Cleverly injected humor makes these case files easy to read and hard to put down!"</i></td></tr></table><hr><p>
+	</div><div>
+		<div style="margin:-15px 0px 17px 0px"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/sleeper-cell-bots-8389" class="hoverS">Previous Entry</a> /  <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/discussion-case-of-the-leaky-leaf-8419" class="hoverS">Next Entry</a></div>
+	</div>
+</div><div class="blogs_wp"><span><h2 class="blogs_cmboxtitle">Related White Papers</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://businessintelligence.ittoolbox.com/research/how-business-intelligence-should-work-21958?sp=kw" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.prop22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:PremiumWhitePapers');">How Business Intelligence Should Work</a></li>
+<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://storage.ittoolbox.com/research/executive-report-how-real-are-cloud-security-concerns-21898?sp=kw" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.prop22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:PremiumWhitePapers');">Executive Report: How Real Are Cloud Security Concerns?</a></li>
+<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://businessintelligence.ittoolbox.com/research/lean-business-intelligence-how-and-why-organizations-are-moving-to-selfservice-bi-21593?sp=kw" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.prop22='Blogs:Entry:RelatedContent:PremiumWhitePapers'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:PremiumWhitePapers');">Lean Business Intelligence - How and Why Organizations Are Moving to Self-Service BI</a></li>
+</ul><div style="margin: 15px 0px"><a class="hoverM" href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/research/">More White Papers...</a></div></div><div id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_ctl03_out">
+
+</div><script type="text/html" id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_ctl03_template">
+	<# var inse=document.createElement('script'); inse.type = 'text/javascript'; inse.src = 'https://web.archive.org/web/20100707131808/http://www.indeed.com/ads/apiresults.js'; $(document).append(inse); #>   <a href='https://web.archive.org/web/20100707131808/http://www.indeed.com/' target='_blank' style='color:black;text-decoration:none' title='Job Search'> 	<h2 class='blogs_cmboxtitle'>Related Jobs by 		<img src='https://web.archive.org/web/20100707131808/http://www.indeed.com/p/jobsearch.gif' style='border:0px; margin-bottom:-4px' alt='Indeed job search'>     </a> 	</h2> <div class='blogs_job' style='margin-bottom:15px'><ul class='blogs_ul'>        <# for ( var i = 0; i < jobs.length; i++ ) { var job = jobs[i];#>        <li class='blogs_sbli'><a class='hoverM' target='_blank' rel='nofollow' onmousedown="<#= unescape(job.onmousedown) #>" href='<#= job.URL #>' ><#= job.title #></a>&nbsp;-&nbsp;<span style='color:gray'><#= job.location.replace(/(\s[A-Z]{2})$/, ',$1') #></span></li>        <# } #>    </ul>    <a class='hoverM' href='https://web.archive.org/web/20100707131808/http://it.toolbox.com/jobs'>Search more jobs...</a></div>
+</script><script type="text/javascript">
+	$(document).ready(function(){PullJobs('security,securitymonkey,casefile,investigation','ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_ctl03_template','ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_ctl03_out','blogCM');});
+</script><div class="blogs_innerbox-top"></div><table id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentsTable" cellpadding="0" cellspacing="0" border="0" style="margin-top:-3px">
+	<tr>
+		<td class="blogs_innerbox-mid" style="padding-top:4px"><a id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentsDisplayAnchor" name="commentsform"></a><span><h2 style="height:20px;" class="blogs_comments"><table cellpadding="0" cellspacing="0"><tr valign="bottom" style="vertical-align:bottom;"><td style="width:386px;">Comments (15)</td><td class="blogs_commentsRSS" style="background-position:left center;"><a href="https://web.archive.org/web/20100707131808/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="hoverS">RSS for Comments</a></td></tr></table></h2></span><div class="blogs_commententry">
+			<div>
+				<a name="961434"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Gizmo </b> writes:</div><div class="blogs_anchor">
+					3/22/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#961434" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				&gt; escorted out my uniformed 
+that should be 'by' instead of 'my', right ?
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="961487"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>TuxGirl </b> writes:</div><div class="blogs_anchor">
+					3/22/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#961487" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				Kurt's innocent??????  
+
+Perhaps I missed something, but I was a bit confused by one of=
+ the comments here:
+
+"What a morning=2E First, I see Manditt escorted out to his car by=
+ Rosa=2E A few minutes later I see Svenson getting yelled at by=
+ Rosa, and he disappears back behind his desk with his tail=
+ between his legs=2E Then, to top it all off, I see the CEO and CFO=
+ of my company escorted out by uniformed security guards=2E I think=
+ I'm going home early today!" Kurt exclaimed as he sat down in a=
+ conference room chair=2E
+
+Why was Rosa yelling at Sven?
+
+~TuxGirl
+--
+http://www=2Etuxgirl=2Ecom/
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="961686"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>dulecki </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#961686" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				I suspect Rosa was yelling at Sven for having Limewire installed.  He knew better, and she let him know he was one file away from being fired.
+
+Interesting conclusion... guess you've always gotta follow the money :D
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="961759"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>challinor </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#961759" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				But this still doesn't explain why Kurt didn't get reprimanded for allowing P2P thru the firewall. 
+
+I mean, in any firewall I have used you need to actively allow this rather then actively block it. No corporation (especially one in the US where the RIAA is litigously active) would want an employee sharing music files on their bandwidth. 
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="961820"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>chaos777b </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#961820" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				I would asume if you looked back into the other case files you=
+ would find this
+
+"Yep=2E I tried to lock them down the Microsoft-recommended way,=
+ however the programmers install/uninstall stuff off their=
+ workstations all the time=2E I gave up=2E I talked to John and Peter=
+ one day and they decided to go on the honor system=2E You see how=
+ far that's gotten us=2E" Kurt lamented=2E
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962063"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Moldz </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962063" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				There's still one unresolved issue, what happened to the HR files?  Who removed Eric's NDA?
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962068"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Huntergreene </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962068" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				I've run into similar roadblocks, but not with programmers=2E  Try=
+ telling the partners at an accounting firm you want to kill MSN=
+ Messenger, P2P and streaming sports videos when they are the=
+ primary users of them=2E  MSN and P2P for security reasons and the=
+ videos/P2P are absolutely eating up bandwidth better used for=
+ remote vpn users=2E
+
+Remember, in office politics, the rules apply to everyone but the=
+ big cheese and friends=2E :(
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962104"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Jason </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962104" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				This was the greatest and most fun case to date=2E I loved every=
+ single part, especially the end=2E I am getting my experience,=
+ certs, and education and becoming a security investigator=
+ because of you Cheif and Scrap, you guys and your stories make=
+ this sound like a really cool and interesting field to be in=2E
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962143"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Minette </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962143" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				Well, I guess a name like Dave McEww should have tipped us off in the first place.  Good story, Chief!  
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962352"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>tomjedrz </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962352" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				OK =2E=2E I am from Rio Linda today=2E
+
+The actual case being investigated was the sensitive documents=
+ being leaked=2E  Eric conspired with bblack and used Sven's=
+ LiveWire to get the incriminating docs out the door=2E  That is=
+ why he was terminated=2E  One has to assume that is why his NDA=
+ "disappeared" from his HR file=2E
+
+In the course of investigating that, Chief and Scrap found the=
+ other craziness with Peter, Dave and Majorsoft, and only because=
+ the mail server failed when (idiot) Dave belatedly tried to=
+ cover his tracks=2E
+
+Right?
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962431"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>regardegar </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962431" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				It is good to see that I have not lost my touch.
+I just need to remember to stick to my convictions.
+
+It is also interesting to see that I have not been forgotten.
+Dulecki,  Do you really think I would open a .pif file from you?
+Not very creative.  Why your interest?  It's been far too long to care, but, do you still hate being third?
+
+
+
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962445"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>trblshootr </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962445" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				Great story - I enjoyed each session!
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962481"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>TJ </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962481" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				One of your best Chief! You've been good from the start, but it seems you're learning and getting even better and better at this stuff. Leaky Leaf will be a tough act to follow.
+
+I am officially already excited for the next case.
+
+*flailing bananas wildly*
+
+(no, we are not demanding of you at all)
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="962550"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>Tinfoil_Sheep </b> writes:</div><div class="blogs_anchor">
+					3/23/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#962550" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				<i>"Yep=2E I tried to lock them down the Microsoft-recommended way,=
+ however the programmers install/uninstall stuff off their=
+ workstations all the time=2E I gave up=2E I talked to John and Peter=
+ one day and they decided to go on the honor system=2E You see how=
+ far that's gotten us=2E" Kurt lamented=2E</i>
+
+Yep=2E  And this is all too common - especially when the I/T guy=
+ has had his power taken away by PHBs=2E  In a bad management=
+ environment you often have to go with what the upper people want=
+ despite the stupidity - at least until you find a better job=2E =
+ :-(
+
+TS
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="963199"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>BobbyJA </b> writes:</div><div class="blogs_anchor">
+					3/24/2006&nbsp;<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#963199" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				another SecuirtyMonkey Classic. I love this guy
+
+
+			</div>
+		</div></td>
+	</tr><tr>
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentPreviewAnchorCell" style="background-color:#F1F0E4"><a id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentpreview" name="commentpreview"></a></td>
+	</tr><tr>
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentPreviewCell" style="background-color:#F1F0E4; padding: 0 10px"></td>
+	</tr><tr id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentsFormRow">
+		<td class="blogs_innerbox-mid"><span><b>You are not logged in.</b> <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-leaky-leaf-the-conclusion-8402" class="underlineM">Sign in</a> to post unmoderated comments or <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/register/?page=http://it.toolbox.com/blogs/blogs/entry.aspx?slug=securitymonkey&amp;i=8402&amp;&amp;trksubprod=postcomment" class="underlineM">join the community</a> to create your free profile today!<br></span><table id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_NameEmailTable" cellspacing="3" cellpadding="2" border="0" style="width:400px;padding-top:5px">
+			<tr>
+				<td valign="top"><span>Name: </span></td><td><input name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$commentorName" type="text" id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentorName"/></td><td><span>(Will display on the site)</span></td>
+			</tr><tr>
+				<td valign="top"><span>E-mail: </span></td><td><input name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$commentorEmail" type="text" id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentorEmail"/></td><td><span>(Not displayed. No Spam)</span></td>
+			</tr>
+		</table><a href="javascript:formatStr('commentText','strong');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorbold.png" border="0" alt="Bold" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','u');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorunderline.png" border="0" alt="Underline" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','i');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorital.png" border="0" alt="Italic" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','strike');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorstrike.png" border="0" alt="Strike" class="blogs_editorbutton"/></a><a href="javascript:insertLink('commentText')"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorlink.png" border="0" alt="Link" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','code');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorcode.png" border="0" alt="Code" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','blockquote');"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_editorquote.png" border="0" alt="BlockQuote"/></a><textarea name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$commentText" rows="10" cols="62" id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentText" class="blogs_commenttextarea"></textarea><div><div class="blogs_commentinfo">Lines break automatically. Please preview your message before posting.<br><br>If not logged-in your post will not appear until approved by a community moderator. To uphold community standards, comments that are inflammatory, offensive, or contain profanity or advertisements may be removed by the author or a community moderator.<br/><br/>For more information, please refer to our <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/TermsOfUse.aspx">Terms of Use</a>.</div></div><div style="padding-bottom:10px"><span disabled="disabled"><input id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_connecttoblog" type="checkbox" name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$connecttoblog" disabled="disabled"/><label for="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_connecttoblog"><b>Connect to this blog to be notified of new entries.</b></label></span></div><div style="display:none;"><input name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$sample" type="text" id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_sample"/></div><input type="submit" name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$ctl44" value="Preview" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$ctl44&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-the-conclusion-8402#commentpreview&quot;, false, false))" class="frm_button"/><input type="submit" name="ctl00$ctl00$ctl00$m$BlogsMainContent$IndividualBlogsMainContent$ctl45" value="Submit" class="frm_button"/><a id="ctl00_ctl00_ctl00_m_BlogsMainContent_IndividualBlogsMainContent_commentFormAnchor" name="commentForm"></a></td>
+	</tr>
+</table><div class="blogs_innerbox-bottom"></div><div class="blogs_blogs"><span><h2 class="blogs_cmboxtitle">Related Blogs</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-lucrative-lure-part-ii-8667" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:Blog'; s.prop22='Blogs:Entry:RelatedContent:Blog'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:Blog');">Case Of The Lucrative Lure - Part II</a></li>
+<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-ethical-executives-part-ix-15854" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:Blog'; s.prop22='Blogs:Entry:RelatedContent:Blog'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:Blog');">Case Of The Ethical Executives - Part IX</a></li>
+</ul></div><div class="blogs_group"><span><h2 class="blogs_cmboxtitle">Related Groups</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/groups/career/security-career/security-456957" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:GroupThread'; s.prop22='Blogs:Entry:RelatedContent:GroupThread'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:GroupThread');">Security +</a></li>
+<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://cio.ittoolbox.com/groups/strategy-planning/info-security-management-sp/advice-for-small-firm-security-2124906" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:GroupThread'; s.prop22='Blogs:Entry:RelatedContent:GroupThread'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:GroupThread');">Advice for Small Firm Security</a></li>
+</ul></div><div class="blogs_wiki"><span><h2 class="blogs_cmboxtitle">Related Wiki Articles</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/wiki/index.php/Personal_Knowledge_Management" class="hoverM" onclick="var s=s_gi(s_account); s.linkTrackVars='prop22,eVar22,events'; s.linkTrackEvents='event3'; s.eVar22='Blogs:Entry:RelatedContent:Wiki'; s.prop22='Blogs:Entry:RelatedContent:Wiki'; s.events='event3'; s.tl(this,'o','Blogs:Entry:RelatedContent:Wiki');">Personal Knowledge Management</a></li>
+</ul></div><span><h2 class="blogs_cmboxtitle" style="margin-top:20px">More from this author</h2></span><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/sleeper-cell-bots-8389" class="underlineM">Sleeper Cell Bots</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-part-xiii-8360" class="underlineM">Case Of The Leaky Leaf - Part XIII</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-part-xii-8332" class="underlineM">Case Of The Leaky Leaf - Part XII</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/victim-my-lifes-work-is-gone-8294" class="underlineM">Victim: My Life's Work Is Gone</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-leaky-leaf-part-xi-8245" class="underlineM">Case Of The Leaky Leaf: Part XI</a></li>
+</ul><div style="margin-top:20px"><span><h2 class="blogs_cmboxtitle">Keyword Tags</h2>security, securitymonkey, casefile, investigation</span></div><div class="blogs_disclaimer"><span>Disclaimer: Blog contents express the viewpoints of their independent authors and are not reviewed for correctness or accuracy by Toolbox for IT. Any opinions, comments, solutions or other commentary expressed by blog authors are not endorsed or recommended by Toolbox for IT or any vendor. If you feel a blog entry is inappropriate, <a href="https://web.archive.org/web/20100707131808/http://www.ittoolbox.com/common/contact.asp?m=blogs">click here</a> to notify Toolbox for IT.</span></div></div>
+
+	            <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/IT-blogs" class="blogs_allblogslink">Browse all IT Blogs</a>
+			</td>
+			<td width="350" style="font:10pt arial; border-left:1px solid #e8e8e7; padding-left:20px; font:8pt verdana" valign="top">
+			    <div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20100707131808js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=investigation;cont=DM;sz=1x1,336x280,300x250,300x600;tile=7;ord=1484173158">
+
+	</script>
+</div>
+			
+
+<script language="javascript">	
+		
+	function mdTabSwap(swapper)	{	
+		swapper.style.backgroundImage = 'url(http://images.ittoolbox.com/userBadge/loadingSmall.gif)';
+		swapper.style.backgroundRepeat = "no-repeat";
+		swapper.style.backgroundPosition = "center center";		
+	}
+</script>
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_minidashTopDiv" class="minidash_bookendtop"></div>
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_minidashMiddleDiv" class="minidash_mastercontainer">
+
+    
+    
+    <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_controlsMasterDiv">
+    <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_pnl_minidash">
+	
+		<table id="ctaMiniDash" cellpadding="0" cellspacing="0" border="0" style="margin-left:7px; width:323px">
+			<tr>
+				<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_productSpecificControlTab" valign="top">
+					<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_productSpecificControl">
+		
+
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+<script type="text/javascript">
+// CALL TO ACTION TRACKING
+var IsCallToActionSet = false;
+var ctaBtnClicked = null;
+var ctaDtClicked = null;
+var ckUrl = null;
+function TrackCallToAction(sender, ctaName)
+{
+    try
+    {
+        if (sender != null && sender != ctaBtnClicked)
+        {
+            ctaBtnClicked = sender;
+            ctaDtClicked = new Date();
+	        var myUrl = 'http%3a%2f%2fit.toolbox.com%2fblogs%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d8402%26';
+	        ckUrl = 'https://web.archive.org/web/20100707131808/http://it.toolbox.com/api/ctatools/CreateCookie.aspx?CTAPage=' + myUrl + '&CTA=' + ctaName;
+        	
+	        document.getElementById('ctaimage').src = ckUrl;
+            // Give the image a second
+            setTimeout("ctaBtnClicked.click()", 1500);
+	    }
+        if ((new Date() - ctaDtClicked) > 1499)//the wait is over
+        {
+            IsCallToActionSet = true;
+        }
+        return IsCallToActionSet;
+    }
+    catch(e){}
+}
+function CallToActionSet(el)
+{
+    if (el.src)
+    {
+        IsCallToActionSet = true;
+        ctaBtnClicked.click();
+    }
+}
+</script>
+<img id="ctaimage" alt="" width="1" height="1" onload="CallToActionSet(this)"/>
+
+
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_aboutThisBlogDiv">
+    <div class="minidash_bluebar"><span id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_lblHeader">Connect to this blog</span></div>
+    <div class="minidash_actiontext">
+        
+    </div>
+    <div class="minidash_actiontext" style="margin-top:5px">
+                 
+        <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_pnlSubmit">
+			
+            <div style="padding-bottom:5px;font-weight:bold"><span id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_lblCTAtext">Connect to this blog to be notified of new posts.</span></div>
+            
+            <input name="ctl00$ctl00$ctl00$m$BlogsMainContent$MiniDash$ctl00$tbEmail" type="text" value="Your E-mail address" id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_tbEmail" onclick="javascript:this.value=''"/>
+            &nbsp;&nbsp;<input type="submit" name="ctl00$ctl00$ctl00$m$BlogsMainContent$MiniDash$ctl00$btnSubmit" value="Connect" onclick="javascript:TrackCallToAction(this,'BlogsConnect');" id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_ctl00_btnSubmit" class="minidash_button"/>
+        
+		</div>                
+    </div>
+</div>
+
+
+	</div>
+				</td>
+	
+				
+			</tr>
+		</table>
+    
+</div>
+     </div>
+
+     <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_minidashStupidDiv" class="minidash_stupiddivider"></div>
+     
+
+     <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_unrecLinks" class="minidash_signedinlinks">
+        <a target="_top" href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/home/signin" class="minidash_linkS">Sign In</a>
+        <span id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_unrecAskAQuestion">
+            <span class="slash">/</span>
+            <a target="_top" href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/ask-a-question" class="minidash_linkS">Ask a Question</a>                
+        </span>
+     </div>
+ 
+</div>
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_MiniDash_minidashBottomDiv" class="minidash_bookendbottom"></div>
+ 
+			<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_linkToEditPage"></div>
+                
+
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+
+
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_BlogRightNav" style="text-align:left"><div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20100707131808js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge2;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;kw=investigation;cont=DM;sz=1x1,336x280,300x250,300x600;tile=8;ord=1484173158">
+
+	</script>
+</div><table cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-bottom:5px"></td></tr></table><div><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/start"><img src="https://web.archive.org/web/20100707131808im_/http://images.ittoolbox.com/vt/blogs/blogs_shareperspective.png" border="0" style="margin:0px 30px 20px 30px"></a></div><table id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl05_scTopDiv" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl05_scMidDiv">
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl05_BlogCustomSection"><h2 class="blogs_sidebar">Chief's Twitter-ings</h2><script src="https://web.archive.org/web/20100707131808js_/http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().setUser('chiefmonkey').start();
+</script></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl05_scBottomDiv" class="boxright_bottom-plain">&nbsp;</div>	                   
+
+<table id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl06_topDivPE" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl06_peTable">
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl06_BlogPopularEntries"><span><h2 class="boxright_title">Popular Entries by Security Monkey</h2></span><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-tenacious-timelord-part-v-35536" class="underlineM">Case of the Tenacious Timelord: Part V</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/its-time-for-bloggers-to-fess-up-34609" class="underlineM">It's Time For Bloggers To Fess Up!</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/godaddy-has-my-passwords-37130" class="underlineM">GoDaddy Has My Passwords?</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/case-of-the-tenacious-timelord-part-i-34308" class="underlineM">Case of the Tenacious Timelord: Part I</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/guest-case-file-alert-the-casanova-con-man-37418" class="underlineM">Guest Case File Alert: The Casanova Con Man  </a></li>
+		</ul></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl06_bottomDivPE" class="boxright_bottom-plain">&nbsp;</div>	                   
+<table id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl07_scTopDiv" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr>
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl07_scMidDiv">
+	        <h2 id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl07_heading" class="boxright_title">Recent Comments</h2>
+	        <div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl07_BlogRecentComments"><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_3615794" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="9571" alt="HPI" connectid="4_rn_3615794" bid="9571"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/spies-lies-and-damned-help-desks-39725#3615794" class="underlineS">I'm thinking BS....   
+Setting up an ad hoc ...</a>"<br>Spies, Lies and Damned Help Desks<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_3612592" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/7/9/3/t_1477397.jpg" class="members_badgeSmall" badgeentityid="1477397" alt="kbar127" connectid="4_rn_3612592" bid="1477397"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/does-it-ever-stop-haunting-you-39665#3612592" class="underlineS">Great response, with being fairly new to the ...</a>"<br>Does It Ever Stop Haunting You?<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_3610361" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="2054624" alt="thomasstarish" connectid="4_rn_3610361" bid="2054624"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/defeating-hardware-keyloggers-7911#3610361" class="underlineS">I appreciate the concern which is been rose.</a>"<br>Defeating Hardware Keyloggers<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_3607232" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="2052712" alt="USER_2077723" connectid="4_rn_3607232" bid="2052712"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/run-away-from-the-ceh-certification-9639#3607232" class="underlineS">I have both the CEH and CISSP and I value them ...</a>"<br>Run Away From The CEH Certification<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_3591001" src="https://web.archive.org/web/20100707131808im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="2042609" alt="Jullia" connectid="4_rn_3591001" bid="2042609"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/howto-securing-a-website-with-client-ssl-certificates-11500#3591001" class="underlineS">An informant is a person who cooperates by ...</a>"<br>HOWTO: Securing A Website With Client SSL ...<div>
+
+		</div></td></tr></table><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/recent-comments" class="hoverS">More Recent Comments...</a></div>
+        </td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl07_scBottomDiv" class="boxright_bottom-plain">&nbsp;</div>	        
+
+
+
+<table id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl09_topTable" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr>
+		<td id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl09_BlogCategories"><h2 class="boxright_title">Categories</h2><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/banana+cupboard+stories/2796" class="hoverS">Banana Cupboard Stories</a>&nbsp;(5)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/casefiles/2275" class="hoverS">Casefiles</a>&nbsp;(29)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/index/2277" class="hoverS">Index</a>&nbsp;(2)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/opinion/278" class="hoverS">Opinion</a>&nbsp;(16)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/outsourcing/31" class="hoverS">Outsourcing</a>&nbsp;(1)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/rant/2324" class="hoverS">Rant</a>&nbsp;(22)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/securitymonkey/categories/stay+current/276" class="hoverS">Stay Current</a>&nbsp;(58)</div></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_m_BlogsMainContent_ctl01_ctl09_bottomDiv" class="boxright_bottom-plain">&nbsp;</div>		
+      
+             
+               </div>
+
+			</td>
+		</tr>
+	</table>
+
+<div>
+
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="fMOvFTVvOIajHliwVTJXRn0EVco_GWwXfPZCuLhUX_81"/>
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKDs+rkCQLIwOPsAwL40dGJBwK9t7rTBAKdnqrxCgKPmYHFCgLi/eaQBALj/eaQBAKE/Je0BgKx5uSwDmuZFwyCyFCXElMweom0TfW0tGOl"/>
+</div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5MTQ5NTc0ODIPZBYCZg9kFgJmD2QWAmYPZBYKZg9kFgQCAQ8WAh4EaHJlZgUnaHR0cDovL2ltYWdlcy5pdHRvb2xib3guY29tL2Zhdmljb24uaWNvZAICDxYEHwAFLWh0dHA6Ly9pbWFnZXMuaXR0b29sYm94LmNvbS92dC9jc3MvZ2xvYmFsLmNzcx4HVmlzaWJsZWhkAgoPZBYCAgkPZBYCAgEQZGQWBGYPZBYCAgEPDxYCHgtOYXZpZ2F0ZVVybGVkZAIED2QWAgIBD2QWBAIDD2QWAgIBD2QWBAIBDxYCHwFnFgICAQ9kFgJmD2QWAgIBDxYCHwFnFgICBw9kFgQCAw8QZGQWAGQCBQ8PZBYCHgdvbmNsaWNrBRhqYXZhc2NyaXB0OnRoaXMudmFsdWU9JydkAgMPZBYCAgEPDxYCHwFoZGQCCQ8WAh8BZ2QCDA8PFgIfAWhkZAIND2QWCmYPFgIeBFRleHQFKURNNTQwOTI3R0NEVjtETTU0MDkyN0dHTUE7aXR0b29sZ2xvYmFsaXQ7ZAIBDxYCHwQFElBVVCtQQUdFK05BTUUrSEVSRWQCAg8WAh8EBRBDT05URU5UK0NBVEVHT1JZZAIDDxYCHwRlZAIEDxYCHwQFBjJ8ODQwMmQCDg8PFgIfAWdkZGR5tj3DWiKQ4fPb4SlhEaPKmimBIA=="/></form>
+	    
+
+			<div style="clear:both"></div>
+        </div>
+        <div class="cb_cardbottom"></div>
+
+		
+		<div id="ctl00_ctl00_ctl00_pnlFooter">
+	
+		    <div class="gf_cardtop">&nbsp;</div>
+		    <div class="gf_cardmid">
+	            <div class="gf_toprule">
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/about/" class="hoverS">About</a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <!--
+					    <a href="http://hub.ittoolbox.com/" class="hoverS">Community Hub</a>
+					    <span class="slash">&nbsp;/&nbsp;</span>
+					    <a href="http://www.ittoolbox.com/sitetour/ExistingUser/default.asp" class="hoverS">Take the Tour</a>
+					    <span class="slash">&nbsp;/&nbsp;</span>
+		            -->
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/contact/" class="hoverS">Contact us</a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/PrivacyPolicy.aspx" class="hoverS">Privacy</a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/TermsofUse.aspx" class="hoverS">Terms of Use</a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/careers/" class="hoverS">Work at Toolbox.com </a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/advertising/" class="hoverS">Advertise with Toolbox for IT </a>
+		            <span class="slash">&nbsp;/&nbsp;</span>
+		            <a href="https://web.archive.org/web/20100707131808/http://www.toolbox.com/Feedback.aspx" class="hoverS">Provide Feedback</a>
+	            </div>
+			    <div id="ctl00_ctl00_ctl00_SubCommunitiesRepeaterDiv">
+	                <b>Topics:&nbsp;</b> 
+	                
+	                        <a href="https://web.archive.org/web/20100707131808/http://businessintelligence.ittoolbox.com/" class="hoverS"><nobr>Business Intelligence</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://c.ittoolbox.com/" class="hoverS"><nobr>C Languages</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://crm.ittoolbox.com/" class="hoverS"><nobr>CRM</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://database.ittoolbox.com/" class="hoverS"><nobr>Database</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://cio.ittoolbox.com/" class="hoverS"><nobr>IT Management and Strategy</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://datacenter.ittoolbox.com/" class="hoverS"><nobr>Data Center</nobr></a>
+	                        <div class="gf_legend_new">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://datawarehouse.ittoolbox.com/" class="hoverS"><nobr>Data Warehouse</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://emergingtech.ittoolbox.com/" class="hoverS"><nobr>Emerging Technology and Trends</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://eai.ittoolbox.com/" class="hoverS"><nobr>Enterprise Architecture and EAI</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://erp.ittoolbox.com/" class="hoverS"><nobr>ERP</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://hardware.ittoolbox.com/" class="hoverS"><nobr>Hardware</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://knowledgemanagement.ittoolbox.com/" class="hoverS"><nobr>Knowledge Management</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://networking.ittoolbox.com/" class="hoverS"><nobr>Networking</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://projectmanagement.ittoolbox.com/" class="hoverS"><nobr>Project and Portfolio Management</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://supplychain.ittoolbox.com/" class="hoverS"><nobr>SCM</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://security.ittoolbox.com/" class="hoverS"><nobr>Security</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://storage.ittoolbox.com/" class="hoverS"><nobr>Storage</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://telephony.ittoolbox.com/" class="hoverS"><nobr>Telephony</nobr></a>
+	                        <div class="gf_legend_new">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://webdesign.ittoolbox.com/" class="hoverS"><nobr>Web Design and Development</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://wireless.ittoolbox.com/" class="hoverS"><nobr>Wireless</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://infor.ittoolbox.com/" class="hoverS"><nobr>Infor</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://java.ittoolbox.com/" class="hoverS"><nobr>Java</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://linux.ittoolbox.com/" class="hoverS"><nobr>Linux</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://oracle.ittoolbox.com/" class="hoverS"><nobr>Oracle</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://peoplesoft.ittoolbox.com/" class="hoverS"><nobr>PeopleSoft</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://sap.ittoolbox.com/" class="hoverS"><nobr>SAP</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://siebel.ittoolbox.com/" class="hoverS"><nobr>Siebel</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://unix.ittoolbox.com/" class="hoverS"><nobr>UNIX</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://visualbasic.ittoolbox.com/" class="hoverS"><nobr>Visual Basic</nobr></a>
+	                        
+	                    <span class="slash">&nbsp;/&nbsp;</span>
+	                        <a href="https://web.archive.org/web/20100707131808/http://windows.ittoolbox.com/" class="hoverS"><nobr>Windows</nobr></a>
+	                        
+	                    	 
+			    </div>			
+	            <!-- CustomCommunity list -->
+			    
+			    <div>
+	                
+	                 
+	                <div id="ctl00_ctl00_ctl00_pnlAlsoAtCommunity" style="padding-top:10px">
+		
+	                <b>Also at Toolbox for IT:</b> 
+	                <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/blogs/" class="hoverS">Blogs</a><span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/groups" class="hoverS">Groups</a><span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/wiki/" class="hoverS">Wiki</a><span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/jobs" class="hoverS">Jobs</a><span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20100707131808/http://it.toolbox.com/vendors/" class="hoverS">Vendor Research Directory</a>
+	                
+	</div>
+					<div style="margin:10px 0px 0px 0px; padding-bottom:20px">
+						<div style="float:left; font-weight:bold">Follow Toolbox.com:</div><a href="https://web.archive.org/web/20100707131808/http://twitter.com/toolboxdotcom" class="gf_twitter" target="_blank"></a>
+					</div>
+					<div style="clear:both"></div>
+	            </div>			
+            </div>
+            <div class="gf_cardbottom">
+	            &nbsp;
+            </div>
+        
+</div>
+<div class="gf_disclaimer">
+    Copyright 1998-2010 Toolbox.com. All rights reserved. All product names are
+trademarks of their respective companies. Toolbox.com is not affiliated with or
+endorsed by any company listed at this site. Toolbox.com is a subsidiary of the
+<a href="https://web.archive.org/web/20100707131808/http://www.exbd.com/">Corporate Executive Board</a>.
+    
+</div> 
+		
+		
+		
+		
+	</div>
+
+	
+	
+
+
+<div id="ctl00_ctl00_ctl00_omniturePanel">
+
+</div>
+
+
+
+	
+	
+
+
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 13:18:08 Jul 07, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:00:12 Oct 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 2.475
+  PetaboxLoader3.datanode: 663.086 (4)
+  captures_list: 681.081
+  PetaboxLoader3.resolve: 75.145 (2)
+  esindex: 0.012
+  exclusion.robots.policy: 0.119
+  LoadShardBlock: 653.642 (3)
+  exclusion.robots: 0.129
+  CDXLines.iter: 22.328 (3)
+  load_resource: 105.818
+-->

@@ -1,0 +1,752 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_ctl00_ctl00_Head1"><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app31.us.archive.org';v.server_ms=353;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=BsQ6byDz" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://it.toolbox.com:80/blogs/securitymonkey/case-of-the-heaping-haystack-part-v-12019","20090628175011","https://web.archive.org/","web","/_static/",
+	      "1246211411");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=NHuXCfBH" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Case Of The Heaping Haystack - Part V
+</title><link id="ctl00_ctl00_ctl00_faviconinclude" rel="shortcut icon" href="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/favicon.ico"/><link id="ctl00_ctl00_ctl00_GlobalCSS" rel="stylesheet" type="text/css" href="https://web.archive.org/web/20090628175011cs_/http://images.ittoolbox.com/vt/css/global.css"/><link href="/web/20090628175011cs_/http://it.toolbox.com/widgets/templates/HtmlUserBadgeTemplate.css" rel="stylesheet" type="text/css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="keywords" content="security, securitymonkey, casefile, usb, san, investigation, private, excel"/><meta name="description" content="Seven hundred miles away, Hugo was pushing his rental car to the limits.  After some brilliant (but highly illegal) intelligence gathering, he was eager to position himself outside of Amalgamar headquarters in the hopes of catching a glimpse of ..."/><link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20090628175011cs_/http://images.ittoolbox.com/vt/css/global.css"/><script src="https://web.archive.org/web/20090628175011js_/http://www.google.com/jsapi" type="text/javascript"></script><script type="text/javascript">
+google.load('jquery', '1.2.6');
+function OnLoad()
+{
+    try
+    {
+      onJQueryLoad();
+    }
+    catch(e)
+    {}
+}
+google.setOnLoadCallback(OnLoad);
+</script></head>
+<body>
+	
+	<!-- NEW HEADER -->
+
+	<div class="globalheader_bg">
+	    <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/" id="ctl00_ctl00_ctl00_toolboxLogoLink">
+		    <img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com//vt/spacer.gif" border="0" class="globalheader_logoLink"/>
+	    </a>
+	    <h2 class="globalheader_sitetitle">
+		   Toolbox for IT
+		   <img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com//vt/globalheader/globalheader_tm.png" class="globalheader_tm" border="0"/>
+	    </h2>
+	    <div style="float:right">
+	        <div align="center" style="margin-bottom:5px">
+	<script src="https://web.archive.org/web/20090628175011js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=peel;tile=5;kw=;cont=DM;role=0;cs=0;ind=0;sz=80x83,1x1;ord=234971147">
+
+	</script>
+</div>
+	    </div>	    
+	    
+
+<script type="text/javascript">
+
+var inMenu = false;
+var globalHead = null;
+
+function checkSearch() { var searchTerm = document.getElementById('r').value; if (searchTerm == '' || searchTerm == ' Search')  { alert('Please enter a search term.'); return false; } return true; }
+function doSearchDropDown() { inMenu = true; getGlobalHeadMenu().style.display = 'block';}
+function setInMenu() { inMenu = true; }
+
+function getGlobalHeadMenu()
+{
+	if (! this.globalHead )
+		this.globalHead = document.getElementById('globalheader_menu');
+	return this.globalHead;
+}
+function hideSearchDropDown() { if (!inMenu) getGlobalHeadMenu().style.display = 'none'; }
+function leaveMenu() { inMenu = false; setTimeout("hideSearchDropDown()", 1500); }
+
+function setSearchHeader(sender) 
+{
+	var s = sender.innerHTML;
+	var a = sender.attributes["action"];
+	var r = sender.attributes["mainargumentname"]
+	var n = sender.attributes["additionalargumentname"];
+	var m = sender.attributes["additionalargumentvalue"];
+	var text = document.getElementById('searchHeaderMainItem');
+	if (navigator.appName == 'Microsoft Internet Explorer')
+	{ // Internet Explorer removes the menu contents if we change the innerHTML of the list item, so use the inner span tag
+		text = document.getElementById('searchHeaderMainItem_Text');
+	}
+	text.innerHTML = s;
+	if (a) document.getElementById('globalheader_searchform').action = a.value; else document.getElementById('globalheader_searchform').action = 'https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/search/';
+	if (r) document.getElementById('r').name = r.value; else document.getElementById('r').name = 'r';
+	if (n) document.getElementById('searchHeader_m').name = n.value; else document.getElementById('searchHeader_m').name = '';
+	if (m) document.getElementById('searchHeader_m').value = m.value; else document.getElementById('searchHeader_m').value = '';
+	inMenu = false;
+	hideSearchDropDown();
+}
+
+</script>
+
+
+<div id="ctl00_ctl00_ctl00_SearchHeader1_searchDiv" class="globalheader_searchdiv">
+    <form id="globalheader_searchform" action="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/search/blogs/" method="GET" onsubmit="javascript:return checkSearch();">
+        <input class="globalheader_input" name="r" id="r" value=" Search" type="text" onclick="this.value='';"/>
+        <input type="hidden" id="searchHeader_m" name="" value=""/>
+        <div class="globalheader_dropdown">
+            <div class="globalheader_dropdownitem" style="cursor: pointer;" id="searchHeaderMainItem" onclick="javascript:doSearchDropDown();"><span id="searchHeaderMainItem_Text">Blogs</span></div>
+            <div class="globalheader_dropdownup" id="globalheader_menu" style="display: none; position: absolute;">
+            
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/home/search/blogs/" mainargumentname="r" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();" style="border-top: solid 1px #9a9b9d;">Blogs</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">Toolbox for IT</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" additionalargumentvalue="0" additionalargumentname="community" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">Toolbox.com</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/home/search/white-papers/" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();">White Papers</div>
+				
+					<div class="globalheader_menuitem" onclick="javascript:setSearchHeader(this);" action="http://it.toolbox.com/people/" mainargumentname="txtSearch" onmouseover="javascript:setInMenu();" onmouseout="javascript:leaveMenu();" style="border-bottom: solid 1px #9a9b9d;">People</div>
+				
+			</div>
+        </div>        
+        <input class="globalheader_searchbutton" type="submit" value=""/>
+    </form>
+</div>
+	    <div class="globalheader_links">
+	        <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/register" class="globalheader_joinlink">Join Now</a><span class="gh_slash">&nbsp;/&nbsp;</span><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/signin" class="globalheader_link">Sign In</a>
+	    </div>
+        		    
+	    
+	</div>
+
+    <!-- get rid of this minidash -->
+    
+
+	<div class="master_box">
+		<table id="ctl00_ctl00_ctl00_LeaderBoardAd" style="margin-bottom:15px" class="ads_leaderboard">
+	<tr>
+		<td>
+		    <div align="center" style="margin-bottom:5px">
+			<script src="https://web.archive.org/web/20090628175011js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=horizlarge;tile=6;kw=security,securitymonkey,casefile,usb,san,investigation,private,excel;cont=DM;role=0;cs=0;ind=0;sz=728x90,468x60,1x1;ord=1185817157">
+
+			</script>
+		</div>
+		</td>
+	</tr>
+</table>
+
+		<ul class="gn_box">
+	<li class="gn_small-down" onmouseover="gn_dropdown(0, 3,event)" onmouseout="gn_dropdown(0, 3,event)" id="home" style="position:relative"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_link" id="homelink">My Home</a><div class="gn_panel-small" id="home-sub">
+		<div class="gn_innerpanel-small">
+			<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Messages</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Journal</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Blog</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Bookmarks</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Connections</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Posts</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Profile</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/" class="gn_sublink">Account / E-mails</a>
+		</div>
+	</div></li><li class="gn_small-down" onmouseover="gn_dropdown(1, 3,event)" onmouseout="gn_dropdown(1, 3,event)" id="people" style="position:relative"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/people/" class="gn_link" class="gn_link" id="peoplelink">People</a><div class="gn_panel-small" id="people-sub">
+		<div class="gn_innerpanel-small">
+			<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/people/" class="gn_sublink">Find Members</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/member-directory/" class="gn_sublink">Alphabetical Directory</a>
+		</div>
+	</div></li><li class="gn_vendor-down" onmouseover="gn_dropdown(2, 3,event)" onmouseout="gn_dropdown(2, 3,event)" id="vendors" style="position:relative"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/vendors/" class="gn_link" id="vendorslink">Vendors</a></li><li class="gn_large-up" onmouseover="gn_dropdown(3, 3,event)" onmouseout="gn_dropdown(3, 3,event)" id="community" style="position:relative"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/community/" class="gn_linkup" id="communitylink">Communities</a><div class="gn_panel-large" id="community-sub" style="width:360px">
+		<div class="gn_innerpanel-large" style="width:350px">
+			<table border="0" cellpadding="0" cellspacing="0" style="width:350"><tr><td style="padding-right:10px"><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://businessintelligence.ittoolbox.com/">Business Intelligence</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://c.ittoolbox.com/">C Languages</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://cio.ittoolbox.com/">CIO</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://crm.ittoolbox.com/">CRM</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://database.ittoolbox.com/">Database</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://datawarehouse.ittoolbox.com/">Data Warehouse</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://eai.ittoolbox.com/">EAI</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://emergingtech.ittoolbox.com/">Emerging Technologies</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://erp.ittoolbox.com/">ERP</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://hardware.ittoolbox.com/">Hardware</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://knowledgemanagement.ittoolbox.com/">Knowledge Management</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://networking.ittoolbox.com/">Networking</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://projectmanagement.ittoolbox.com/">Project Management</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://supplychain.ittoolbox.com/">SCM</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/">Security</a></td><td><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://storage.ittoolbox.com/">Storage</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://webdesign.ittoolbox.com/">Web Design</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://wireless.ittoolbox.com/">Wireless</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://baan.ittoolbox.com/">Baan</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://java.ittoolbox.com/">Java</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://linux.ittoolbox.com/">Linux</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://oracle.ittoolbox.com/">Oracle</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://oracle-crm.it.toolbox.com/">Oracle CRM</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://oracle-database.it.toolbox.com/">Oracle Database</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://peoplesoft.ittoolbox.com/">PeopleSoft</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://sap.ittoolbox.com/">SAP</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://siebel.ittoolbox.com/">Siebel</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://unix.ittoolbox.com/">UNIX</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://visualbasic.ittoolbox.com/">Visual Basic</a><a class="gn_sublink" href="https://web.archive.org/web/20090628175011/http://windows.ittoolbox.com/">Windows</a></td></tr></table>
+		</div>
+	</div></li><li class="gn_wp-down" onmouseover="gn_dropdown(4, 3,event)" onmouseout="gn_dropdown(4, 3,event)" id="whitepapers" style="position:relative"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/vendors/white-papers/" class="gn_link" id="whitepaperslink">White Paper Library</a></li>
+</ul>
+		
+
+
+        <div class="cb_cardtop"></div>
+        <div class="cb_cardmid" style="margin-top:0px; *margin-top:0px">
+                
+    
+<script type="text/javascript" language="javascript">
+    function searchBoxOnMouseDown(obj){
+        if (obj.value == "Search Blogs"){
+            obj.value = "";
+        }
+    }   
+</script>
+<div id="ctl00_ctl00_ctl00_mainBody_Tabs_BlogsTabs"><h1 class="ln_title"> Security Community<div style="white-space: nowrap;" id="blogTabDiv"><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/" class="ln_down">Home</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/blogs" class="ln_up">Blogs</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/groups" class="ln_down">Groups</a><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/wiki/index.php/CommunityTopic?a=security" class="ln_down">Wiki</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/research/" class="ln_down">White Papers</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/documents/" class="ln_down">Q&A; and Docs</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/topics/" class="ln_down">Topics</a><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/subscriptions/" class="ln_down">Subscriptions</a></div></h1></div>
+
+    
+    <!--<div id="ctl00_ctl00_ctl00_mainBody_breadCrumbing"></div>-->
+    
+    
+<form name="aspnetForm" method="post" action="/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-v-12019" id="aspnetForm">
+<div>
+
+</div>
+
+<script type="text/javascript">function onJQueryLoad() { try { $('[badgeEntityID]').badge(); } catch (e) { alert('Error Loading User Badges ' + e); } } </script>
+<script src="/web/20090628175011js_/http://it.toolbox.com/js/jquery.badge.js" type="text/javascript"></script>
+<script src="/web/20090628175011js_/http://it.toolbox.com/js/toolbox.common.js" type="text/javascript"></script>
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">       
+        <thead>
+            <tr>
+                <td colspan="2">
+                    
+                    
+                </td>
+            </tr>
+        </thead>
+		<tr>
+			<td width="550" style="font:10pt arial; padding-right:20px" valign="top">
+                <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_metaBox">
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+<div class="meta-top"></div>
+<table cellpadding="0" cellspacing="0" class="meta-mid"><tr><td>
+    <div id="divPhoto" class="meta_authorpic">	
+        <img src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/s_610000.jpg" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_s_610000" alt="Security Monkey" badgeentityid="610000"/>
+        <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_dojo" style="display: inline;"></div>
+    </div>
+    <h2 id="divTitle" class="meta">
+	    A Day in the Life of an Information Security Investigator
+    </h2>
+    <div id="divName">
+	    by <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/people/chiefmonkey/" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_authorName" class="hoverM">Security Monkey</a>&nbsp;(Information Security Investigator)
+    </div>
+    <div id="divDescription" class="meta_description">
+	    <div id="lessVersion">This security guru shares his unique experiences working with federal, corporate, and military institutions and provides his ...<a href="javascript:showHideMore();" class="hoverS">more</a></div><div style="visible:false;  display:none" id="moreVersion">This security guru shares his unique experiences working with federal, corporate, and military institutions and provides his perspective on the security issues impacting the IT industry today. Get the security information you need right here, so that no one will have to pass you the clue banana!<a href="javascript:showHideMore();" class="hoverS">..less</a></div>
+    </div>
+    <div id="divLinks" class="meta_linksbox">
+	    <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_blogMain" class="hoverS">Blog Main</a><span class="slash">&nbsp;/&nbsp;</span>
+	    <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/monthly/" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_blogArchive" class="hoverS">Archive</a><span class="slash">&nbsp;/&nbsp;</span>
+	    <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/invite/?t=1003584" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl00_invite" class="hoverS">Invite Peers</a>&nbsp;
+        <div id="divRSS" class="meta_rssbox">
+	        <img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com//vt/icons/rssfeed.png" alt="RSS" style="margin-bottom:-3px"/>
+	        <a href="https://web.archive.org/web/20090628175011/http://rss.ittoolbox.com/rss/security-investigator.xml" class="hoverS">RSS for Posts</a><span class="slash">&nbsp;/&nbsp;</span>
+	        <a href="https://web.archive.org/web/20090628175011/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="hoverS">RSS for Comments</a>
+        </div>	    
+    </div>
+
+</td></tr></table>
+<div class="meta-bottom"></div></div>
+                
+
+<script language="javascript" type="text/javascript">
+    
+    function formatStr(cTextId,v) {              
+		var browserName=navigator.appName;
+		var txt = '';
+		if (browserName=="Microsoft Internet Explorer"){
+			txt = document.selection.createRange().text;
+			//if(txt !="") document.selection.createRange().text = '[' + v + ']' + txt + '[/' + v + ']';
+			if(txt !="") document.selection.createRange().text = '<' + v + '>' + txt + '</' + v + '>';
+		}
+		else
+		{
+			txt = getSelection(v,"",cTextId);
+			document.getElementById("ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_"+cTextId).value = txt;
+		}
+	}
+    function getSelection(v,url,txtBxId)
+	{
+		el = document.getElementById("ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_"+txtBxId);				
+		var text = el.value;		
+		if ( el.selectionStart == undefined )
+		{
+			var r = window.selection.createRange();
+			//return new Array( r.start, r.end );
+		}
+		else
+		{
+			if(v == "link"){
+				return text.substring(0,el.selectionStart) + "<a href=\""+url+"\">"+text.substring(el.selectionStart,el.selectionEnd )+ "</a>" + text.substring(el.selectionEnd ,text.length);
+			}
+			else{
+				return text.substring(0,el.selectionStart) + "<" +v+ ">"+text.substring(el.selectionStart,el.selectionEnd )+ "</"+v+">" + text.substring(el.selectionEnd ,text.length);
+			}
+			//return new Array( el.selectionStart, el.selectionEnd );
+		}
+	}
+
+	function insertLink (cTextId) {
+		var str
+		var my_link = prompt('Enter URL. Please replace any "=" with "&#61;" for the URL to work properly', 'http://');
+		var browserName=navigator.appName;
+		if (browserName=="Microsoft Internet Explorer"){
+			str = document.selection.createRange().text;
+			if (my_link != null && str !=null)
+			document.selection.createRange().text = '<a href="' + my_link + '">' + str + '</a>';
+		}
+		else{
+			str = getSelection("link",my_link,cTextId);
+			if (my_link != null && str !=null)
+				document.getElementById("ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_"+cTextId).value = str;
+		}
+	}
+
+</script>
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_EntryPage"><div>
+	<div>
+		<div style="margin:-15px 0px 17px 0px"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/guides-securing-hosts-11976" class="hoverS">Previous Entry</a> /  <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/mac-os-x-local-user-exploit-appears-12026" class="hoverS">Next Entry</a></div>
+	</div><h1 class="blog_entrytitle">
+		Case Of The Heaping Haystack - Part V
+	</h1>
+<div class="blogs_entryattribution">
+		<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/people/chiefmonkey/" class="hoverS">Security Monkey</a>&nbsp;<span class="blogs_postdetails">(Information Security Investigator)&nbsp;posted&nbsp;10/2/2006</span> | <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-v-12019#commentsform" class="underlineS">Comments</a>&nbsp;(2)
+	</div><div class="blogs_entrybody">
+		Seven hundred miles away, Hugo was pushing his rental car to the limits.  After some brilliant (but highly illegal) intelligence gathering, he was eager to position himself outside of Amalgamar headquarters in the hopes of catching a glimpse of Dunnit.<br/><br/>"What is going through your head, Dr. Dunnit?" Hugo pondered as he made his last highway transition with a smooth right turn.  <br/><br/><i>"Why did you just leave a research position and take all of your data with you?  <br/><br/>... why haven't you talked to anyone?  <br/><br/>... why are you going to Amalgamar?  <br/><br/>... what is your motive?  Money? Fame? Better cafeteria food?  What?" </i><br/><br/>It was maddening.  Hugo had worked the private investigator scene for over twenty years.  He had seen everything from wives cheating on their husbands with circus midgets to wealthy retirees killing each other off to increase their retirement funds.  However, in each of his previous assignments, the motive had been pretty clear.  <br/><br/>Not this time.<br/><br/>Hugo glanced at his watch with tired eyes.  With any luck, he had arrived in time to book a room at a nearby motel and catch some sleep before his Amalgamar reconnaissance mission tomorrow.  <br/><br/>*RING*<br/><br/>"I really hope that's not the wife again." Hugo thought as he glanced down at his phone.  It was Chief!<br/><br/>"Hey monkey boy." Hugo said.  "I'm in Big City and looking for a cheap pair of pillows and sheets to press for a few hours.  You must have some news, because you never call me otherwise." <br/><br/>I laughed on the other end of the phone.   Hugo knew me all too well.<br/><br/>"You're going to love this man." I said with excitement.  "Scrap was pawing around under Dunnit's desk and found a USB pen drive with his knee."<br/><br/>Hugo grimaced.  "Did it survive?" <br/><br/>"Yes." I replied.  <br/><br/>"As a matter of fact, it's completely readable.  Scrap manually imaged it with his linux laptop and 'dd' cleverness.  Dunnit must have been one paranoid guy, because he stored everything from his address book to zebra wallpapers on this thing.  A few of the files are PGP-encrypted, but we've got Roscoe taking a shot at those with some dictionary pass phrase attacks." I said, remembering that I had used a similar method in <a href="https://web.archive.org/web/20090628175011/http://blogs.ittoolbox.com/security/investigator/archives/case-of-the-hushed-hax0r-part-i-670">The Case Of The Hushed Haxor</a>.<br/><br/>"No kidding." Hugo said as most of the techno-drabble sailed clear over his head.  "What's the punch line?" <br/><br/>"Well, I was going to compliment you on your fine detective work.  According to an excel spreadsheet that we just cleared of a password, Dunnit was definitely involved with Amalgamar at some point." I said.<br/><br/>"How involved are we talking, and am I in the right place?" Hugo queried in a tired voice.<br/><br/>"I'd say that you're right on target.  The spreadsheet was a comma-seperated file dump of his checking account at NorthEastern Bank from a few weeks ago, and you'll never guess who was dumping several thousands of dollars into Dunnit's account?" I asked.<br/><br/>Hugo knew the answer before I had finished my statement.<br/><br/>Amalgamar.<hr><br/><p><a href="https://web.archive.org/web/20090628175011/http://www.numly.com/numly/verify.asp?id=86975-061002-786888-57"><img alt="numly esn" src="https://web.archive.org/web/20090628175011im_/http://numly.com/numly/icon.asp?id=8697506100278688857" border="0"> 86975-061002-786888-57<br><img src="https://web.archive.org/web/20090628175011im_/http://numly.com/numly/barcode.asp?code=8697506100278688857&amp;height=20&amp;width=1&amp;mode=code39"></a><br><br>© 2006 All Rights Reserved.</p><p><hr><table width="100%" bgcolor="#FFFFCC" cellpadding="9px">
+<tr><td><img style="margin-right: 9px; float: left" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/s_610000.jpg"><b><font face="Arial" size="4">DID YOU KNOW?</b></font><font face="Arial" size="2"><p style="margin-top: 2px">You can read all of SecurityMonkey's case files! <br>Find them <b><a href="https://web.archive.org/web/20090628175011/http://blogs.ittoolbox.com/security/investigator/archives/official-securitymonkey-case-file-index-14787">here</a></b>. <br><br>You can also read all of SecurityMonkey's <br>'Banana Cupboard' stories <a href="https://web.archive.org/web/20090628175011/http://blogs.ittoolbox.com/security/investigator/archives/banana-cupboard-stories-index-25647">here</a>.  <br><br>You may not get a lot done for a few hours... or even days.</font></td></tr></table><hr><p>
+	</div><div>
+		<div style="margin:-15px 0px 17px 0px"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/guides-securing-hosts-11976" class="hoverS">Previous Entry</a> /  <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/mac-os-x-local-user-exploit-appears-12026" class="hoverS">Next Entry</a></div>
+	</div>
+</div><div style="padding-top:5px; padding-bottom:5px"><span><b>More on Vendor</b><br></span><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/vendors/linux-operatingsystem">Linux Operating System</a>, </div><div class="blogs_wp"><span><h2 class="blogs_cmboxtitle">Related White Papers</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/research/beyond-compliance-the-significant-benefits-of-log-management-19845?sp=cm" class="hoverM">Beyond Compliance: The Significant Benefits of Log Management</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://businessintelligence.ittoolbox.com/research/iway-software-secure-messaging-option-19607?sp=cm" class="hoverM">iWay Software Secure Messaging Option</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://businessintelligence.ittoolbox.com/research/how-business-intelligence-should-work-the-connection-between-strategic-analytical-and-operational-initiatives-19287?sp=cm" class="hoverM">How Business Intelligence Should Work – The Connection Between Strategic, Analytical, and Operational Initiatives</a></li></ul><div style="margin: 15px 0px"><a class="hoverM" href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/research/">More White Papers...</a></div></div><div class="blogs_job"><span><h2 class="blogs_cmboxtitle">Related Jobs</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://jobcenter.ittoolbox.com/seekers/display.asp?i=2356" rel="nofollow" class="hoverM">Database Administrator - Microsoft</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://jobcenter.ittoolbox.com/seekers/display.asp?i=2360" rel="nofollow" class="hoverM">LAN Network Engineer</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://jobcenter.ittoolbox.com/seekers/display.asp?i=2358" rel="nofollow" class="hoverM">Database Architect/Modeler</a></li></ul></div><div class="blogs_innerbox-top"></div><table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentsTable" cellpadding="0" cellspacing="0" border="0" style="margin-top:-3px">
+	<tr>
+		<td class="blogs_innerbox-mid" style="padding-top:4px"><a id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentsDisplayAnchor" name="commentsform"></a><span><h2 class="blogs_comments">Comments (2)&nbsp;&nbsp;<div class="blogs_commentsRSS"><a href="https://web.archive.org/web/20090628175011/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="hoverS">RSS for Comments</a></div></h2></span><div class="blogs_commententry">
+			<div>
+				<a name="1192732"></a><img border="0" id="4_1192732" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" alt="doc0tis" badgeentityid="762696"/><div class="blog_commentorname">
+					<b><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/people/doc0tis/">doc0tis</a></b> writes:
+				</div><div>
+
+				</div><div class="blogs_anchor">
+					10/2/2006&nbsp;<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-viii-12631#1192732" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				Suspisions confirmed...
+
+or at least they seem to be, you never know with the Chief.
+
+--doc0tis
+
+
+			</div>
+		</div><div class="blogs_commententry">
+			<div>
+				<a name="1193967"></a><img border="0" class="blogs_anonicon" src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment"/><div class="blog_commentorname"><b>regardegar </b> writes:</div><div class="blogs_anchor">
+					10/3/2006&nbsp;<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-viii-12631#1193967" class="hoverM">#</a>
+				</div>
+			</div><div class="blogs_commententrybody">
+				Cool.
+
+
+			</div>
+		</div></td>
+	</tr><tr>
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentPreviewAnchorCell" style="background-color:#F1F0E4"><a id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentpreview" name="commentpreview"></a></td>
+	</tr><tr>
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentPreviewCell" style="background-color:#F1F0E4"></td>
+	</tr><tr id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentsFormRow">
+		<td class="blogs_innerbox-mid"><span><b>You are not logged in.</b> <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-heaping-haystack-part-v-12019" class="underlineM">Sign in</a> to post unmoderated comments or <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/register/?page=http://it.toolbox.com/blogs/blogs/entry.aspx?slug=securitymonkey&amp;i=12019&amp;" class="underlineM">join the community</a> to create your free profile today!<br></span><table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_NameEmailTable" cellspacing="3" cellpadding="2" border="0" style="width:400px;padding-top:5px">
+			<tr>
+				<td valign="top"><span>Name: </span></td><td><input name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$commentorName" type="text" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentorName"/></td><td><span>(Will display on the site)</span></td>
+			</tr><tr>
+				<td valign="top"><span>E-mail: </span></td><td><input name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$commentorEmail" type="text" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentorEmail"/></td><td><span>(Not displayed. No Spam)</span></td>
+			</tr>
+		</table><a href="javascript:formatStr('commentText','strong');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorbold.png" border="0" alt="Bold" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','u');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorunderline.png" border="0" alt="Underline" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','i');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorital.png" border="0" alt="Italic" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','strike');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorstrike.png" border="0" alt="Strike" class="blogs_editorbutton"/></a><a href="javascript:insertLink('commentText')"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorlink.png" border="0" alt="Link" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','code');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorcode.png" border="0" alt="Code" class="blogs_editorbutton"/></a><a href="javascript:formatStr('commentText','blockquote');"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_editorquote.png" border="0" alt="BlockQuote"/></a><textarea name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$commentText" rows="10" cols="62" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentText" class="blogs_commenttextarea"></textarea><div><div class="blogs_commentinfo">Lines break automatically. Please preview your message before posting.<br><br>If not logged-in your post will not appear until approved by a community moderator. To uphold community standards, comments that are inflammatory, offensive, or contain profanity or advertisements may be removed by the author or a community moderator.</div></div><div style="padding-bottom:10px"><span disabled="disabled"><input id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_connecttoblog" type="checkbox" name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$connecttoblog" disabled="disabled"/><label for="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_connecttoblog"><b>Connect to this blog to be notified of new entries.</b></label></span></div><div style="display:none;"><input name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$sample" type="text" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_sample"/></div><input type="submit" name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$ctl35" value="Preview" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$ctl35&quot;, &quot;&quot;, false, &quot;&quot;, &quot;https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-v-12019#commentpreview&quot;, false, false))" class="frm_button"/><input type="submit" name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$IndividualBlogsMainContent$ctl36" value="Submit" class="frm_button"/><a id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_IndividualBlogsMainContent_commentFormAnchor" name="commentForm"></a></td>
+	</tr>
+</table><div class="blogs_innerbox-bottom"></div><div class="blogs_blogs"><span><h2 class="blogs_cmboxtitle">Related Blogs</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-v-12019" class="hoverM">Case Of The Heaping Haystack - Part V</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-iv-11922" class="hoverM">Case Of The Heaping Haystack - Part IV</a></li></ul></div><div class="blogs_group"><span><h2 class="blogs_cmboxtitle">Related Groups</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://cio.ittoolbox.com/groups/strategy-planning/info-security-management-sp/advice-for-small-firm-security-2124906" class="hoverM">Advice for Small Firm Security</a></li><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/groups/career/security-career/career-in-informationsecurity-1634536" class="hoverM">Career in Information-Security</a></li></ul></div><div class="blogs_wiki"><span><h2 class="blogs_cmboxtitle">Related Wiki Articles</h2></span><ul class="blogs_ul"><li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/wiki/index.php/Personal_Knowledge_Management" class="hoverM">Personal Knowledge Management</a></li></ul></div><span><h2 class="blogs_cmboxtitle" style="margin-top:20px">More from this author</h2></span><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/guides-securing-hosts-11976" class="underlineM">Guides: Securing Hosts</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/govinaction-the-tsa-will-not-touch-your-monkey-11923" class="underlineM">GovInAction: The TSA Will NOT Touch Your Monkey</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-heaping-haystack-part-iv-11922" class="underlineM">Case Of The Heaping Haystack - Part IV</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/can-i-vouch-for-you-11919" class="underlineM">Can I 'Vouch' For You?</a></li>
+</ul><ul class="blogs_ul">
+	<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/what-does-the-nsa-know-about-you-11831" class="underlineM">What Does The NSA Know About You?</a></li>
+</ul><div style="margin-top:20px"><span><h2 class="blogs_cmboxtitle">Keyword Tags</h2>security, securitymonkey, casefile, usb</span></div><div class="blogs_disclaimer"><span>Disclaimer: Blog contents express the viewpoints of their independent authors and are not reviewed for correctness or accuracy by Toolbox for IT. Any opinions, comments, solutions or other commentary expressed by blog authors are not endorsed or recommended by Toolbox for IT or any vendor. If you feel a blog entry is inappropriate, <a href="https://web.archive.org/web/20090628175011/http://www.ittoolbox.com/common/contact.asp?m=blogs">click here</a> to notify Toolbox for IT.</span></div></div>     
+
+	            <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/IT-blogs" class="blogs_allblogslink">Browse all IT Blogs</a>
+			</td>
+			<td width="350" style="font:10pt arial; border-left:1px solid #e8e8e7; padding-left:20px; font:8pt verdana" valign="top">
+			
+
+<script language="javascript">	
+		
+	function mdTabSwap(swapper)	{	
+		swapper.style.backgroundImage = 'url(http://images.ittoolbox.com/userBadge/loadingSmall.gif)';
+		swapper.style.backgroundRepeat = "no-repeat";
+		swapper.style.backgroundPosition = "center center";		
+	}
+</script>
+
+<div class="minidash_bookendtop"></div>
+<div class="minidash_mastercontainer">
+
+    
+
+        
+  
+    
+    <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_controlsMasterDiv" class="minidash_interactbox">
+    <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_pnl_minidash">
+	
+		<table id="ctaMiniDash" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_productSpecificControlTab" valign="top">
+					<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_productSpecificControl">
+		
+
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+<script type="text/javascript">
+// CALL TO ACTION TRACKING
+var IsCallToActionSet = false;
+var ctaBtnClicked = null;
+var ctaDtClicked = null;
+var ckUrl = null;
+function TrackCallToAction(sender, ctaName)
+{
+    try
+    {
+        if (sender != null && sender != ctaBtnClicked)
+        {
+            ctaBtnClicked = sender;
+            ctaDtClicked = new Date();
+	        var myUrl = 'http%3a%2f%2fit.toolbox.com%2fblogs%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d12019%26';
+	        ckUrl = 'https://web.archive.org/web/20090628175011/http://it.toolbox.com/api/ctatools/CreateCookie.aspx?CTAPage=' + myUrl + '&CTA=' + ctaName;
+        	
+	        document.getElementById('ctaimage').src = ckUrl;
+            // Give the image a second
+            setTimeout("ctaBtnClicked.click()", 1500);
+	    }
+        if ((new Date() - ctaDtClicked) > 1499)//the wait is over
+        {
+            IsCallToActionSet = true;
+        }
+        return IsCallToActionSet;
+    }
+    catch(e){}
+}
+function CallToActionSet(el)
+{
+    if (el.src)
+    {
+        IsCallToActionSet = true;
+        ctaBtnClicked.click();
+    }
+}
+</script>
+<img id="ctaimage" alt="" width="1" height="1" onload="CallToActionSet(this)"/>
+
+
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_ctl00_aboutThisBlogDiv">
+    <div class="minidash_bluebar">Connect to this blog</div>
+    <div class="minidash_actiontext">
+        
+    </div>
+    <div class="minidash_actiontext" style="margin-top:5px">
+                 
+        <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_ctl00_pnlSubmit">
+			
+            <div style="padding-bottom:5px;font-weight:bold">Connect to this blog to be notified of new posts.</div>
+            
+            <input name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$MiniDash$ctl00$tbEmail" type="text" value="Your E-mail address" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_ctl00_tbEmail" onclick="javascript:this.value=''"/>
+            &nbsp;&nbsp;<input type="submit" name="ctl00$ctl00$ctl00$mainBody$BlogsMainContent$MiniDash$ctl00$btnSubmit" value="Connect" onclick="javascript:TrackCallToAction(this,'BlogsConnect');" id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_ctl00_btnSubmit" class="minidash_button"/>
+        
+		</div>                
+    </div>
+</div>
+
+
+	</div>
+				</td>
+	
+				
+			</tr>
+		</table>
+    
+</div>
+     </div>
+
+     <div class="minidash_stupiddivider"></div>
+     
+     
+     <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_unrecLinks" class="minidash_signedinlinks">
+        <a target="_top" href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/home/signin" class="minidash_linkS">Sign In</a>
+        <span id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_MiniDash_unrecAskAQuestion">
+            <span class="slash">/</span>
+            <a target="_top" href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/ask-a-question" class="minidash_linkS">Ask a Question</a>                
+        </span>
+     </div>
+ 
+</div>
+<div class="minidash_bookendbottom"></div>
+ 
+			<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_linkToEditPage"></div>
+                
+
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+
+
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_BlogRightNav" style="text-align:left"><table cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-bottom:5px"><div align="center" style="margin-bottom:5px">
+	<script src="https://web.archive.org/web/20090628175011js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge;tile=7;kw=security,securitymonkey,casefile,usb,san,investigation,private,excel;cont=DM;role=0;cs=0;ind=0;sz=336x300,336x280,300x250,300x600;ord=960719016">
+
+	</script>
+</div></td></tr></table><div><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/start"><img src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/blogs/blogs_shareperspective.png" border="0" style="margin:0px 30px 20px 30px"></a></div><table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl05_scTopDiv" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl05_scMidDiv">
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl05_BlogCustomSection"><h2 class="blogs_sidebar">Chief's Twitter-ings</h2><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://web.archive.org/web/20090628175011oe_/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0" width="290" height="350" id="TwitterWidget" align="middle">
+	<param name="allowScriptAccess" value="always"/>
+	<param name="allowFullScreen" value="false"/>
+	<param name="movie" value="http://static.twitter.com/flash/widgets/profile/TwitterWidget.swf"/>
+	<param name="quality" value="high"/>
+	<param name="bgcolor" value="#000000"/>
+	<param name="FlashVars" value="userID=4545311&amp;styleURL=http://static.twitter.com/flash/widgets/profile/smooth.xml">
+	<embed src="https://web.archive.org/web/20090628175011oe_/http://static.twitter.com/flash/widgets/profile/TwitterWidget.swf" quality="high" bgcolor="#000000" width="290" height="350" name="TwitterWidget" align="middle" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="userID=4545311&amp;styleURL=http://static.twitter.com/flash/widgets/profile/smooth.xml"/>
+</object></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl05_scBottomDiv" class="boxright_bottom-plain">&nbsp;</div>	                   
+
+<table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl06_topDivPE" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl06_peTable">
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl06_BlogPopularEntries"><span><h2 class="boxright_title">Popular Entries by Security Monkey</h2></span><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/sorry-for-the-delay-27587" class="underlineM">Sorry For The Delay!</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/help-out-the-chief-check-your-logfiles-26906" class="underlineM">Help Out The Chief - Check Your Logfiles</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/unemployed-employed-but-looking-26119" class="underlineM">Unemployed? Employed But Looking?</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/sarah-palins-inbox-hacked-27251" class="underlineM">Sarah Palin's Inbox: Hacked!</a></li>
+		</ul><ul class="blogs_ul">
+			<li class="blogs_sbli"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/a-picture-and-a-thousand-words-or-less-32346" class="underlineM">A Picture, And A Thousand Words (or less)</a></li>
+		</ul></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl06_bottomDivPE" class="boxright_bottom-plain">&nbsp;</div>	                   
+<table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl07_scTopDiv" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr>
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl07_scMidDiv">
+	        <h2 id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl07_heading" class="boxright_title">Recent Comments</h2>
+	        <div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl07_BlogRecentComments"><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_2836108" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="752947" alt="regardegar" connectid="4_rn_2836108" bid="752947"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/a-picture-and-a-thousand-words-or-less-32346#2836108" class="underlineS">Cheif,
+
+Sorry for your loss and congratulations ...</a>"<br>A Picture, And A Thousand Words (or less)<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" src="https://web.archive.org/web/20090628175011im_/http://images.ittoolbox.com/vt/icons/postreply.png" alt="comment" class="blogs_commentsballoon"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/detecting-windows-keyloggers-1352#2811956" class="underlineS">Alright, because I realized that I did not ...</a>"<br>Detecting Windows Keyloggers</td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_2786538" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="1544660" alt="mshortpants" connectid="4_rn_2786538" bid="1544660"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/case-of-the-robotic-reflex-conclusion-30940#2786538" class="underlineS">This post and all your other posts on this site ...</a>"<br>Case Of The Robotic Reflex - Conclusion<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_2782465" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="1480768" alt="jdizon363" connectid="4_rn_2782465" bid="1480768"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/recommended-how-to-suck-at-information-security-29405#2782465" class="underlineS">Would be in your router make sure to only allow ...</a>"<br>Recommended: How To Suck At Information ...<div>
+
+		</div></td></tr></table><table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:10px"><tr><td valign="top"><img border="0" id="4_rn_2778643" src="https://web.archive.org/web/20090628175011im_/http://userimages.ittoolbox.com/user/t_icon.jpg" class="members_badgeSmall" badgeentityid="1539771" alt="FraudBuster" connectid="4_rn_2778643" bid="1539771"/></td><td class="blogs_commentslist" valign="top">"<a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/run-away-from-the-ceh-certification-9639#2778643" class="underlineS">People really should look at the credibility of ...</a>"<br>Run Away From The CEH Certification<div>
+
+		</div></td></tr></table><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/recent-comments" class="hoverS">More Recent Comments...</a></div>
+        </td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl07_scBottomDiv" class="boxright_bottom-plain">&nbsp;</div>	        
+
+
+
+<table id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl09_topTable" cellpadding="0" cellspacing="0" class="boxright_top-plain">
+	<tr>
+		<td id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl09_BlogCategories"><h2 class="boxright_title">Categories</h2><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/banana+cupboard+stories/2796" class="hoverS">Banana Cupboard Stories</a>&nbsp;(1)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/casefiles/2275" class="hoverS">Casefiles</a>&nbsp;(22)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/index/2277" class="hoverS">Index</a>&nbsp;(2)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/opinion/278" class="hoverS">Opinion</a>&nbsp;(14)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/outsourcing/31" class="hoverS">Outsourcing</a>&nbsp;(1)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/rant/2324" class="hoverS">Rant</a>&nbsp;(18)&nbsp;&nbsp;<span class="slash">/</span>&nbsp;&nbsp;</div><div class="blogs_sbcatlist"><a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/securitymonkey/categories/stay+current/276" class="hoverS">Stay Current</a>&nbsp;(28)</div></td>
+	</tr>
+</table>
+
+<div id="ctl00_ctl00_ctl00_mainBody_BlogsMainContent_ctl01_ctl09_bottomDiv" class="boxright_bottom-plain">&nbsp;</div>		
+      
+             
+               </div>
+
+			</td>
+		</tr>
+	</table>
+
+<div>
+
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="fMOvFTVvOIajHliwVTJXRn0EVco_GWwXfPZCuLhUX_81"/>
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKrs7TzBwK7+Pv/CwKV/8ygCwLY5sKOAwLq5LfdBALzqY+GBwK/yp3pCQK/yrHEAgK/vO76CQKy+uScDLINxVzDb+9afTzuh2sxJ6FJ7g4X"/>
+</div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5MTQ5NTc0ODIPZBYCZg9kFgJmD2QWAmYPZBYIZg9kFgQCAQ8WAh4EaHJlZgUnaHR0cDovL2ltYWdlcy5pdHRvb2xib3guY29tL2Zhdmljb24uaWNvZAICDxYCHwAFLWh0dHA6Ly9pbWFnZXMuaXR0b29sYm94LmNvbS92dC9jc3MvZ2xvYmFsLmNzc2QCCQ9kFgICCQ9kFgICARBkZBYEZg9kFgICAQ8PFgIeC05hdmlnYXRlVXJsZWRkAgMPZBYEAgIPZBYCAgEPZBYEAgEPFgIeB1Zpc2libGVnFgICAQ9kFgJmD2QWAgIBDxYCHwJnFgICBQ9kFgQCAQ8QZGQWAGQCAw8PZBYCHgdvbmNsaWNrBRhqYXZhc2NyaXB0OnRoaXMudmFsdWU9JydkAgMPZBYCAgEPDxYCHwJoZBYCZg9kFgICAQ9kFgYCAw8PFgIeBFRleHQFFVR5cGUgeW91ciBxdWVzdGlvbi4uLhYCHgdvbkZvY3VzBUB0aGlzLnZhbHVlPSh0aGlzLnZhbHVlPT0nVHlwZSB5b3VyIHF1ZXN0aW9uLi4uJyk/ICcnOnRoaXMudmFsdWU7ZAIFDw8WAh8EBRJUeXBlIHlvdXIgcXVlc3Rpb24WAh8FBT10aGlzLnZhbHVlPSh0aGlzLnZhbHVlPT0nVHlwZSB5b3VyIHF1ZXN0aW9uJyk/ICcnOnRoaXMudmFsdWU7ZAIHDw8WAh8EBQ5FLW1haWwgYWRkcmVzcxYCHwUFOXRoaXMudmFsdWU9KHRoaXMudmFsdWU9PSdFLW1haWwgYWRkcmVzcycpPyAnJzp0aGlzLnZhbHVlO2QCBA8WAh8CZ2QCDA9kFgpmDxYCHwQFKURNNTQwOTI3R0NEVjtETTU0MDkyN0dHTUE7aXR0b29sZ2xvYmFsaXQ7ZAIBDxYCHwQFElBVVCtQQUdFK05BTUUrSEVSRWQCAg8WAh8EBRBDT05URU5UK0NBVEVHT1JZZAIDDxYCHwRlZAIEDxYCHwQFBzJ8MTIwMTlkAg0PDxYCHwJnZGRkERgsy4i07WbEjLUyo99MMCUJQ84="/></form>
+	    
+
+			<div style="clear:both"></div>
+        </div>
+        <div class="cb_cardbottom"></div>
+
+		
+		<div id="ctl00_ctl00_ctl00_pnlFooter">
+	
+		<div class="gf_cardtop">&nbsp;</div>
+		<div class="gf_cardmid">
+	        <div class="gf_toprule">
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/about/" class="hoverS">About</a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <!--
+					<a href="http://hub.ittoolbox.com/" class="hoverS">Community Hub</a>
+					<span class="slash">&nbsp;/&nbsp;</span>
+					<a href="http://www.ittoolbox.com/sitetour/ExistingUser/default.asp" class="hoverS">Take the Tour</a>
+					<span class="slash">&nbsp;/&nbsp;</span>
+		        -->
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/contact/" class="hoverS">Contact us</a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/PrivacyPolicy.aspx" class="hoverS">Privacy</a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/TermsofUse.aspx" class="hoverS">Terms of Use</a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/careers/" class="hoverS">Work at Toolbox.com </a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/advertising/" class="hoverS">Advertise with Toolbox for IT </a>
+		        <span class="slash">&nbsp;/&nbsp;</span>
+		        <a href="https://web.archive.org/web/20090628175011/http://www.toolbox.com/Feedback.aspx" class="hoverS">Provide Feedback</a>
+	        </div>
+			<div id="ctl00_ctl00_ctl00_SubCommunitiesRepeaterDiv">
+	        <b>Communities:&nbsp;</b> 
+	        
+	                <a href="https://web.archive.org/web/20090628175011/http://businessintelligence.ittoolbox.com/" class="hoverS"><nobr>Business Intelligence</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://c.ittoolbox.com/" class="hoverS"><nobr>C Languages</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://cio.ittoolbox.com/" class="hoverS"><nobr>CIO</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://crm.ittoolbox.com/" class="hoverS"><nobr>CRM</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://database.ittoolbox.com/" class="hoverS"><nobr>Database</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://datawarehouse.ittoolbox.com/" class="hoverS"><nobr>Data Warehouse</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://eai.ittoolbox.com/" class="hoverS"><nobr>EAI</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://emergingtech.ittoolbox.com/" class="hoverS"><nobr>Emerging Technologies</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://erp.ittoolbox.com/" class="hoverS"><nobr>ERP</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://hardware.ittoolbox.com/" class="hoverS"><nobr>Hardware</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://knowledgemanagement.ittoolbox.com/" class="hoverS"><nobr>Knowledge Management</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://networking.ittoolbox.com/" class="hoverS"><nobr>Networking</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://projectmanagement.ittoolbox.com/" class="hoverS"><nobr>Project Management</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://supplychain.ittoolbox.com/" class="hoverS"><nobr>SCM</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://security.ittoolbox.com/" class="hoverS"><nobr>Security</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://storage.ittoolbox.com/" class="hoverS"><nobr>Storage</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://webdesign.ittoolbox.com/" class="hoverS"><nobr>Web Design</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://wireless.ittoolbox.com/" class="hoverS"><nobr>Wireless</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://baan.ittoolbox.com/" class="hoverS"><nobr>Baan</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://java.ittoolbox.com/" class="hoverS"><nobr>Java</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://linux.ittoolbox.com/" class="hoverS"><nobr>Linux</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://oracle.ittoolbox.com/" class="hoverS"><nobr>Oracle</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://oracle-crm.it.toolbox.com/" class="hoverS"><nobr>Oracle CRM</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://oracle-database.it.toolbox.com/" class="hoverS"><nobr>Oracle Database</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://peoplesoft.ittoolbox.com/" class="hoverS"><nobr>PeopleSoft</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://sap.ittoolbox.com/" class="hoverS"><nobr>SAP</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://siebel.ittoolbox.com/" class="hoverS"><nobr>Siebel</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://unix.ittoolbox.com/" class="hoverS"><nobr>UNIX</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://visualbasic.ittoolbox.com/" class="hoverS"><nobr>Visual Basic</nobr></a>
+	            <span class="slash">&nbsp;/&nbsp;</span>
+	                <a href="https://web.archive.org/web/20090628175011/http://windows.ittoolbox.com/" class="hoverS"><nobr>Windows</nobr></a>
+	            	 
+			</div>			
+	        <!-- CustomCommunity list -->
+						
+	        
+	        <div id="ctl00_ctl00_ctl00_pnlAlsoAtCommunity" style="padding-top:10px">
+		
+	        <b>Also at Toolbox for IT:</b> 
+	        <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/blogs/" class="hoverS">Blogs</a><span class="slash">&nbsp;/&nbsp;</span>
+	        <a href="https://web.archive.org/web/20090628175011/http://groups.ittoolbox.com/" class="hoverS">Groups</a><span class="slash">&nbsp;/&nbsp;</span>
+	        <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/wiki/" class="hoverS">Wiki</a><span class="slash">&nbsp;/&nbsp;</span>
+	        
+	        <span id="ctl00_ctl00_ctl00_jobsevents">
+	        <a href="https://web.archive.org/web/20090628175011/http://events.ittoolbox.com/" class="hoverS">Events &amp; Webcasts</a><span class="slash">&nbsp;/&nbsp;</span>
+	        <a href="https://web.archive.org/web/20090628175011/http://jobcenter.ittoolbox.com/" class="hoverS">Job Center</a><span class="slash">&nbsp;/&nbsp;</span>
+	        </span>
+	        
+	        <a href="https://web.archive.org/web/20090628175011/http://it.toolbox.com/vendors/" class="hoverS">Vendor Research Directory</a>
+	        
+	</div>
+</div><div class="gf_cardbottom">
+	&nbsp;
+</div>
+
+</div>
+<div class="gf_disclaimer">
+    Copyright 1998-2009 Toolbox.com. All rights reserved. All product names are
+trademarks of their respective companies. Toolbox.com is not affiliated with or
+endorsed by any company listed at this site. Toolbox.com is a subsidiary of the
+<a href="https://web.archive.org/web/20090628175011/http://www.exbd.com/">Corporate Executive Board</a>.
+    
+</div> 
+		
+		
+		
+		
+	</div>
+	
+	
+
+
+<div id="ctl00_ctl00_ctl00_omniturePanel">
+
+</div>
+
+
+
+	
+	
+
+
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 17:50:11 Jun 28, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:59:01 Oct 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  RedisCDXSource: 0.575
+  PetaboxLoader3.datanode: 247.068 (4)
+  captures_list: 83.051
+  PetaboxLoader3.resolve: 32.676
+  esindex: 0.01
+  exclusion.robots.policy: 0.133
+  LoadShardBlock: 57.332 (3)
+  exclusion.robots: 0.145
+  CDXLines.iter: 18.571 (3)
+  load_resource: 247.627
+-->

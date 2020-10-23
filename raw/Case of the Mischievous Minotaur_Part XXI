@@ -1,0 +1,2829 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="ctl00_ctl00_m_Head1"><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app100.us.archive.org';v.server_ms=326;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=BsQ6byDz" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://it.toolbox.com:80/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617","20130118043643","https://web.archive.org/","web","/_static/",
+	      "1358483803");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=NHuXCfBH" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Case Of The Mischievous Minotaur - Part XXI
+</title><link rel="shortcut icon" href="https://web.archive.org/web/20130118043643im_/http://images.ittoolbox.com/favicon.ico"/><script src="https://web.archive.org/web/20130118043643js_/http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script><link rel="Stylesheet" type="text/css" href="https://web.archive.org/web/20130118043643cs_/http://icdn.toolbox.com/BUILD_1956/css/master.css"/>    
+    
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="keywords" content="security, information security, computer security, vulnerability"/><meta name="description" content="Conclusion - Part III (End)
+
+The slide on the screen appeared to disturb Steven and Ronald to the point that they were both getting a bit ..."/><link rel="canonical" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617"></link></head>
+<body> 
+ <script type="text/javascript">	
+    var isCorpSite = false;
+    var signinURL = 'https://web.archive.org/web/20130118043643/https://login.toolbox.com/';            
+    var vertBaseURL = 'https://web.archive.org/web/20130118043643/http://it.toolbox.com/';
+    var CDNImageURL = 'https://web.archive.org/web/20130118043643/http://cdn.toolbox.com/BUILD_1956/';
+    var CurrentVerticalName = 'Toolbox for IT';
+    var siteCookieDomain = '.toolbox.com';
+
+    function setCookie(name, value, exdays) {  var exdate = new Date();  exdate.setTime(exdate.getTime());  if (exdays) {  exdays = exdays * 1000 * 60 * 60 * 24;  }  var expires_date = new Date(exdate.getTime() + (exdays));   var domain = "";  if ( siteCookieDomain )  domain = ";domain=" + siteCookieDomain;   document.cookie = name + "=" + escape(value) + ((exdays) ? ";expires=" + expires_date.toGMTString() : "") + ";path=/" + domain;  }   
+    function getCookie(check_name) {  var ca = document.cookie.split(";");  var tc = '';  var cn = '';  var cf = false;   for (var i = 0; i < ca.length; i++) {  tc = ca[i].substr(0, ca[i].indexOf("="));  cn = ca[i].substr(ca[i].indexOf("=") + 1);  tc = tc.replace(/^\s+|\s+$/g, "");  if (tc == check_name) {  cf = true;  return unescape(cn);  break;  }  }  if (!cf) {  return null;  } }
+    </script>
+<div id="lightbox-panel"></div>
+<x-bbskip>
+<form action="https://web.archive.org/web/20130118043643/https://login.toolbox.com/1/signin" method="post">
+<div>
+    <a class="join-button" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fcommunity%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d5617%26&amp;r=http%3a%2f%2fit.toolbox.com%2fblogs%2fcommunity%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d5617%26&amp;trksubprod=joinnow_stationary&amp;opi_t=Case+Of+The+Mischievous+Minotaur+-+Part+XXI&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617&amp;opi_o=4"></a>
+</div>
+<div>
+    <div id="signin">
+        <div id="signinPanel" class="signin-panel">
+            <div style="padding: 5px;">
+                <div class="signin-box anthracite">
+                    <div id="signin_result">
+                        <div class="windowclosebutton" id="signin-msgclose" onclick="javascript:hideSigninMessage();"></div>
+                        <div id="signin_message"></div>
+                    </div>
+                    <div id="signin_form">
+                        <div>E-mail or User ID</div>
+                        <div><input type="text" id="username" name="u" tabindex="900" class="signin-textbox"/></div>
+                        <div>Password</div>
+                        <div><input type="password" id="password" defaultbutton="btnSignIn" name="p" tabindex="901" class="signin-textbox"/></div>
+                    </div>
+                    <div class="floatright">
+                        <table cellspacing="0" cellpadding="0" class="button-outerblue">
+	                        <tbody><tr><td class="button-innerblue" id="m_btnSignIn_tdCt">
+                                    <input name="ctl00$ctl00$m$btnSignIn" type="submit" id="ctl00_ctl00_m_btnSignIn" value="Go" class="button" tabindex="905"/>
+                                </td></tr>
+                        </tbody></table>
+                    </div>
+                    <div class="floatleft">
+                        <div class="floatleft"><input type="checkbox" name="pageGroup" id="currentPage" value="currentPage" tabindex="902"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="currentPage">Stay on Current Page</label></div>
+                    </div>
+                    <div class="floatleft"> 
+                        <div class="clear floatleft"><input type="checkbox" name="keepMeSignedIn" id="kmsiCB" value="true" tabindex="903"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="kmsiCB">Keep me signed in</label></div>
+                    </div>
+                    <div class="clear floatright">
+                        
+<a class="splink-button" href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/help" style="margin: 0; padding-top: 1px">Help?</a>
+                    </div>
+                    
+<a class="splink-button" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/recover-password" style="margin: 0; padding-top: 1px">Recover&nbsp;Password</a>
+                </div>
+                <div class="signin-boxright anthracite">
+                    <div class="spacer-tiny">
+                        <span class="bold darkgray">Sign in using your account with</span>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/openid/signin/1/google" class="signin-link signin-google oidHrefHook"></a>
+                    <a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/openid/signin/1/yahoo" class="signin-link signin-yahoo oidHrefHook"></a>
+                    <div class="floatright signin-reglinkspacer">
+                        <div class="spacer-tiny"></div>
+                        <div class="clear floatleft"><input type="checkbox" name="retToPage" id="oidretToPage" value="currPage" tabindex="905"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="oidretToPage">Return to this page</label></div>                    
+                    </div>
+                    <div class="floatright signin-reglink">
+                        <div class="bold floatleft">Haven't registered yet?</div>
+                        <div class="floatleft">
+<a id="ctl00_ctl00_m_btnJoinNow_hl" tabindex="905" class="splink-button" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fcommunity%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d5617%26&amp;r=http%3a%2f%2fit.toolbox.com%2fblogs%2fcommunity%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d5617%26&amp;trksubprod=joinnow_flyout&amp;opi_t=Case+Of+The+Mischievous+Minotaur+-+Part+XXI&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617&amp;opi_o=4" style="margin: 0; padding-top: 1px">Register&nbsp;now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="signin-button" id="signin-button" onclick="javascript:showSigninBox();"></a>
+    </div>
+</div>
+</form>
+</x-bbskip>
+<x-bbskip>
+<div id="zd-header">
+    <div id="zd-headerinner">
+        <a href="https://web.archive.org/web/20130118043643/http://www.ziffdavis.com/" class="ZDlogo"></a>
+    </div>
+</div>
+<form name="aspnetForm" method="post" action="/web/20130118043643/http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617" id="aspnetForm">
+<div>
+<input type="hidden" name="CounterCurrent" id="CounterCurrent" value="794519"/>
+
+</div>
+
+
+
+
+<div id="header">
+    <div id="ctl00_ctl00_m_logoandads" class="header-normal">
+            
+	    <a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/" class="header-logolink"></a>
+	    <div class="header-ad">
+		    <div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20130118043643js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=horizlarge;role=0;csl=;csh=;ind=0;kw=Security;kw=InformationSecurity;kw=ComputerSecurity;kw=Vulnerability;kw=Bugfix;kw=Bugs;kw=CVS;kw=Privacy;cont=DM;sz=728x90,468x60,1x1;tile=6;ord=1519806745">
+
+	</script>
+</div>
+        </div> 
+        <div id="ctl00_ctl00_m_SiteSkinAd">
+            <script src="https://web.archive.org/web/20130118043643js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=siteskin;role=0;csl=;csh=;ind=0;kw=;cont=DM;sz=1280x946;tile=13;ord=1519806745">
+
+</script>
+        </div>
+         
+    </div>
+</div>
+</x-bbskip>
+
+
+<div class="clear"></div>
+
+<div id="nav">
+	<div id="nav-search">
+        
+<script type="text/javascript">
+    var _action = 'https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/search/';
+    var _mainArgumentName = 'r';
+    var _additionalArgumentName = null;
+</script>
+<div class="nav-search">
+    <div class="nav-searchcontainer">
+    <input class="nav-searchtextbox" id="query" type="text" watermark="Search Toolbox.com" defaultbutton="btnGlobalSearch"/>            
+    </div>
+    <input id="btnGlobalSearch" class="nav-searchbutton" type="button" onclick="GlobalSearch()"/>
+</div>
+
+        
+	</div>
+	<div class="nav-tab" id="divmyhometab">
+		<!-- MY HOME -->
+		<div class="nav-myhometabdown-unrec">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/" class="anthracite">My Home</a>
+			<div class="nav-myhomepaneldown">
+                </div>
+		</div>
+		
+	</div>
+	<div class="nav-tab" id="divtopicstab">
+      
+		<!-- TOPICS -->
+		<div class="nav-topicstabup-unrec">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/topics/" class="white">Topics</a>
+              </div>
+        
+		<div class="nav-dividerup">
+		</div>
+	</div>
+    
+    <div class="nav-tab">
+		<!-- PEOPLE -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/" class="anthracite">People</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+    
+	<div class="nav-tab">
+		<!-- Companies -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/companies/" class="anthracite">Companies</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+    
+    <div class="nav-tab">
+		<!-- Jobs -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/jobs/" class="anthracite">Jobs</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+    
+	<div class="nav-tab">
+		<!-- WHITEPAPERS -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/companies/white-papers/" class="anthracite">White Paper Library</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+    
+</div>
+
+<!-- SUBNAV -->
+<div class="clear height0">
+</div>
+<div id="subnav">
+	
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/">Home</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemup" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/blogs/">Blogs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/groups/">Groups</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/wiki/index.php/CommunityTopic?a=security">Wiki</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/communities/">Communities</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/research/">White Papers</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/documents/">Q&amp;A and Docs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/directory/">Directory</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/events/">Events</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/subscriptions/">Subscriptions</a>
+				
+			</div>
+		
+			<div style="clear: both;">
+			</div>
+		
+</div>
+
+
+        
+<div class="clear"></div>
+
+<div class="clear"></div>
+
+
+
+
+<div id="content">		
+    
+    <div><script src="https://web.archive.org/web/20130118043643js_/http://s3.amazonaws.com/static.adziff/qhint/topad_tb.js"></script></div>
+
+	<div class="content-leftcol">
+                 
+    
+    <div class="spacer-small">
+        <div>
+	
+			<div class="breadcrumb-linkbox size11">
+				<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/" class="gray">
+				Toolbox for IT</a>
+			</div>
+		
+			<div class="breadcrumb-separator"></div>
+		
+			<div class="breadcrumb-linkbox size11">
+				<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/topics/" class="gray">
+				Topics</a>
+			</div>
+		
+			<div class="breadcrumb-separator"></div>
+		
+			<div class="breadcrumb-linkbox size11">
+				<a href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/" class="gray">
+				Security</a>
+			</div>
+		
+			<div class="breadcrumb-separator"></div>
+		
+			<div class="breadcrumb-linkbox size11">
+				<a href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/blogs/" class="gray">
+				Blogs</a>
+			</div>
+		
+			<span class="breadcrumb-separator"></span>
+		
+	<div class="clear"></div>
+	<div class="spacer-ittybitty"></div>
+</div>
+<span class="gray size17"></span>
+
+                    
+                    
+                    
+                            
+        
+        <div class="spacer-tiny"></div>
+    </div>
+    
+    
+    <div class="clear">
+        <div valign="top" class="content-listimage">
+    
+			
+            <h1 class="anthracite size24 bold content-title" style="line-height:40px; visibility:visible; display:block">Case Of The Mischievous Minotaur - Part XXI</h1>             
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-05 23:16:16Z">Sep 5, 2005</span>
+        
+        
+<span class="size11 darkgray"> | Comments </span>
+        
+<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617#comments" class="size11">(41)</a>
+        
+
+    </div>
+	
+</div>
+    </div>
+    <div class="spacer-small"></div>
+    <div class="left-gutter">
+        
+
+<div id="fb-root"></div>
+<script type="text/javascript">
+    $(document).ready(function () { 
+        window.fbAsyncInit = function () {
+            FB.init({ appId: '237674746269801', status: true, cookie: true,
+                xfbml: true
+            });
+        };
+        (function () {
+            var e = document.createElement('script'); e.async = true;
+            e.src = document.location.protocol + '//web.archive.org/web/20130118043643/http://connect.facebook.net/en_US/all.js';
+            document.getElementById('fb-root').appendChild(e);
+        } ());
+    });
+</script>
+
+<div class="sharebar">
+    <div class="sharebar-item" id="sharebar-twitter">
+        <a href="https://web.archive.org/web/20130118043643/http://twitter.com/share" class="twitter-share-button" data-url="https://web.archive.org/web/20130118043643/http://it.toolbox.com/trd/73/2/5617/3/twitter" data-counturl="http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617" data-count="horizontal">Tweet</a>
+    </div>
+    <div class="sharebar-item" id="sharebar-fb">
+        <fb:like href="http://it.toolbox.com/trd/73/2/5617/3/facebook" send="false" layout="button_count" width="0" show_faces="true" action="recommend" font=""></fb:like>
+    </div>
+
+    
+    <style>    
+        #sharebar-li > span > span + span
+        {
+        	border-bottom: 4px solid white;
+        }
+    </style>
+
+    <div class="sharebar-item" id="sharebar-li">
+    <script type="in/share" data-url="http://it.toolbox.com/trd/73/2/5617/3/linkedin" data-counter="right"></script>
+    </div>
+    <div class="sharebar-item" style="margin-top: -2px" id="sharebar-googleplus">
+        <g:plusone href="http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617"></g:plusone>
+    </div>
+    
+		<div style="float: right; width: 95px; margin-right: -25px">
+			<div id="ctl00_ctl00_m_m_m_m_shareBar_divVoteUp" class="sharebar-item" style="margin: 3px 6px 0px 0px">
+				<a href="https://web.archive.org/web/20130118043643/http://rss.ittoolbox.com/rss/security-investigator.xml" id="blogs-rssicon" class="blog-meta icons-rssblogentry displayblock"></a>
+			</div>
+			<div class="sharebar-item">
+				<div class="vote blogs-votebox">
+					<a href="javascript:void(0)" onclick="voteHandler(0,5617,3,3);" id="imgHelpful5617">
+						<table cellpadding="0" cellspacing="0" border="0" class="ach_votebox">
+							<tr>
+								<td class="vote-button-wrapper pointer">
+									<div id="ctl00_ctl00_m_m_m_m_shareBar_voteImage" class="ach_vote">
+									</div>
+								</td>
+								<td class="ach_votecount bold background-lightblue" id="S5617">
+									0
+								</td>
+							</tr>
+						</table>
+					</a>
+				</div>
+				<div class="ach_confirm" style="display: none; margin-left: -188px;" id="rateMsg5617">
+					Please <a href="https://web.archive.org/web/20130118043643/https://login.toolbox.com/1/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617">Sign In</a> or <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617&amp;trksubprod=bloglikelink">Register</a> to like this blog.
+				</div>
+				<div id="loading5617" class="ach_confirm" style="display: none;">
+					<div style="width: 16px; height: 16px" lazysource="http://cdn.toolbox.com/BUILD_1956/rds/icon-refresh.gif"></div>
+				</div>
+			</div>
+		</div>
+    
+    <div class="clear"></div>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            // google plus one
+            (function () {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://web.archive.org/web/20130118043643/https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+
+            // twitter
+            $.getScript('https://web.archive.org/web/20130118043643/http://platform.twitter.com/widgets.js');
+
+            // linkedin
+            $.getScript('https://web.archive.org/web/20130118043643/http://platform.linkedin.com/in.js');
+        });
+    </script>
+</div>
+
+
+        
+        
+
+
+    </div>
+     <div class="spacer-small"></div>
+    <div class="blog-content content-entryindent ">
+        Conclusion - Part III (End)<br/><br/>The slide on the screen appeared to disturb Steven and Ronald to the point that they were both getting a bit unnerved.<br/><br/>"What we have here is a black market for Huge Kingdom items that began with several key MMM employees." I explained. "We're going to talk about the specific actions in a later slide.  I'd like to stick to our timeline and show you the series of events that led to this.  Firstly, a key vulnerability in the Huge Kingdom inventory was discovered in the quality assurance process.  The vulnerability was discovered by Chuck, who then allowed Barbie to file it as a bug.  At this time, Chuck and Barbie had a semi-romantic relationship.  According to employee interviews, Barbie's skills were noticeably inadequate for her position.  Chuck was privy to this opinion and made every attempt to help Barbie appear like a functional part of the team - including providing her with bugs to file and the necessary background material to explain the bugs."<br/>I paused briefly to advance my slides.  Steven was holding his head in his hands.<br/><br/>"Secondly, Chuck never officially added the bug fix to the production builds of Huge Kingdom." I said.<br/><br/>"He added the fix to the CVS, however the fix wasn't complete." Scrap interjected.  "If you look at this slide carefully, you'll notice that there is code to clean the requests to the server-side inventory handler.  However, the code is intentionally broken.  The version of the code that would have fixed this is 1.0.4.  This code was copied into a 1.0.5 version, but a key sequence of code was removed which actually cleaned the requests." <br/><br/>"Exactly." I added.  "Chuck did this with the intention of providing Barbie with more opportunities to report critical bugs.  What appeared at one time to be a 'medium' level bug fix would later be found by Barbie to be a 'high' level bug fix."<br/><br/>"But how the hell did he do this under the nose of Duke when he was here?  Duke would have been employed at the time this happened." Steven asked.<br/><br/>"Duke spent his last weeks at MMM working on core engine components and fixes that never made it into the game.  With Duke distracted and upset by management not wanting to implement a lot of his suggestions, Chuck was doing all source and build management." I responded.  "The change control function failed miserably.  Management oversight was almost non-existent at this point." <br/><br/>Ronald glanced frequently at Steven, watching his reactions to my report.  It appeared that Ronald was not a happy CEO.<br/><br/>I moved on to the next slide.<br/><br/>"Looking at our timeline, Barbie has been moved to an administrative function at the request of Mr. Slinkpips.  I thought this move was strange, and asked several other members of the staff about it.  Are either of you aware that Mr. Slinkpips regularly attends after-hours happy hours with staff members?  Two employees revealed in their interviews that Mr. Slinkpips has been known to sing Karaoke with Barbie and a few other staffers.  You may have a possible conflict of interest in your human resources department." I said.<br/><br/>"Oh, lovely." Ronald moaned.  <br/><br/>"This next slide goes into a bit more detail about the slide we saw earlier.  This shows specific activities on Barbie's workstation that were captured by my associate.  You'll notice some key items here:<br/><br/>1) Barbie spent a lot of time playing the company product, which I understand is allowed by company policy.  You'll notice, however, that several in-game chat conversations were captured.  The software we installed was only able to catch Barbie's part of the conversation through her keystrokes.  These conversations are the same conversations that Ken had been recording for us as he followed our mischievous minotaur around Huge Kingdom - otherwise known as Trotsky.<br/><br/>2) You'll notice that several of the conversations are between Barbie and other characters.  From her side of the conversation, you can see that she is trying to arrange the sale of Huge Kingdom items.<br/><br/>3) On the following slide, you'll see captured eBay traffic that shows her account name 'hugekingdomwares', the posting of Huge Kingdom items for sale, and seller to buyer communications.  <br/><br/>4) Towards the bottom of the same slide, you'll see captured webmail traffic from hotmail.com.  Barbie has logged in as user 'trotsky' to read emails from Paypal indicating that payment has been received for several items.  You'll also see emails where Barbie has used the same account and funds to purchase items on Ebay."<br/><br/>Ronald interrupted me.<br/><br/>"Chief, I have to thank you for a very complete investigation of this matter.  To be quite honest, I've heard enough of this matter.  Steven is going to perform a little house cleaning for me.  If it's not too much to ask, I'd like you and your associate to stay and help us plug these holes in our product, staff and procedures."<br/><br/>I glanced at Scrap, who returned a nod.<br/><br/>"We'd be happy to assist, Ronald." I said as I shook Ronald's hand.<br/><br/>Ronald had a brief heated discussion with Steven and left the room.  <br/><br/>"If the information on your slide is accurate, they were using embedded commands to manipulate the inventory parser on the server.  I'd like to see this in action." Steven demanded.<br/><br/>"Allow me." Scrap said as he removed a laptop from his bag. <br/><br/>The demonstration was wildly successful.  Steven was completely aghast.<br/><br/>"So Barbie decided to take advantage of Chuck and her knowledge of this bug to make some cash on the side?  It just seems so risky." Steven said as he stared at Scrap's laptop.  <br/><br/>"There aren't too many more dangerous things in life than a woman scorned." I mumbled.<br/><br/>"Boy can I vouch for that." Scrap said in agreement.<br/><br/>Barbie and Chuck were interviewed by Steven and an attorney and terminated that same day. Ronald met with Slinkpips shortly after our meeting and severely reprimanded him.  Slinkpips somehow retained his position in the human resources department.<br/><br/>Scrap demonstrated the bug to the last remaining programmers and worked with the development team to squash the bug.  <br/><br/>After my presentation to MMM's legal department, they were very eager to implement safeguards immediately.  I spent my last few days on this engagement writing a security plan and policies for MMM, including an entire software development life cycle and change management program.  <br/><br/>=*=<br/><br/>The plane ride home couldn't have come soon enough.  Scrap and I were mentally exhausted and were planning some rest and relaxation time. <br/><br/>"That was the most bizarre engagement I've ever seen." I said as I sampled the free pretzels and questionable-quality coffee provided by the flight attendant.<br/><br/>"You got that right, man.  The whole thing was a bummer all the way around." Scrap said in between swigs of cola.<br/><br/>"What do you mean?" I asked.  "You looked like you were in your element there towards the end."<br/><br/>"Maybe so." Scrap said.  "But I would have really liked a date or two with Barbie.  Wowzers."<br/><br/>"You are unreal." I said as I tossed a pretzel at Scrap.
+    </div>    
+    <div class="spacer"></div>
+    <div class="marginleftgutter">
+            <hr/>
+    <table width="100%" bgcolor="#FFFFCC" cellpadding="9px">
+        <tr>
+            <td>
+                <div style="margin-right: 9px; float: left; height: 60px; width: 60px" lazysource="http://userimages.ittoolbox.com/user/s_610000.jpg"></div>
+<font face="Arial" size="4"><b>DID YOU KNOW?</b></font><font face="Arial" size="2">
+                        <p style="margin-top: 2px">
+                            You can read all of SecurityMonkey's case files!  Find them <b><a href="https://web.archive.org/web/20130118043643/http://blogs.ittoolbox.com/security/investigator/archives/official-securitymonkey-case-file-index-14787">here</a></b>.
+                            <br/>
+                            <br/>
+                            You can also read all of the 'Banana Cupboard' stories <a href="https://web.archive.org/web/20130118043643/http://blogs.ittoolbox.com/security/investigator/archives/banana-cupboard-stories-index-25647">here</a>.
+                            <br/>
+                            <br/>
+                            You may not get a lot done for a few hours... or even days.</p>
+                    </font>
+                   The reviews are in...<br/>
+                <br/> <i>"Completely addictive... suspenseful and informative at the same time!"<br/>
+                    "A mix of classic detective scripting, timing, and technology..."<br/>
+                    "Cleverly injected humor makes these case files easy to read and hard to put down!"</i>
+            </td>
+        </tr>
+    </table>
+    <hr/>
+
+        <div class="clear"></div>
+    </div>
+    <div class="spacer"></div>
+
+    
+    
+
+      <div class="spacer"></div>
+      <a href="#comments">
+        <div class="icons-commentlist floatleft marginleft10"></div>
+        <h2 class="darkblue size15 bold floatleft">
+            
+            Read 41 comments
+        </h2>    
+        <div class="floatleft icons-blog-arrowdown"></div>
+        <div class="clear"></div>
+      </a>
+    <div class="spacer"></div>
+    <div class="related-white-papers left-gutter spacer-large">
+        <div class="spacer-small">
+            <h2 class="anthracite size12 bold">Popular White Paper On This Topic</h2>
+            
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:PopWP" href="https://web.archive.org/web/20130118043643/http://wireless.ittoolbox.com/research/four-business-problems-solved-with-microsoft-skype-technology-26256?sp=cm&amp;r=BlogPopular">Four Business Problems Solved with Microsoft Skype ...</a></li>
+	
+        </ul>
+    
+
+        </div>
+        <div class="spacer-small">
+            <h2 class="anthracite size12 bold">
+                Related White Papers</h2>
+            
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20130118043643/http://telephony.ittoolbox.com/research/security-in-the-cloud-the-angel-platform-25828?sp=kw&amp;r=BlogRelated">Security in the Cloud: The Angel Platform</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/research/reducing-the-cost-and-complexity-of-web-vulnerability-management-25942?sp=kw&amp;r=BlogRelated">Reducing the Cost and Complexity of Web Vulnerability ...</a></li>
+	
+	<div class="clear spacer-ittybitty"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a hpx="Blogs:RelWP" href="https://web.archive.org/web/20130118043643/http://cio.ittoolbox.com/research/rethinking-your-enterprise-security-25951?sp=kw&amp;r=BlogRelated">Rethinking Your Enterprise Security</a></li>
+	
+        </ul>
+    
+
+        </div>
+        <div class="floatright">
+            
+<a class="link-button" href="/web/20130118043643/http://it.toolbox.com/companies/white-papers/">More&nbsp;White&nbsp;Papers</a>
+        </div>
+    </div>
+    
+    <div class="portals-med">
+<a name="comments"></a>
+<div class="spacer-tiny">
+    
+    <h2 class="anthracite size15 bold floatleft content-entryindent">
+        41
+        Comments
+    </h2>
+    <a href="https://web.archive.org/web/20130118043643/http://rss.ittoolbox.com/rss/security-investigator-comments.xml" class="icons-rss displayblock floatleft blog-meta"></a>
+    <div class="clear"></div>
+</div>
+<div class="content-entryindent clear">
+    
+    
+    
+            <a name="784818"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-19 16:19:00Z">Jul 19, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">aaaugghh!!!  
+
+More... please.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="784907"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-19 17:08:00Z">Jul 19, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Sure hope we don't have to wait another week for the next installment! 
+
+
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="784983"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-19 19:43:00Z">Jul 19, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Sorry to complain Chief, but this one wasn't even worth your time posting.  Of course, this is like telling Mother Thereas that she was being selfish by taking the last piece of chicken...
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="784988"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-19 19:54:00Z">Jul 19, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">This is a long case file, there is a lot of story development.  Some postings aren't going to be as informative or exciting as the next... but all are necessary to move the story along.
+
+Remember, each posting contains a little foreshadowing and clues... 
+
+
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="784995"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-19 20:09:00Z">Jul 19, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">My, my - the natives are growing restless aren't they . . .
+
+Don't worry Chief, some of us appreciate your panache for story development, character building and foreshadowing.
+
+Holster those clue bananas, mister, and keep these fine pieces of work coming.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785158"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 03:41:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">The fact that the character just disappeared coupled with the=
+ ability to direct change another characters properties suggests=
+ to me that someone is using an unknown debug character=2E You=
+ could correlate the time that the character dissapeared with the=
+ appropriate tcp dump and isolate the traffic stream related to=
+ that character and find ip addresses and other goodies=2E
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785159"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 03:41:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Starving for meat and potatoes, where's the meat ? 
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785324"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 09:01:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">And you always do a great job of that=2E  Hopefully you see these=
+ comments as offhanded compliments=2E=2E=2Ewhat they really mean is=
+ you've built up such a fanbase that many people are frothing at=
+ the mouse (sic) to read the next installment=2E  Keep up the great=
+ work!
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785388"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 10:18:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Great story so far, Chief!
+
+Ignore the complaints... We're just addicted to reading your case files :)
+
+'mute
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785442"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 10:56:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">against the cabinet, laptop on his thighs, and snoring so loud that he could be heard overtop of several Sun E450 servers nearby.
+
+s/overtop/over the top/
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785443"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 10:56:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">reviewing the traffic with with a couple of peeps and
+
+s/with with/with/
+
+Sorry I found that one just as I hit send
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785603"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 13:25:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">I think the character "disappeared" because it was never really "there".
+
+Tim 
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785642"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 14:29:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite"><grumble>
+
+Let SecurityMonkey worry about editing when he does a book. Otherwise, I'm happy to read the blog mistakes and all, without the grammer police, thankyouverymuch.
+
+</grumble>
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785678"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 14:57:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">What happened with the book anyway?  A while ago somebody from oreilly was here asking you to get in touch with him.  What came of that?  
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785701"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 15:24:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">The comment about the second, undocumented, debug tool was good=2E =
+ Ghost mode=2E  Which implies that he sees you looking for him, but=
+ you are unaware of him watching=2E   Given that the doer has that=
+ kind of skill level and probable awareness (although he might be=
+ so arrogant as to assume that no one could have picked up on=
+ it), I have to wonder if the tcp dump will yield valid results=2E =
+ I think that Locutus' idea of corelating the event time with the=
+ tcp dump results is a good one=2E  You have to start somewhere=2E =
+ Have you been sniffing packets the whole time?  What did the=
+ traffic just before, during and just after the centaur's=
+ disappearance look like?
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785708"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 15:37:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">The book - in the works.  Keep your shirts on!
+
+Grammar monkeys - I don't mind it so much.  I'm a little annoyed that my grammar/spelling checker is missing these.
+
+Case file - I have littered the entries with clues.  Some have been discussed, others I'm hoping haven't been overlooked.  Be patient, it's a big story and there's a lot of detail.  I'm just trying not to lose everyone in the detail.  
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785718"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-20 16:00:00Z">Jul 20, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Awesome news about the book!
+
+I've picked up some clues, just not enough to get a good theory going yet, other than those already stated.
+
+BTW - July 21 is (no kidding!) Monkey Day, but I'm fairly certain it doesn't have anything to do with Chief :)
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="785994"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-07-21 02:09:00Z">Jul 21, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">To wintermute,
+
+The grammer comments I made were posted soley in good faith to=
+ help improve an already fantastic case file=2E Other people have=
+ done so in the past and have not attracted comments like yours=
+ which leaves me wondering what prompted you=2E As you can see from=
+ my previous posts I am no shakespear either=2E Lets just focus on=
+ being entertained and eating some greate clu bannas from cheefs=
+ stoorhous of knolege=2E
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="796979"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-06 20:11:00Z">Aug 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Something I'm surprised about - a company doesn't run that kind of computer power just to provide a game universe for free. So why hasn't any effort been made to translate the Trotsky's userid into a real-life name and credit card?
+
+If Trotsky doesn't map to a paying user, then you've narrowed your suspect list to those who currently logged in to the system through company userids ... and mightn't there be some way to track their processes and/or debug userids? 
+
+I'm catching up to this story, haven't gotten to the latest entry yet, but had to post this anyhow. Seems a very obvious avenue of investigation has been totally overlooked.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="812649"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 01:07:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Before I forget, a note on this installment of the conclusion:
+
+Chief's tip: When installing a monitoring application, install=
+ from a command prompt=2E  Check disk space=2E  Leave workstation as=
+ undisturbed as possible=2E  If all else fails, shut the=
+ workstation down gently and simulate a power outage=2E  One of my=
+ favorite tricks is to take out the batteries of a desk clock=
+ that runs off of AC power so it resets and blinks "12:00"=2E  
+
+I purposely did not include the other interviews I conducted in=
+ previous postings=2E  There has to be some suspense=2E  :-)
+
+
+
+ 
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="812671"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 01:54:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Thanks for the addiction, Chief!  This is better than being a kid and borrowing the entire Hardy Boys collection in one day (actually, they only let me take 5 at a time, so I went back many times a day).
+
+--smd.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="812890"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 07:22:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">I presume Scrap actually performed other actions than the ones=
+ described above as the keylogging utility would stop functioning=
+ after a reboot or a _real_ power outage, forcing the utility to=
+ be re-installed every time - which does not look like Standard=
+ Operating Procedure for Scrap, not to mention SecMonkey!! :-D
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813063"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 10:36:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">These files are like crack for me. When will the next one be availible?! :)
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813089"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 11:07:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Only ten more articles and we'd have a _really_ good case file.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813334"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 14:39:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">So .. Barbies in it up to her ankles .. pity she dived in head first.
+She scr*wed the company who probably thought they were doing her a favour by demoting rather than firing her, 
+Who else is interred with her? [ref Wenchworks lyric concerning 2 brothers and 2 outhouses]
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813537"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 18:17:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">It's kind of frustrating the way we are kept guessing, and new facts magically appear during conclusions! So, these are detective stories, but not the kind the audience is allowed to solve before the detective does ...
+
+Fun anyway, though.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813566"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 19:21:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Following up on a few comments:
+
+- The 'ears' software installs just like many commercial monitoring applications.  It starts with every reboot, and can be automatically uninstalled by inserting the original CD and issuing a command with a password.
+
+- I (like many TV dramas) add new clues through every posting.  If the events were obvious through every posting, what fun would it be to read?  And what incentive would I have to keep writing.  :-)
+
+- CBK: What? This thing is long enough!  It could have been a book by itself.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813569"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-30 19:33:00Z">Aug 30, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Great story, have kept me coming back.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="813911"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-31 09:09:00Z">Aug 31, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Excellent story, Chief!  This, like all the others, has been such a great, stimulating break from the mundane workday.
+
+Thanks!!
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="814046"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-31 10:53:00Z">Aug 31, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Chief:
+
+Because it would have been episode XXX, instead of just XX.
+
+(It's not highbrow, but what are you going to do?)
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="814696"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-08-31 20:13:00Z">Aug 31, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Can you provide some additional info about the "ears.exe" application?
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="815302"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-01 13:18:00Z">Sep 1, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">"Ears" is a semi-commercial monitoring application that I've used=
+ on Windows machines=2E  It's very transparent to the untrained=
+ eye=2E  It can be configured to capture keystrokes, specific=
+ traffic types, etc=2E  It's nothing that you couldn't do a google=
+ search for and find a plethora of options available=2E  We=
+ nick-named it "ears" one day and it stuck=2E
+
+
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817100"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 03:46:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">So, what we have here is: a broken build policy; a broken security policy; a broken HR policy; at least 2 disgruntled staff; and ready market place that will pay to exploit these items. 
+
+Instructive: it wasn't one single item that opened the hole, but a combination of many. 
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817282"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 08:18:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Great story Chief.  So were you bummed or impressed when so many people guessed Barbie after the first post or two? ;)
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817306"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 09:03:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Yay. Now *I* feel complete. At least, until the next story.... 
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817326"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 09:16:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Nice way to give a hint at the real game. Thanks I was wondering what it was.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817605"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 13:10:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">It was all there to see.
+Good Story.  Now where did you say Barbie is working now?
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817692"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 14:10:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Great story, Chief. This one definately needs to go in your book :)
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817763"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 15:11:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">One thing I like that was brought out in this installment, was=
+ the possible inappropriate and biased behavior from an HR=
+ relationship with employees at happy hour=2E I have learned the=
+ hard way that, by and large, you leave HR to HR and don't get=
+ involved with their business, personal or private=2E This is=
+ especially true when you start mixing genders in those=
+ relationships=2E=2E=2E
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817797"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/"><div class="userimage-defaulttiny"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/unknownuser/" class="size11">Unknown User</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 16:20:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Did you indicate how long this went on before it was caught? The average fraud or con goes, on average, 18 months.
+
+I've seen this go way over this timeframe, so I know it's true.
+
+What was this one?
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+    
+            <a name="817884"></a>
+            
+	<div valign="top" class="content-listimage">
+    
+    <div class="size11 darkgray content-meta">
+        <div class="floatleft" style="margin-top:-2px; margin-right:10px"><a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaulttiny" lazysource="http://userimages.ittoolbox.com/user/0/0/0/t_610000.jpg"></div></a>
+</div>
+
+	
+		<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+		
+
+<!---->
+
+		
+<span class="pubdate size11 darkgray" title="2005-09-06 17:50:00Z">Sep 6, 2005</span>
+        
+        
+
+    </div>
+	<span class="anthracite size13" contentbodystyle="Anthracite">Adrian: Exactly!  Multiple lessons learned in this case.
+
+Brian: Yes and no.  I did my best to keep it under wraps until the end, but you all are way too bright.
+
+JKYLRHYD: No hint was given - you're reading something into it.  :-)
+
+Spunk: no idea - is this Scrap posting again? 
+
+bknowss: Less than a year.
+
+</span>
+</div>
+           
+    <div class="spacer"></div>
+
+
+</div>
+</div>
+    
+    
+    <div class="spacer">
+        <a name="commentAnchor"></a>
+        
+        
+        
+        <h2 class="anthracite size14 bold paddingtop5 marginleftgutter">Leave a Comment</h2>
+        <div id="blogs-entercomment" class="marginleftgutter">
+            
+            <div class="clear spacer-tiny">
+                <a href="javascript:formatStr('strong');" class="blogs_boldbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('u');" class="blogs_underlinebutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('i');" class="blogs_italicbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('strike');" class="blogs_strikebutton displayblock floatleft"></a>
+                <a href="javascript:insertLink();" class="blogs_linkbutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('code');" class="blogs_codebutton displayblock floatleft"></a>
+                <a href="javascript:formatStr('blockquote');" class="blogs_blockquotebutton displayblock floatleft"></a>
+                <div class="clear"></div>
+            </div>            
+            <div class="spacer-tiny">
+                <textarea name="ctl00$ctl00$m$m$m$m$commentText" rows="2" cols="20" id="ctl00_ctl00_m_m_m_m_commentText" class="textareamedium blog-comment-box"></textarea>
+                <input name="ctl00$ctl00$m$m$m$m$txtSpecialTitle" type="text" id="ctl00_ctl00_m_m_m_m_txtSpecialTitle" class="displaynone"/>
+            </div>
+            <table border="0" cellpadding="0" cellspacing="0" style="width:488px">
+                <tr>
+                    <td valign="bottom" style="padding:0" nowrap>
+						
+							<div class="clear spacer-small form-label">
+								<input id="ctl00_ctl00_m_m_m_m_connecttoblog" type="checkbox" name="ctl00$ctl00$m$m$m$m$connecttoblog"/>
+								<span>Connect to this blog to be notified of new entries.</span>
+							</div>
+						<input name="ctl00$ctl00$m$m$m$m$cN" type="text" value="Name" id="ctl00_ctl00_m_m_m_m_cN" class="textbox marginright5" watermark="Name" style="width:150px;"/>
+                            <input name="ctl00$ctl00$m$m$m$m$cE" type="text" value="Your email address" id="ctl00_ctl00_m_m_m_m_cE" class="textbox" watermark="Your email address" style="width:150px;"/>
+                        
+                    </td>
+                    <td valign="bottom" nowrap>
+                        <div class="floatright">
+                            <table id="ctl00_ctl00_m_m_m_m_submitCommentButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_submitCommentButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$submitCommentButton$btnCTA" value="Submit" id="ctl00_ctl00_m_m_m_m_submitCommentButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+                        </div>
+                        <div class="floatright marginright5">
+                            <table id="ctl00_ctl00_m_m_m_m_previewButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_previewButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$previewButton$btnCTA" value="Preview" id="ctl00_ctl00_m_m_m_m_previewButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="spacer-small clear">
+                <a id="ctl00_ctl00_m_m_m_m_submitAnchor" name="submitAnchor"></a>
+            </div>
+            <div class="darkgray">
+                
+                <div class="spacer-tiny">
+                    You are not logged in.
+                </div>
+                <img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a href="https://web.archive.org/web/20130118043643/https://login.toolbox.com/1/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617">Sign In</a> to post unmoderated comments.<br/>
+                <img class="link-image-carat" src="https://web.archive.org/web/20130118043643im_/http://cdn.toolbox.com/BUILD_1956/rds/carat-blue.png" style="border-width:0px;"/>
+<a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register/?page=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617&amp;trksubprod=postcomment">Join the community</a> to create your free profile today.                
+                
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    <div style="display: none">
+        <input name="ctl00$ctl00$m$m$m$m$ctl01" type="text" id="ctl00_ctl00_m_m_m_m_ctl01"/>
+    </div>
+    
+    
+		<div class="marginleftgutter size14 anthracite spacer">
+			Want to read more from
+			Chief Monkey? Check out the <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/securitymonkey/monthly/" class="size14 bold">
+				blog archive</a>.
+		</div>
+	
+    <div class="marginleftgutter spacer">
+        
+        
+                <strong>Keyword Tags:</strong>&nbsp;
+                Security
+                &nbsp;
+                 Information Security
+                &nbsp;
+                 Computer Security
+                &nbsp;
+                 Vulnerability
+                &nbsp;
+                 Bugfix
+                &nbsp;
+                 Bugs
+                &nbsp;
+                 CVS
+                &nbsp;
+                 Privacy
+		
+			<div class="size11" style="margin-top: 20px">
+				Disclaimer: Blog contents express the viewpoints of their independent authors and
+				are not reviewed for correctness or accuracy by
+				Toolbox for IT. Any opinions, comments, solutions or other commentary
+				expressed by blog authors are not endorsed or recommended by
+				Toolbox for IT
+				or any vendor. If you feel a blog entry is inappropriate, <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/contact/blogs">
+					click here</a> to notify
+				Toolbox for IT.
+			</div>
+		
+    </div>
+
+		    
+
+        <div class="sponsoredlinks clear">
+            
+
+ 
+            <div id="ctl00_ctl00_m_OutBrainAd">
+	
+                <div class="OUTBRAIN" data-src="https://web.archive.org/web/20130118043643oe_/http://it.toolbox.com/blogs/securitymonkey/case-of-the-mischievous-minotaur-part-xxi-5617" data-widget-id="AR_1" data-ob-template="toolbox"></div>
+                <script type="text/javascript" async="async" src="https://web.archive.org/web/20130118043643js_/http://widgets.outbrain.com/outbrain.js"></script>            
+            
+</div>
+            <div id="ctl00_ctl00_m_marchexAd">
+	
+                
+<script type="text/javascript">	   
+    //GOOGLE ADS:
+    var google_last_ad_type = '';
+    function google_ad_request_done(google_ads) {
+        var htmloutput;
+        if (google_ads.length != 0) {
+            htmloutput = '<div class="ad-title">Ads by Google</div>';
+            htmloutput += '<a class="ad-attribution" href="' +
+            google_info.feedback_url+'">what\'s this?</a><div class="clear"></div>';
+            for (var i = 0; i < google_ads.length; i++) {
+                htmloutput += '<br><a class="ad-link" href="' +
+                google_ads[i].url +
+                '" >' +
+                google_ads[i].line1 +
+                '</a><br><span class="black">' +
+                google_ads[i].line2 + 
+                google_ads[i].line3 + '</span><br>' +
+                '<a href="' +
+                google_ads[i].url + '" >' +
+                google_ads[i].visible_url + '</a><br>';
+            }
+            document.write(htmloutput);
+            return;
+        }
+    }
+    //parameters of the ad call 
+    google_ad_client = 'ca-ziffdavis_consumer_js'; // substitute your client_id
+    google_ad_channel = 'toolbox'; // substitute your channel
+    google_ad_output = 'js'; // leave this value as js
+    google_max_num_ads = '5'; // specify the number of maximum ads
+    google_ad_type = 'text'; // type of ads to display
+    google_safe = 'high'; // specify the ad safety
+    google_adtest = 'off';
+</script>
+<script language="JavaScript" src="https://web.archive.org/web/20130118043643js_/http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+ 
+            
+</div>
+            
+		</div>
+    </div>
+    <div class="content-rightcol">
+        
+        
+    
+    
+
+<script language="javascript" type="text/javascript">
+    function showHideMore() {
+        var element;
+        element = document.getElementById("lessVersion")
+        element.style.display = (element.style.display == "none") ? "block" : "none";
+        element.style.visible = (element.style.visible == "false") ? "true" : "false";
+        element = document.getElementById("moreVersion")
+        element.style.display = (element.style.display == "none") ? "block" : "none";
+        element.style.visible = (element.style.visible == "false") ? "true" : "false";
+    }
+</script>
+
+<div class="box-containerbase">
+    
+        
+        <div class="spacer-small" id="blogs-titlewithmeta">            
+            <h2>
+                <div>
+                    <div class="blogs-title">    
+                        <table>
+                            <tr>
+                                <td valign="top" align="left">
+                                    <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/"><div class="userimage-defaultbadge" lazysource="http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg"></div></a>
+
+                                </td>
+                                <td valign="top" align="left">
+                                    
+                                        <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/securitymonkey/" class="size15 bold">
+											A Day in the Life of an Information Security Investigator                                
+										</a>
+                                    
+										<div id="blog-authorintitle">
+											by <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/chiefmonkey/" rel="author">
+												Chief Monkey</a>&nbsp;Information Security Investigator, Consultant, Trouble maker
+										</div>
+										<div class="spacer-tiny"></div>
+									
+                                </td>
+                            </tr>
+                        </table> 
+                    </div>                    
+                    
+                </div>
+            </h2>
+            
+            
+            <div>
+                <div id="lessVersion" class="size13 anthracite">
+                    Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to ...
+                    <a href="javascript:showHideMore();" class="hoverS">more</a>
+                </div>
+                <div style="display: none" id="moreVersion" class="size13 anthracite">
+                    Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to an investigator with over 18 years of experience?  You'll find the entire casefile library here for your reading pleasure.  Not only are the educational and entertaining, but highly addictive.  You've been warned!
+                    <a href="javascript:showHideMore();" class="hoverS">less</a>
+                </div>                
+            </div>
+			<div>
+	
+    <div id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_pnlSeparator">
+		
+        <div class="spacer-small"></div>
+        <div class="rule-gray spacer-tiny"></div>
+    
+	</div>
+    <div class="cta-connecttoblog spacer-small">
+        
+        <div class="spacer-small">
+            <span class="size13 bold black spacer-small">Receive the latest blog posts:</span>
+        </div>
+    </div>
+    <div class="clear">
+        
+        <input name="ctl00$ctl00$m$r$r$r$blogsMeta$standardContainer$ConnectToBlog1$tbEmail" type="text" value="Your email address" id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_tbEmail" class="textboxtiny cta-followblog-textbox" watermark="Your email address" defaultbutton="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_btnCTA"/>
+        <div class="floatright">
+            <table id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$blogsMeta$standardContainer$ConnectToBlog1$btnSubmit$btnCTA" value="Follow" onclick="return TrackCallToAction(this,'BlogsConnect');" id="ctl00_ctl00_m_r_r_r_blogsMeta_standardContainer_ConnectToBlog1_btnSubmit_btnCTA" class="button"/>
+            
+        </td>
+		</tr>
+	</table>
+	
+
+        </div>
+    </div>    
+
+</div>                    
+
+
+<script language="javascript" type="text/javascript">
+// CALL TO ACTION TRACKING
+var IsCallToActionSet = false;
+var ctaBtnClicked = null;
+var ctaDtClicked = null;
+var ckUrl = null;
+function TrackCallToAction(sender, ctaName)
+{
+    try
+    {
+        if (sender != null && sender != ctaBtnClicked)
+        {
+            ctaBtnClicked = sender;
+            ctaDtClicked = new Date();
+	        var myUrl = 'http%3a%2f%2fit.toolbox.com%2fblogs%2fcommunity%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d5617%26';
+	        ckUrl = 'https://web.archive.org/web/20130118043643/http://it.toolbox.com/api/ctatools/CreateCookie.aspx?CTAPage=' + myUrl + '&CTA=' + ctaName;
+        	
+	        document.getElementById('ctaimage').src = ckUrl;
+            // Give the image a second
+            setTimeout("ctaBtnClicked.click()", 1500);
+	    }
+        if ((new Date() - ctaDtClicked) > 1499)//the wait is over
+        {
+            IsCallToActionSet = true;
+        }
+        return IsCallToActionSet;
+    }
+    catch(e){}
+}
+function CallToActionSet(el)
+{
+    if (el.src)
+    {
+        IsCallToActionSet = true;
+        ctaBtnClicked.click();
+    }
+}
+</script>
+<img id="ctaimage" alt="" width="1" height="1" onload="CallToActionSet(this)"/>
+
+			
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+
+    <div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20130118043643js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge;role=0;csl=;csh=;ind=0;kw=Security;kw=InformationSecurity;kw=ComputerSecurity;kw=Vulnerability;kw=Bugfix;kw=Bugs;kw=CVS;kw=Privacy;cont=DM;sz=1x1,336x280,300x250,300x600;tile=7;ord=1519806745">
+
+	</script>
+</div>
+	
+<div class="box-containerbase">
+    
+        <div class="background-lightblue spacer-tiny">
+            <div class="size15 bold blue cta-shareperspective">Share Your Perspective</div>
+        </div>
+        <div class="cta-startblog">
+            <div class="spacer-small">
+            Share your professional knowledge and experience with peers. Start a blog on Toolbox for IT today!
+            </div>
+            
+            <div class="floatright spacer">
+                <table id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_tbCt" class="button-outerorange" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_tdCt" class="button-innerorange">
+            
+            <a id="ctl00_ctl00_m_r_r_r_ctl00_standardContainer_startYourBlogCTAButton_hlCTA" class="button" hpx="Blogs:BeginNow" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/start">Begin Now</a>
+        </td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+
+
+	<div align="center" style="margin-top:inherit;margin-bottom:20px">
+	<script src="https://web.archive.org/web/20130118043643js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge2;role=0;csl=;csh=;ind=0;kw=Security;kw=InformationSecurity;kw=ComputerSecurity;kw=Vulnerability;kw=Bugfix;kw=Bugs;kw=CVS;kw=Privacy;cont=DM;sz=1x1,336x280,300x250,300x600;tile=8;ord=1519806745">
+
+	</script>
+</div>
+    
+<div class="spacer">
+    <div class="box-standardtitlebase box-standard">
+    <span class="bold anthracite size12 floatleft">Chief's Twitter-ings</span>
+    <div class="floatright">
+        
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="box-containerbase">
+    
+        <div>
+            <span><script src="https://web.archive.org/web/20130118043643js_/http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 3,
+  type: 'profile',
+  rpp: 10,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().setUser('chiefmonkey').start();
+</script>
+
+<br/><br/><br/>
+<center><img src="https://web.archive.org/web/20130118043643im_/http://ad.ittoolbox.com/images/TopTenBlogger-IT-2012.png"/></center><br/>
+<center><img src="https://web.archive.org/web/20130118043643im_/http://ad.ittoolbox.com/images/TopTenBlogger-IT-2011.png"/></center>
+</span>        
+        </div>        
+        <div class="floatright">
+            
+        </div>
+    
+    <div style="clear:both"></div>
+</div>
+<div class="box-standardtitlebase box-standard">
+    <span class="bold anthracite size12 floatleft">Categories</span>
+    <div class="floatright">
+        
+    </div>
+    <div style="clear:both"></div>
+</div>
+<div class="box-containerbase">
+    
+        <div>
+            <div class="floatleft">
+                <select name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$categoryListDD" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD">
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/banana-cupboard-stories/2796">Banana Cupboard Stories</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/casefiles/2275">Casefiles</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/index/2277">Index</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/opinion/278">Opinion</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/outsourcing/31">Outsourcing</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/rant/2324">Rant</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/stay-current/276">Stay Current</option>
+
+</select>
+            </div>
+            <div class="floatleft">
+                <table id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$goButton$btnCTA" value="Go" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_btnCTA" class="button"/>
+            
+        </td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt').click(function () {
+                    document.location = ($('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD option:selected').val());
+                    return false;
+                })
+            });
+        </script>
+    
+    <div style="clear:both"></div>
+</div>
+
+
+</div>
+    	
+    
+    
+
+
+
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<x-bbskip>
+<div>
+	
+ <div id="footer">
+ <div id="footer-inner">
+ <div>
+ <div>
+		
+  <div class="footer-colsmall">
+   
+<div class="footer-header lightgray spacer-small">Toolbox for IT</div>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/">My Home</a>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/topics/">Topics</a>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/people/">People</a>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/companies/">Companies</a>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/jobs/">Jobs</a>
+<a class="footer-link" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/companies/white-papers/">White Paper Library</a>
+   <br/>
+   
+<div class="footer-colsmall spacer-small">
+<div>
+			
+ <div class="footer-header lightgray">Collaboration Tools</div>
+ <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/groups/" class="footer-link">Discussion Groups</a>
+ <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/blogs/" class="footer-link">Blogs</a>
+ <a href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/wiki/" class="footer-link">Wiki</a>  
+
+		</div>
+
+
+</div>
+   
+<div class="footer-header lightgray">Follow Toolbox.com</div>
+
+<a href="https://web.archive.org/web/20130118043643/http://twitter.com/toolboxforit" class="footer-link" target="_blank">Toolbox for IT on Twitter</a>  
+
+<a href="https://web.archive.org/web/20130118043643/http://twitter.com/toolboxdotcom" class="footer-link" target="_blank">Toolbox.com on Twitter</a>  
+<a href="https://web.archive.org/web/20130118043643/http://www.facebook.com/pages/Toolboxcom/117012708708" class="footer-link" target="_blank">Toolbox.com on Facebook</a>  
+
+  </div>
+  <div class="footer-colwide">
+<div class="footer-header lightgray spacer-small">Topics on Toolbox for IT</div>
+<div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Data Center</div>
+    <a href="https://web.archive.org/web/20130118043643/http://datacenter.ittoolbox.com/" class="footer-link">Data Center</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Development</div>
+    <a href="https://web.archive.org/web/20130118043643/http://c.ittoolbox.com/" class="footer-link">C Languages</a>
+    <a href="https://web.archive.org/web/20130118043643/http://java.ittoolbox.com/" class="footer-link">Java</a>
+    <a href="https://web.archive.org/web/20130118043643/http://visualbasic.ittoolbox.com/" class="footer-link">Visual Basic</a>
+    <a href="https://web.archive.org/web/20130118043643/http://webdesign.ittoolbox.com/" class="footer-link">Web Design &amp; Development</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Enterprise Applications</div>
+    <a href="https://web.archive.org/web/20130118043643/http://crm.ittoolbox.com/" class="footer-link">CRM</a>
+    <a href="https://web.archive.org/web/20130118043643/http://erp.ittoolbox.com/" class="footer-link">ERP</a>
+    <a href="https://web.archive.org/web/20130118043643/http://infor.ittoolbox.com/" class="footer-link">Infor</a>
+    <a href="https://web.archive.org/web/20130118043643/http://peoplesoft.ittoolbox.com/" class="footer-link">PeopleSoft</a>
+    <a href="https://web.archive.org/web/20130118043643/http://sap.ittoolbox.com/" class="footer-link">SAP</a>
+    <a href="https://web.archive.org/web/20130118043643/http://supplychain.ittoolbox.com/" class="footer-link">SCM</a>
+    <a href="https://web.archive.org/web/20130118043643/http://siebel.ittoolbox.com/" class="footer-link">Siebel</a>
+ </div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Enterprise Architecture &amp; EAI</div>
+    <a href="https://web.archive.org/web/20130118043643/http://eai.ittoolbox.com/" class="footer-link">Enterprise Architecture &amp; EAI</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray"> Information Management</div>
+    <a href="https://web.archive.org/web/20130118043643/http://businessintelligence.ittoolbox.com/" class="footer-link">Business Intelligence</a>
+    <a href="https://web.archive.org/web/20130118043643/http://database.ittoolbox.com/" class="footer-link">Database</a>
+    <a href="https://web.archive.org/web/20130118043643/http://datawarehouse.ittoolbox.com/" class="footer-link">Data Warehouse</a>
+    <a href="https://web.archive.org/web/20130118043643/http://knowledgemanagement.ittoolbox.com/" class="footer-link">Knowledge Management</a>
+    <a href="https://web.archive.org/web/20130118043643/http://oracle.ittoolbox.com/" class="footer-link">Oracle</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">IT Management &amp; Strategy</div>
+    <a href="https://web.archive.org/web/20130118043643/http://emergingtech.ittoolbox.com/" class="footer-link">Emerging Technology &amp; Trends</a>
+    <a href="https://web.archive.org/web/20130118043643/http://cio.ittoolbox.com/" class="footer-link">IT Management &amp; Strategy</a>
+    <a href="https://web.archive.org/web/20130118043643/http://projectmanagement.ittoolbox.com/" class="footer-link">Project &amp; Portfolio Management</a>
+
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Cloud Computing</div>
+    <a href="https://web.archive.org/web/20130118043643/http://cloud.ittoolbox.com/" class="footer-link">Cloud Computing</a>
+ </div>
+
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Networking &amp; Infrastructure</div>
+    <a href="https://web.archive.org/web/20130118043643/http://hardware.ittoolbox.com/" class="footer-link">Hardware</a>
+    <a href="https://web.archive.org/web/20130118043643/http://wireless.ittoolbox.com/" class="footer-link">Mobile &amp; Wireless</a>
+    <a href="https://web.archive.org/web/20130118043643/http://networking.ittoolbox.com/" class="footer-link">Networking</a>
+    <a href="https://web.archive.org/web/20130118043643/http://telephony.ittoolbox.com/" class="footer-link">Communications Technology</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Operating Systems</div>
+    <a href="https://web.archive.org/web/20130118043643/http://linux.ittoolbox.com/" class="footer-link">Linux</a>
+    <a href="https://web.archive.org/web/20130118043643/http://unix.ittoolbox.com/" class="footer-link">UNIX</a>
+    <a href="https://web.archive.org/web/20130118043643/http://windows.ittoolbox.com/" class="footer-link">Windows</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Security</div>
+    <a href="https://web.archive.org/web/20130118043643/http://security.ittoolbox.com/" class="footer-link">Security</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Storage</div>
+    <a href="https://web.archive.org/web/20130118043643/http://storage.ittoolbox.com/" class="footer-link">Storage</a>
+ </div>
+ </div>    
+
+
+</div>
+  
+<div class="footer-colsmall">
+<div class="footer-header gray spacer-small">Toolbox.com</div>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/about/" class="footer-link-gray">About</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/news/" class="footer-link-gray">News</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/PrivacyPolicy.aspx" class="footer-link-gray">Privacy</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/TermsofUse.aspx" class="footer-link-gray">Terms of Use</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/careers/" class="footer-link-gray">Work at Toolbox.com</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/it/advertising/" class="footer-link-gray">Advertise</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/contact/" class="footer-link-gray">Contact us</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Provide Feedback</a>
+<br/>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/help" class="footer-link-gray">Help Topics</a>
+<a href="https://web.archive.org/web/20130118043643/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Technical Support</a>
+
+<br/>
+<div>
+			
+ <div class="footer-header gray spacer-small">Other Communities</div>
+ 
+ <span>
+    <a href="https://web.archive.org/web/20130118043643/http://hr.toolbox.com/" class="footer-link-gray">Toolbox for HR</a> 
+ </span>
+ <span>
+    <a href="https://web.archive.org/web/20130118043643/http://finance.toolbox.com/" class="footer-link-gray">Toolbox for Finance</a> 
+ </span>
+
+		</div>
+
+</div>
+ 
+	</div>                
+ </div>
+ 
+ 
+<div style="clear:both"></div>
+<div id="footer-disclaimer">
+    Copyright 1998-2013 Ziff Davis, Inc (Toolbox.com). All rights reserved. All product names are trademarks of their respective companies.  Toolbox.com is not<br/>
+    affiliated with or endorsed by any company listed at this site.
+</div>
+<br/><br/>
+</div>
+</div>
+
+</div>
+
+
+</x-bbskip>
+
+
+
+
+<div class="minidash-outerbox" id="mdouter">
+    <div class="minidash-innerbox">
+           
+             
+            <div class="floatleft">
+                <a><div class="userimage-defaulttiny"></div></a>
+                
+            </div>
+            <div class="minidash-divider"></div>
+
+            <!-- newToToolbox -->
+            <div class="minidash-item" id="mindash-newToToolbox" popup="true">
+                <div class="minidash-lgtrigger-up" id="mindash-newtotoolboxup" popdownbutton="true">New to Toolbox?</div>
+                <div popupbutton="true" class="anthracite">
+                    
+<div class="floatleft">
+    <div buttonview="true" style="display:none;">
+        <table class="button-outerminidash" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="button-innerminidash">
+                    <span class="bold size11 white">New to Toolbox?</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div buttonview="false">
+        <span class="anthracite">New to Toolbox?</span>
+    </div>
+</div>
+<div id="ctl00_ctl00_m_MiniDash1_newttb_notifierDiv" class="floatleft" notifierdiv="true" style="display:none;">
+    <table class="button-outernotifier" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="button-innernotifier">
+                <span class="bold size11 white" notifiercount="true">0</span>
+            </td>
+        </tr>
+    </table>
+</div>                 
+                </div>
+                <!-- NEW TO TOOLBOX panel -->
+                <div class="minidash-lgpanel" popuppanel="true">
+                    <div class="minidash-lgpanel-top white bold size12">New to Toolbox.com?</div>
+                    <div class="minidash-lgpanel-middle">
+                        <div class="minidash-joinmessage">
+                            The Toolbox.com community helps you solve workplace problems.<br/>
+                            <div class="spacer-small"></div>
+                            Get started today - solve your problems and stay current.
+                            <div class="spacer-tiny clear"></div>
+                            <div class="floatright">
+                                
+<a class="categorynode" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register?trksubprod=ctajoin" style="margin: 0; padding-top: 1px">Join Now</a>&nbsp;
+                            </div>
+                            <div class="clear"></div>
+                       </div>                       
+                    </div>
+                    <div class="minidash-lgpanel-bottom"></div>
+                </div>
+            </div>
+            <div class="minidash-divider"></div>
+            
+            <!-- Unrecognized Ask A Question-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" hpx="Minidash:UnRecognized:AskAQuestion" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/ask-a-question">Ask A Question</a>
+            </div>
+            <div class="minidash-divider"></div>
+            
+             <!-- Unrecognized Join-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" hpx="Minidash:UnRecognized:Join" href="https://web.archive.org/web/20130118043643/http://it.toolbox.com/home/register?trksubprod=ctajoin">Join</a>            
+            </div>
+            <div class="minidash-divider"></div>
+        
+    </div>
+</div>
+
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFALHjLrNAgKW0MqVDwLl0tOdCALSr9DMDwL7xYS8BwKn0ZHODgKn0f3NDgLivob8DAKC2KzxBwLspq/1AgK/9/6mCwKO1+vRDAKNjNibDwLU4NDQBAKJ+piZCAKpiLGhDwKB4IKJAQK/8r6iDAL19N/cCQKh47DbDdB0NfoftixbPjtGBCNOIRjBSGx6"/>
+</div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDYzNjEwMDk2D2QWAmYPZBYCZg9kFgJmD2QWBgIDEGRkFgoCBQ8WAh4FY2xhc3MFDWhlYWRlci1ub3JtYWwWAgIBDw8WAh4HVmlzaWJsZWhkZAINDxYCHwFoZAIRD2QWBAIBD2QWAgIBD2QWBGYPZBYCZg9kFgICAw8WAh8ABRBzcGFjZXItaXR0eWJpdHR5ZAIBD2QWCmYPZBYCAgEPZBYEZg8PFgIfAWhkZAICDw8WBB4LTmF2aWdhdGVVcmwFOmh0dHA6Ly9pdC50b29sYm94LmNvbS9ob21lL2Jsb2cvZW50cmllcy8/ZWlkPTU2MTcmYmxvZ2lkPTIfAWdkZAIGD2QWBAIBDxYCHwFnFgICAQ9kFgJmDxYCHgtfIUl0ZW1Db3VudAIBZAIDDxYCHwFnFgICAQ9kFgJmDxYCHwMCA2QCCQ9kFgQCBg8PZBYCHgl3YXRlcm1hcmsFBE5hbWVkAgcPD2QWAh8EBRJZb3VyIGVtYWlsIGFkZHJlc3NkAgsPFgIfAWhkAgwPFgIfAwIIFhACAQ9kFgJmDxUBCFNlY3VyaXR5ZAIDD2QWAmYPFQEVIEluZm9ybWF0aW9uIFNlY3VyaXR5ZAIFD2QWAmYPFQESIENvbXB1dGVyIFNlY3VyaXR5ZAIHD2QWAmYPFQEOIFZ1bG5lcmFiaWxpdHlkAgkPZBYCZg8VAQcgQnVnZml4ZAILD2QWAmYPFQEFIEJ1Z3NkAg0PZBYCZg8VAQQgQ1ZTZAIPD2QWAmYPFQEIIFByaXZhY3lkAgMPFgIfAWcWBAIBD2QWAmYPFgIfAWhkAgUPDxYCHwFnZBYCAgEPZBYCAgEPFgIeBFRleHQFA29mZmQCEw9kFgQCAQ8PFgIfAWhkZAIDD2QWAmYPZBYCAgEPZBYIZg9kFgICAQ9kFgICAg9kFgICAQ9kFgxmD2QWAmYPDxYCHwIFKWh0dHA6Ly9pdC50b29sYm94LmNvbS9wZW9wbGUvY2hpZWZtb25rZXkvZBYCZg8WBB8ABRZ1c2VyaW1hZ2UtZGVmYXVsdGJhZGdlHgpsYXp5c291cmNlBTdodHRwOi8vdXNlcmltYWdlcy5pdHRvb2xib3guY29tL3VzZXIvMC8wLzAvYl82MTAwMDAuanBnZAIBDxYCHwUFQiZuYnNwO0luZm9ybWF0aW9uIFNlY3VyaXR5IEludmVzdGlnYXRvciwgQ29uc3VsdGFudCwgVHJvdWJsZSBtYWtlcmQCAw8WAh8BaGQCBA8WAh8BZ2QCBQ9kFgJmD2QWBgIBDw8WAh8BZ2RkAgUPEGRkFgBkAgcPD2QWBB8EBRJZb3VyIGVtYWlsIGFkZHJlc3MeDWRlZmF1bHRCdXR0b24FT2N0bDAwX2N0bDAwX21fcl9yX3JfYmxvZ3NNZXRhX3N0YW5kYXJkQ29udGFpbmVyX0Nvbm5lY3RUb0Jsb2cxX2J0blN1Ym1pdF9idG5DVEFkAgYPZBYCZg9kFgICAg9kFgICAQ9kFgICAQ9kFgICAg8QDxYCHwFoZGQWAGQCAg9kFgJmD2QWAgICD2QWAgIBD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYEAgEPDxYCHwFoFgIeA2hweAUOQmxvZ3M6QmVnaW5Ob3dkAgMPDxYEHwIFIWh0dHA6Ly9pdC50b29sYm94LmNvbS9ibG9ncy9zdGFydB8BZxYCHwgFDkJsb2dzOkJlZ2luTm93ZAIED2QWAgIBD2QWAgIBDw8WAh8BaGRkAgUPZBYCZg8WAh8BaGQCFw9kFgICAQ9kFgICAQ9kFgRmD2QWAmYPZBYCZg8WAh8ABRV1c2VyaW1hZ2UtZGVmYXVsdHRpbnlkAgEPZBYEAgEPFgIeBXN0eWxlBQ1kaXNwbGF5Om5vbmU7ZAIFDxYCHwkFDWRpc3BsYXk6bm9uZTtkAgQPDxYEHg5KYXZhU2NyaXB0RmlsZQUxaHR0cDovL2ljZG4udG9vbGJveC5jb20vQlVJTERfMTk1Ni9qcy9vbW5pdHVyZS5qcx8BZ2RkAgUPZBYCAgEPZBYCAgEPZBYCZg8WAh8BaGQYAwUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFIWN0bDAwJGN0bDAwJG0kbSRtJG0kY29ubmVjdHRvYmxvZwUbY3RsMDAkY3RsMDAkbSRNaW5pRGFzaDEkbW12Dw9kAgFkBSBjdGwwMCRjdGwwMCRtJEdOJHRvcGljc011bHRpVmlldw8PZGZkWADz4nmstd7Xi+uZuLK5oUf8dbk="/></form>
+<div>
+<!-- SiteCatalyst code version: H.17.
+Copyright 1997-2008 Omniture, Inc. More info available at 
+http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript">
+var s_account="ittoolglobalit,ittoolitsecurity,ittoolglobal"
+</script>
+<script language="JavaScript" type="text/javascript" src="https://web.archive.org/web/20130118043643js_/http://icdn.toolbox.com/BUILD_1956/js/omniture.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.referrer=document.referrer
+s.channel="blogs"
+s.prop3="Unrecognized"
+s.prop41="384"
+s.prop16="BlogEntry:5617"
+s.prop5="IT"
+s.prop6="Security"
+s.prop7="blogs"
+s.prop27="blogs:securitymonkey"
+s.prop28="blogs:securitymonkey:entry"
+s.prop29="blogs:securitymonkey:entry"
+/* E-commerce Conversion Variables */
+s.events=""
+s.eVar20="blogs"
+s.hier1="IT,Security,blogs,securitymonkey,entry"
+s.hier2="blogs,IT,Security"
+s.pageName="IT:Security:blogs:securitymonkey:entry:Case Of The Mischievous Minotaur - Part XXI"
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="https://web.archive.org/web/20130118043643/http://www.omniture.com/" title="Web Analytics"><img src="https://web.archive.org/web/20130118043643im_/http://metrics.toolbox.com/b/ss/ittoolglobalit,ittoolitsecurity,ittoolglobal/1/H.17--NS/0" height="1" width="1" border="0" alt=""/></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.17. -->
+
+</div>
+
+	
+    
+    <script language="javascript" type="text/javascript">
+        var cTextId = "ctl00_ctl00_m_m_m_m_commentText"
+        $(document).ready(function () {
+            $.getScript('https://web.archive.org/web/20130118043643/http://icdn.toolbox.com/BUILD_1956/js/groupmessagevoting.js');
+            $.getScript('https://web.archive.org/web/20130118043643/http://icdn.toolbox.com/BUILD_1956/js/blogedit.js');
+        });
+    </script>
+
+    
+    
+
+
+
+<script src="https://web.archive.org/web/20130118043643js_/http://icdn.toolbox.com/BUILD_1956/js/toolbox.common.js" language="javascript" type="text/javascript"></script> 
+<script type="text/javascript">
+    InitCodeHighlighting('https://web.archive.org/web/20130118043643/http://cdn.toolbox.com/BUILD_1956/', 'https://web.archive.org/web/20130118043643/http://it.toolbox.com/');
+</script>
+
+<!-- popunder window -->
+
+<script type="text/javascript">
+    var popundercookie = getCookie("PopunderState"); 
+    if(popundercookie == "pagetwo") 
+    {  
+      popunder = window.open("/api/popular-research/", "", "height=600, scrollbars=yes, width=970");
+      popunder.blur();
+      window.focus();
+    } 
+</script>
+<script>$.get('/api/t/2/rt/?u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-mischievous-minotaur-part-xxi-5617&r=' + escape(document.referrer));</script>
+<!-- begin zdbb -->
+
+<script type="text/javascript" src="https://web.archive.org/web/20130118043643js_/http://cdn.static.zdtag.com/js/9nCgMGobEeGubBIxORg8RQ.js">
+</script>
+
+<!-- end zdbb -->
+<script language="JavaScript1.1" src="https://web.archive.org/web/20130118043643js_/http://pixel.mathtag.com/event/js?mt_id=129810&amp;mt_adid=102987"></script>
+
+<!-- Begin comScore Tag --> 
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "6036202" });
+    (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://web.archive.org/web/20130118043643/https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })(); 
+</script> 
+<noscript> 
+<img src="https://web.archive.org/web/20130118043643im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=6036202&amp;cv=2.0&amp;cj=1"/> 
+</noscript> 
+<!-- End comScore Tag -->
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript">
+  (function () {
+    var d = new Image(1, 1);
+    d.onerror = d.onload = function () {
+      d.onerror = d.onload = null;
+    };
+    d.src = ["//web.archive.org/web/20130118043643/http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+  })();
+</script>
+<noscript>
+  <div>
+    <img src="//web.archive.org/web/20130118043643im_/http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-806031h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt=""/>
+  </div>
+</noscript>
+
+<!-- END Nielsen Online SiteCensus V6.0 -->
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:36:43 Jan 18, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:00:21 Oct 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.161
+  CDXLines.iter: 26.929 (3)
+  load_resource: 116.481
+  exclusion.robots: 0.173
+  RedisCDXSource: 1.348
+  captures_list: 172.554
+  PetaboxLoader3.resolve: 103.82 (2)
+  PetaboxLoader3.datanode: 117.892 (4)
+  esindex: 0.013
+  LoadShardBlock: 141.325 (3)
+-->

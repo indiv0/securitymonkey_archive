@@ -1,0 +1,1980 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app101.us.archive.org';v.server_ms=2542;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=BsQ6byDz" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=cRqOKCOw" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://it.toolbox.com:80/blogs/securitymonkey/case-of-the-robotic-reflex-part-i-20895","20110114003847","https://web.archive.org/","web","/_static/",
+	      "1294965527");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=NHuXCfBH" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Case Of The Robotic Reflex - Part I
+</title><link rel="shortcut icon" href="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/favicon.ico"/>
+ <script src="https://web.archive.org/web/20110114003847js_/http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>   
+ <link rel="Stylesheet" type="text/css" href="https://web.archive.org/web/20110114003847cs_/http://icdn.toolbox.com/BUILD_1406/css/master.css"/>
+    
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="keywords" content="security, securitymonkey, casefile"/><meta name="description" content="How do I keep getting talked into doing these things? I asked myself as I shoved my powerbook into my laptop bag.
+
+I had been in Las Vegas for two ..."/><link rel="canonical" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/case-of-the-robotic-reflex-part-i-20895"></link></head>
+<body> 
+ <script type="text/javascript">	
+    var isCorpSite = false;
+    var signinURL = 'https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/signin';            
+    var vertBaseURL = 'https://web.archive.org/web/20110114003847/http://it.toolbox.com/';
+    var CDNImageURL = 'https://web.archive.org/web/20110114003847/http://cdn.toolbox.com/BUILD_1406/';
+    var CurrentVerticalName = 'Toolbox for IT';
+</script>
+<script src="https://web.archive.org/web/20110114003847js_/http://icdn.toolbox.com/BUILD_1406/js/mbox.js" type="text/javascript" language="javascript"></script> 
+<div id="lightbox-panel"></div>    
+<form name="aspnetForm" method="post" action="/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/case-of-the-robotic-reflex-part-i-20895" id="aspnetForm">
+<div>
+<input type="hidden" name="CounterCurrent" id="CounterCurrent" value="5458"/>
+
+</div>
+
+
+<div class="header-banner"><span style="font:bold 14px arial; color:#FFFFFF;">
+Featured Webcast: Windows 7 Deployment - "An Insider's Guide"
+</span>
+<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/trd/885101" style="font:12 arial; color:#4682B4;">Register Today</a>
+</a></div>
+<div id="header">
+    
+	<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/" class="header-logolink"></a>
+	<div class="header-ad">
+		<div align="center" style="margin-top:inherit;margin-bottom:5px">
+	<script src="https://web.archive.org/web/20110114003847js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=horizlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;cont=DM;sz=728x90,468x60,1x1;tile=6;ord=576201920">
+
+	</script>
+</div>
+    </div>
+</div>
+
+
+<div class="clear"></div>
+
+<div id="nav">
+	<div id="nav-search">
+		
+<script type="text/javascript">
+    var _action = 'https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/search/';
+    var _mainArgumentName = 'r';
+    var _additionalArgumentName = null;
+</script>
+<div class="nav-search">
+    <div class="nav-searchcontainer">
+    <input class="nav-searchtextbox" id="query" type="text" watermark="Search Toolbox.com" defaultbutton="btnGlobalSearch"/>            
+    </div>
+    <input id="btnGlobalSearch" class="nav-searchbutton" type="button" onclick="GlobalSearch()"/>
+</div>
+
+	</div>
+	<div class="nav-tab" id="divmyhometab">
+		<!-- MY HOME -->
+		<div class="nav-myhometabdown-unrec">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/" class="anthracite">My Home</a>
+			<div class="nav-myhomepaneldown">
+                </div>
+		</div>
+		
+	</div>
+	<div class="nav-tab" id="divtopicstab">
+      
+		<!-- TOPICS -->
+		<div class="nav-topicstabup-unrec">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/topics/" class="white">Topics</a>
+              </div>
+        
+		<div class="nav-dividerup">
+		</div>
+	</div>
+    <div class="nav-tab">
+		<!-- PEOPLE -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/" class="anthracite">People</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+	<div class="nav-tab">
+		<!-- Companies -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/companies/" class="anthracite">Companies</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+    <div class="nav-tab">
+		<!-- Jobs -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/jobs/" class="anthracite">Jobs</a>
+		</div>
+		<div class="nav-dividerdown"></div>
+	</div>
+	<div class="nav-tab">
+		<!-- WHITEPAPERS -->
+		<div class="nav-tabnopaneldown">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/companies/white-papers/" class="anthracite">White Paper Library</a>
+		</div>
+		<div class="nav-dividerdown">
+		</div>
+	</div>
+</div>
+
+<!-- SUBNAV -->
+<div class="clear height0">
+</div>
+<div id="subnav">
+	
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/">Home</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemup" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/blogs/">Blogs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/groups/">Groups</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/wiki/index.php/CommunityTopic?a=security">Wiki</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/communities/">Communities</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/research/">White Papers</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/documents/">Q&amp;A and Docs</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/directory/">Directory</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/events/">Events</a>
+				
+			</div>
+		
+		
+			<div class="subnav-itembox">
+				<a class="subnav-itemdown" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/subscriptions/">Subscriptions</a>
+				
+			</div>
+		
+			<div style="clear: both;">
+			</div>
+		
+</div>
+
+
+        
+
+
+
+
+<div id="content">		
+	<div class="content-leftcol">
+            
+    
+    <div class="spacer-small">
+        
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/" class="gray">
+            Toolbox for IT</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/topics/" class="gray">
+            Topics</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/" class="gray">
+            Security</a>
+        </div>
+	
+		<div class="breadcrumb-separator"></div>
+	
+        <div class="breadcrumb-linkbox size11">
+		    <a href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/blogs/" class="gray">
+            Blogs</a>
+        </div>
+	
+		<span class="breadcrumb-separator"></span>
+	
+<div class="clear"></div>
+<div class="spacer-ittybitty"></div>
+<span class="gray size17"></span>
+
+                    
+                    
+                    
+                            
+        
+        <div class="spacer-tiny">
+        </div>
+    </div>
+    
+    
+<script language="javascript" type="text/javascript">
+    function showHideMore(){
+		var element;
+		element = document.getElementById("lessVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+		element = document.getElementById("moreVersion")
+		element.style.display = (element.style.display == "none") ? "block" : "none";
+		element.style.visible = (element.style.visible == "false") ? "true" : "false";
+	}
+</script>
+
+    <div class="floatleft">
+        <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/chiefmonkey/"><img src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/0/0/0/b_610000.jpg" border="1" class="userimage"/></a>
+
+    </div>
+    <div class="floatleft" id="blogs-titlewithmeta">
+        <h2>
+            <div class="column600">
+                <div class="floatleft blogs-title">
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/" class="size18 bold anthracite">
+				A Day in the Life of an Information Security Investigator
+				
+				</a>
+            </div>
+            <div class="floatleft">
+               <a href="https://web.archive.org/web/20110114003847/http://rss.ittoolbox.com/rss/security-investigator.xml"><div class="blog-meta icons-rssblogentry" id="blogs-rssicon"></div></a>
+            </div>
+            </div>
+        </h2>
+        <div class="clear"></div>
+        <div id="blog-authorintitle">by <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/chiefmonkey/">Security Monkey</a>&nbsp;Information Security Investigator / CISO
+</div> 
+        <div class="clear spacer-tiny"></div>
+        
+        <div class="blogs-metapanel">    	
+	        <div id="lessVersion" class="size13 anthracite">
+                Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to ...
+                <a href="javascript:showHideMore();" class="hoverS">more</a>
+            </div>
+            <div style="display:none" id="moreVersion" class="size13 anthracite">
+                Interested in information security?  Like a good mystery?  Addicted to shows like CSI?  Want to see real-life challenges posed to an investigator with over 18 years of experience?  You'll find the entire casefile library here for your reading pleasure.  Not only are the educational and entertaining, but highly addictive.  You've been warned!
+                <a href="javascript:showHideMore();" class="hoverS">less</a>
+            </div>  
+             <div class="gray">
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/">Blog Main</a>
+                <span>&nbsp;|&nbsp;</span>
+	            <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/monthly/">Archive</a>               
+            </div>      
+        </div>
+    </div>
+    
+    
+
+	
+	<div class="spacer-small clear"></div>
+	<div class="paging-entrynextprevious blog-entry">
+		
+		<div class="link-arrowbulletdoublereverse"></div>
+		<div class="floatleft">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/case-of-the-innocent-iris-the-conclusion-20875">Previous</a>
+		</div>
+		
+		<div class="floatleft">&nbsp;|&nbsp;</div>
+		
+		<div class="floatleft">
+			<div class="floatleft">
+				<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/case-of-the-robotic-reflex-part-ii-21094">Next</a>
+			</div>
+			<div class="link-arrowbulletdouble"></div>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+
+<div class="spacer-small"></div>
+
+<div class="floatright"> 
+	<div class="vote blogs-votebox">
+		<a href="javascript:void(0)" onclick="voteHandler(0,20895,3,3);" id="imgHelpful20895">
+			<table cellpadding="0" cellspacing="0" border="0" class="ach_votebox">
+				<tr>
+					<td class="vote-button-wrapper pointer">
+						<div class="ach_vote"></div>
+					</td>
+					<td class="ach_votecount bold background-lightblue" id="S20895">
+						0
+					</td>
+				</tr>
+			</table>
+		</a>
+	</div>
+	<div class="ach_confirm" style="display: none; margin-left:-188px;" id="rateMsg20895">
+		Please <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-robotic-reflex-part-i-20895">Sign In</a> or <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/register/?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-robotic-reflex-part-i-20895&amp;trksubprod=bloglikelink">Register</a> to like this blog.
+	</div>
+	<div class="ach_confirm" style="display: none;" id="loading20895">
+		<img alt="Working" src="https://web.archive.org/web/20110114003847im_/http://cdn.toolbox.com/BUILD_1406/rds/icon-refresh.gif">  
+	</div>
+</div>
+
+<div class="icons-document floatleft blogs-icon-adjust"></div>
+
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		
+		<td valign="top">
+            
+               <div class="content-title">
+                    
+			        
+                    <h1 class="blue size15 bold content-title">Case Of The Robotic Reflex - Part I</h1>
+               </div>
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/chiefmonkey/" class="size11">Chief Monkey</a>
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+                <span class="size11 gray"> | Comments </span>
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/case-of-the-robotic-reflex-part-i-20895#comments" class="size11">(19)</a>
+                
+
+            </div>
+			
+		</td>
+	</tr>
+</table>
+<div class="spacer-small"></div>
+<div class="left-gutter">
+    
+
+<div class="toolbar">
+    <div class="toolbar-left">
+        <a href="https://web.archive.org/web/20110114003847/http://twitter.com/home?status=Case+Of+The+Robotic+Reflex+-+Part+I+http%3a%2f%2fit.toolbox.com%2ftrd%2f73%2f2%2f20895%2f3%2ftwitter" title="click to tweet this" target="_blank" class="toolbar-twitter"></a>
+        <a href="https://web.archive.org/web/20110114003847/http://www.facebook.com/sharer.php?u=http%3a%2f%2fit.toolbox.com%2ftrd%2f73%2f2%2f20895%2f3%2ffacebook" name="" share_url="http://it.toolbox.com/trd/73/2/20895/3/facebook" class="toolbar-facebook"></a>
+        <script type="text/javascript" id="fb_external_script" src="https://web.archive.org/web/20110114003847js_/http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>	
+    </div>
+    <div class="toolbar-right">
+        
+        <a href="https://web.archive.org/web/20110114003847/http://addthis.com/bookmark.php?v=250&amp;username=ittoolbox" class="addthis_button toolbar-share"><span></span></a>
+        <script type="text/javascript" src="https://web.archive.org/web/20110114003847js_/http://s7.addthis.com/js/250/addthis_widget.js#username=ittoolbox"></script>    
+        <script type="text/javascript">                var addthis_config = { data_track_clickback: true, ui_delay: 250, ui_offset_top:15 }</script>
+    </div>
+    <div style="clear:both"></div>
+</div>
+ 
+</div>
+<div class="spacer-small"></div>
+<div class="blog-content content-entryindent">
+	"How do I keep getting talked into doing these things?" I asked myself as I shoved my powerbook into my laptop bag.
+<br/>
+<br/>I had been in Las Vegas for two days, dished out three presentations on information security best practices, and was eager to hop on a plane back to the monkey crib to enjoy some rest and relaxation.
+<br/>
+<br/>I scanned the emptying room and noticed that something was missing.
+<br/>
+<br/>Where was Scrap?
+<br/>
+<br/>I was twenty paces out of the room when a familiar voice called out.
+<br/>
+<br/>"Chief! Wait up!"
+<br/>
+<br/>I turned momentarily to see Scrap and another gentleman I didn't recognize trying to catch up to me while balancing drinks in both paws.
+<br/>
+<br/>"Where's the fire, boss?  Hey, I want you to meet Kip.  He just bailed me out of a shortage problem over at the bar." Scrap said in between gulps of air.
+<br/>
+<br/>"Shortage problem?" I asked.
+<br/>
+<br/>"Yeah, of the cashola kind." Scrap replied.
+<br/>
+<br/>Why wasn't I surprised?
+<br/>
+<br/>"Chief, it's a pleasure to meet you.  Kip Kerpatrick - I'm the security officer at PPP productions.  Scrap and I were talking at the bar and I happened to mention a problem that my staff is working on right now.  He seemed to think you could help me?" Kip asked.
+<br/>
+<br/>I could only imagine what Scrap had filled this poor chap's eardrums full of after six or seven long island iced teas.
+<br/>
+<br/>"Whatcha got?" I asked.
+<br/>
+<br/>"Well, I guess you could say that it's not a matter of what I have, but what I don't have." Kip replied.
+<br/>
+<br/>"Beg your pardon?" I replied while raising an eyebrow.
+<br/>
+<br/>"Control of my network." Kip said while glancing at the screen of his vibrating phone.  "Christ, it's happening AGAIN.  Excuse me for a moment." 
+<br/>
+<br/>Kip scampered off and started what appeared to be a serious conversation on his phone.
+<br/>
+<br/>"Scrap, how much have you had to drink?" I asked, not really wanting to know the answer.
+<br/>
+<br/>"Um.  Lemme see.  One... two... three..." Scrap yammered.
+<br/>
+<br/>"Never mind.  What's the deal with Kip?" I asked.
+<br/>
+<br/>"Check this out.  So he's the security monkey at PPP.  They do a lot of indie film work and commercials.  They have this new office in California.  Well, it's not really 'new' exactly... they bought this other production company... inherited a lot of staff and equipment... yadda, yadda.  Kip says that every once in a while they have these killer network outages that they haven't been able to trace back to anything.  They are on a shared pipe with a bunch of other tenants in this building... it's a fat pipe man.  10MB to the net.  Okay, so they have all these disruptions and the tenants in the building are cat fighting over who is at fault.  It sounds pretty ugly." Scrap blurted out in broken english.
+<br/>
+<br/>"Sounds like it's right up our alley." <p><a href="https://web.archive.org/web/20110114003847/http://www.numly.com/numly/verify.asp?id=44780-071129-364937-15"><img alt="numly esn" src="https://web.archive.org/web/20110114003847im_/http://numly.com/numly/icon.asp?id=4478007112936493715" border="0"> 44780-071129-364937-15<br><img src="https://web.archive.org/web/20110114003847im_/http://numly.com/numly/barcode.asp?code=4478007112936493715&amp;height=20&amp;width=1&amp;mode=code39"></a><br><br>Â© 2007 All Rights Reserved.</p>
+</div>
+<div class="spacer clear"></div>
+<span id="ctl00_ctl00_m_m_m_m_lblCustomFooter" class="content-entryindent"><p><hr><table width="100%" bgcolor="#FFFFCC" cellpadding="9px">
+<tr><td><img style="margin-right: 9px; float: left" src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/s_610000.jpg"><b><font face="Arial" size="4">DID YOU KNOW?</b></font><font face="Arial" size="2"><p style="margin-top: 2px">You can read all of SecurityMonkey's case files! <br>Find them <b><a href="https://web.archive.org/web/20110114003847/http://blogs.ittoolbox.com/security/investigator/archives/official-securitymonkey-case-file-index-14787">here</a></b>. <br><br>You can also read all of SecurityMonkey's <br>'Banana Cupboard' stories <a href="https://web.archive.org/web/20110114003847/http://blogs.ittoolbox.com/security/investigator/archives/banana-cupboard-stories-index-25647">here</a>.  <br><br>You may not get a lot done for a few hours... or even days.</font><br><br>The reviews are in...<br><br><i>"Completely addictive... suspenseful and informative at the same time!"<br>"A mix of classic detective scripting, timing, and technology..."<br>"Cleverly injected humor makes these case files easy to read and hard to put down!"</i></td></tr></table><hr><p></span>
+<div class="spacer clear"></div>
+
+
+<h2 id="ctl00_ctl00_m_m_m_m_whitepaperHeader" class="darkgray size15 bold">
+	<div class="icons-document floatleft blogs-icon-adjust"></div>
+    <div class="floatleft darkgray size15 bold">Related White Papers</div>
+	<div class="clear"></div>
+</h2>
+
+<div class="left-gutter spacer">
+	
+        <ul>
+    
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110114003847im_/http://cdn.toolbox.com/BUILD_1406/rds/carat-blue.png" style="border-width:0px;"/>
+<a onclick="SiteCatalystLinkTracking('Blogs:Entry:RelatedContent:PremiumWhitePapers')" href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/research/hybrid-web-security-the-best-of-cloud-computing-and-onpremise-combined-22735?sp=kw">Hybrid Web Security: The Best of Cloud Computing and On-Premise Combined</a></li>
+	
+		<div class="clear"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110114003847im_/http://cdn.toolbox.com/BUILD_1406/rds/carat-blue.png" style="border-width:0px;"/>
+<a onclick="SiteCatalystLinkTracking('Blogs:Entry:RelatedContent:PremiumWhitePapers')" href="https://web.archive.org/web/20110114003847/http://storage.ittoolbox.com/research/security-best-practices-for-developing-windows-azure-applications-22893?sp=kw">Security Best Practices for Developing Windows Azure Applications</a></li>
+	
+		<div class="clear"></div>
+	
+		<li class="link-indent"><img class="link-image-carat" src="https://web.archive.org/web/20110114003847im_/http://cdn.toolbox.com/BUILD_1406/rds/carat-blue.png" style="border-width:0px;"/>
+<a onclick="SiteCatalystLinkTracking('Blogs:Entry:RelatedContent:PremiumWhitePapers')" href="https://web.archive.org/web/20110114003847/http://storage.ittoolbox.com/research/understanding-security-in-cloud-storage-22224?sp=kw">Understanding Security in Cloud Storage</a></li>
+	
+        </ul>
+    
+
+    <div class="clear"></div>
+</div>
+
+
+<div id="ctl00_ctl00_m_m_m_m_relJobs_out">
+
+</div><script type="text/html" id="ctl00_ctl00_m_m_m_m_relJobs_template">
+	<# var inse=document.createElement('script'); inse.type = 'text/javascript'; inse.src = 'https://web.archive.org/web/20110114003847/http://www.indeed.com/ads/apiresults.js'; $(document).append(inse); #>
+        <div class="icons-jobs floatleft marginleft10"></div>
+		<div class="size15 bold anthracite left-gutter spacer-small">
+            <a href="https://web.archive.org/web/20110114003847/http://www.indeed.com/" target="_blank" style="color:black;text-decoration:none" title="Job Search" class="size15 bold anthracite">
+			<strong class="size15 bold darkgray">Jobs</strong> <span class="size15 bold darkgray">by</span> 
+				<img src="https://web.archive.org/web/20110114003847/http://www.indeed.com/p/jobsearch.gif" style="border:0px; margin-bottom:-4px" alt="Indeed job search">
+            </a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>			
+        <div class="left-gutter spacer-tiny">
+            <div class="spacer-tiny">
+                <# for ( var i = 0; i < jobs.length; i++ ) { var job = jobs[i];#>                
+                    <img src="https://web.archive.org/web/20110114003847/http://cdn.toolbox.com/BUILD_1406/rds/carat-blue.png" /><a href="<#= job.URL #>" target="_blank" onmousedown=\"<#= unescape(job.onmousedown) #>\" ><#= job.title #></a>
+                    <div class="marginleft12">
+                        <span class="gray"><#= job.location #></span>
+                    </div>
+                <# } #>    
+            </div>
+            <div class="spacer">
+                <div class="floatright">
+                    
+<a class="link-button" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/jobs">Search&nbsp;More&nbsp;Jobs</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    
+</script><script type="text/javascript">
+	$(document).ready(function(){PullJobs('security,securitymonkey,casefile','ctl00_ctl00_m_m_m_m_relJobs_template','ctl00_ctl00_m_m_m_m_relJobs_out','blogCM');});
+</script>
+<div class="spacer"></div>           
+
+    <a name="comments"></a>
+    <div>
+	
+    <h2 class="anthracite size15 bold spacer-tiny">       
+        <div class="icons-commentlist floatleft marginleft10"></div>
+        <div class="floatleft size15 bold darkgray marginleftminus9">19 Comments</div>    
+        <div class="floatleft">
+            <a href="https://web.archive.org/web/20110114003847/http://rss.ittoolbox.com/rss/security-investigator-comments.xml"><div class="icons-rss"></div></a>               
+        </div> 
+        <div class="clear"></div>
+    </h2>
+    
+</div>
+    <div class="clear"></div>
+    <div class="content-entryindent">
+        
+        
+                
+            <a name="1738647"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/bobbyja/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/bobbyja/" class="size11">Rob Roy</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Yeah, this is something, you keep us wanting more. Unlike the last case file, that brought to light the spans of investigative genius, this looks technical as in Geek. I hope we'll do this the old fashioned way, you know, like you used to write. Give a few tips and commands leading to how you get the results? Do i get to meet Roscoe again? Whatever happend to Roscoe?
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1738960"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/thegraycat/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/thegraycat/" class="size11">Tim Sutton</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">@Rob - I think Roscoe died in one of the case files and was either replaced or upgraded to Roscoe 2. Mind you, with chief saying "as I shoved my powerbook into my laptop bag" this sounds like an old case so Roscoe the original might be turning up. :)<br><br>Chief - great to have a techie one on the way again. I'm constantly amazed at the depth and breadth you sec monkies have.<br><br>oh, and why didn't scrap bring you a drink?! that's just plain rude.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739371"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/alexisl/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/alexisl/" class="size11">Larry Alexis</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Kind of reminds me of the commercial where the guy is asking his wife what this switch does as he flicks it on and off. I picture a guy turning off a light in a wiring closet not knowing that it also turns off power to the outlets.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739406"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/planetmike/"><img src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/3/8/0/b_1172083.jpg" border="1" class="userimage"/></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/planetmike/" class="size11">Michael Clark</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Or the old joke of the janitor who unplugs the server to plug in the vacuum cleaner. 
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739407"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/improbus/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/improbus/" class="size11">Improbus Liber</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Have you been following me around?  This is similar to a conversation I had in Las Vegas last time I was there.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739414"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+
+				
+                <span class="size11 gray">Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">I hope this case doesn't take 3 months to tell and by the end of it I have completely forgotten anything that was going on.  I like the cases but man, the time between posts can be a weee bit long
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739572"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/databit/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/databit/" class="size11">Allen Coley</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">@Michael,<br>It's not completely a joke. I was oncall the night it happened to a very large ISP back in 99. It wasn't so much like the joke goes with "Every night around the same time the server drops" it was more like "The server is down what the F just happened?"<br><br>@Chief <br>Is Kip Kerpatrick a fake name? Cause I know a guy that use to be real big into indie film stuff as well as being a bit of a tech geek. Have seen or heard from him in about in about 9 years but his name was Kip Kerpatrick and he moved out to LA. Big Red Guy from Hawaii is the best description. 
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739915"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/rdwilson2/"><img src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/9/8/1/b_853189.jpg" border="1" class="userimage"/></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/rdwilson2/" class="size11">Ralph Wilson</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Databit/Michaael,<br><br>The jantor doesn't even have to unplug the server.  The hospital I worked at a while back had a brief period of intermittent issues with the system kicking over to the 15KVA UPS at really wierd times of night and days of the week.  We finally figured out that there was an electric outlet in the morgue (which was next door to the computer room) that was on the same circuit and the janitor would periodically plug one of those big (48") floor scrubbers into the outlet to do the floors.  Since he didn't like doing the morge (go figure ;-), the janitor was not really too consistent about when he did the floors.<br><br>As the others have said, I look forward to following the technical search for the proverbial moth in the circuits. ;-)
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1739936"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/spyke01/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/spyke01/" class="size11">Paden Clayton</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">sounds like some of the old equipment might have a backdoor in it,maybe the old company is downloading the movies off of the new guys and killing the network in the process. Kind of a wild guess but ill stick with it for now, glad to see some posts again Chief keep em coming.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1740103"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/zenofjazz/"><img src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/2/3/4/b_1155432.jpg" border="1" class="userimage"/></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/zenofjazz/" class="size11">Edward Felton</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Hm. Potentially sensitive data, on a network that shares a fat pipe to the Internet.   Recently inherited infrastructure at the other location, possible insiders who may be upset about the acquisition.<br><br>Several interesting path lead from this point.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1740362"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/jbmv22/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/jbmv22/" class="size11">jonny22</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">In one of our facilities that has a pool, a janitor would actually trip a brkr so he could polish the floors uninterruped.  It would then cause a switch to shutdown and all the computers connected to it,would lose connectivity  .  Took awhile for the tech's to figure it out.  
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1740366"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/macghee/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/macghee/" class="size11">Peter MacGhee</a>
+
+				
+                <span class="size11 gray"> | Nov 30, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Seriously looking forward to the next installment.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1740475"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/challinor/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/challinor/" class="size11">Adrian</a>
+
+				
+                <span class="size11 gray"> | Dec 1, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">@Ralph<br><br>It doesnt even need to be a switch, or in the server room. Working for a large oil company in London, we installed a nice bright and shiny Ethernet. Remeber the ones with the tick yellow cables and the "bee-string" device attachments? <br><br>Well we lost the whole network when one of the building maintenance guys thought it was an earth-wire and patched a new earth block in to it! 
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1741650"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/pollywog/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/pollywog/" class="size11">Pollywog</a>
+
+				
+                <span class="size11 gray"> | Dec 2, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Is/was Roscoe a computer?
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1741752"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/macghee/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/macghee/" class="size11">Peter MacGhee</a>
+
+				
+                <span class="size11 gray"> | Dec 2, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">@ Adrian:<br>That _would_ do it.<br><br>@Pollywog:<br>Time to go back and read the archives.  From the beginning.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1744288"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+
+				
+                <span class="size11 gray">Dec 3, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">"it's a fat pipe man. 10MB to the net"<br><br>So this is a tale from the turn of the century or is it one of those "pity those who live in the bandwdith poor US of A" things? Or maybe Scrap was just too wasted or thinking of some other kind of fat pipe?<br><br>FWIW I've had a 100Mb full duplex FTTH connection at home for a few years now here in Tokyo.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1753420"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/danhb/"><img src="https://web.archive.org/web/20110114003847im_/http://userimages.ittoolbox.com/user/5/0/1/b_682105.jpg" border="1" class="userimage"/></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/danhb/" class="size11">Daniel Bissetsmith</a>
+
+				
+                <span class="size11 gray"> | Dec 6, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Ah come on now, Chris_b. Rub it in. I guess I should be happy ... I live way out in the sticks and my only service is by Hughes.net. (Ugh). Expensive two way satellite service, that works nowhere near to the advertised "up-to" speeds. But it's still faster than dialup, which works at maybe 26K at the best of times.
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1756656"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+
+				
+                <span class="size11 gray">Dec 7, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">
+I swear I won't sleep until I can read the next installment. Then again, that's about normal...<br><br>Well 10M<strong>B</strong> is a relatively big pipe, unless that "B" was supposed to be small...
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+    <div class="rule-gray"></div>
+    <div class="spacer-small"></div>
+
+                
+            <a name="1759571"></a>
+            
+	
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td valign="top" class="content-listimage">
+			<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/databit/"><div class="userimage-defaultbadge">&nbsp;</div></a>
+
+		</td>
+
+		<td valign="top">
+            
+            <div class="size11 gray content-meta">
+                
+                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/databit/" class="size11">Allen Coley</a>
+
+				
+                <span class="size11 gray"> | Dec 10, 2007</span>
+                
+
+            </div>
+			<span class="anthracite size13" contentbodystyle="Anthracite">Ug Chris_B, I hate you so much.....I just had my FTTH installed here in the US and it's only 30Mb and I was all kinds of excited. Now I here 100Mb is out there and now I'm all "Ug why is this running so slow...What do you mean 1.5 minutes for a 350 meg files. Chris would get it in 30 seconds!"
+
+
+</span>
+		</td>
+	</tr>
+</table>
+           
+    <div class="spacer"></div>
+
+
+    </div>
+
+    <div style="display:none">
+        <input name="ctl00$ctl00$m$m$m$m$ctl01" type="text" id="ctl00_ctl00_m_m_m_m_ctl01"/>
+    </div>
+
+<div class="spacer"></div>
+
+ 
+        <div class="content-entryindent">
+        
+        </div>
+
+    <div>
+    
+        
+        
+
+        <div class="icons-comment floatleft blogs-icon-adjust-comment"></div>
+        <h2 class="darkgray size15 bold paddingtop5">
+            Leave a Comment
+        </h2>
+        <div class="spacer"></div>
+        <div class="content-entryindent">
+            <div id="blogs-entercomment">
+               
+  
+                   <div class="clear"></div>               
+                   <a href="javascript:formatStr('strong');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorbold.png" alt="Bold" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:formatStr('u');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorunderline.png" alt="Underline" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:formatStr('i');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorital.png" alt="Italic" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:formatStr('strike');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorstrike.png" alt="Strike" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:insertLink()">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorlink.png" alt="Link" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:formatStr('code');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorcode.png" alt="Code" class="blogs_editorbutton" border="0">
+                   </a>
+                   <a href="javascript:formatStr('blockquote');">
+                    <img src="https://web.archive.org/web/20110114003847im_/http://images.ittoolbox.com/vt/blogs/blogs_editorquote.png" alt="BlockQuote" border="0">
+                   </a>              
+                   <br/>
+    
+                   <a name="commentAnchor"></a>
+                   <textarea name="ctl00$ctl00$m$m$m$m$commentText" rows="2" cols="20" id="ctl00_ctl00_m_m_m_m_commentText" class="textareamedium blog-comment-box"></textarea>
+                   <input name="ctl00$ctl00$m$m$m$m$txtSpecialTitle" type="text" id="ctl00_ctl00_m_m_m_m_txtSpecialTitle" class="displaynone"/>
+                   <div class="spacer-tiny"></div>
+                       
+                    <table width="488" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="darkgray" valign="bottom">                        
+                        <input id="ctl00_ctl00_m_m_m_m_connecttoblog" type="checkbox" name="ctl00$ctl00$m$m$m$m$connecttoblog"/>
+                        <span>Connect to this blog to be notified of new entries.</span>
+                        
+                            <div class="clear spacer-small"></div> 
+                            <div class="floatleft darkgray">
+                                Name<br/><input name="ctl00$ctl00$m$m$m$m$cN" type="text" id="ctl00_ctl00_m_m_m_m_cN" class="textboxtiny"/>
+                            </div>
+                            <div class="floatleft darkgray">
+                                E-mail<br/><input name="ctl00$ctl00$m$m$m$m$cE" type="text" id="ctl00_ctl00_m_m_m_m_cE" class="textboxtiny"/>
+                            </div> 
+                            
+                              
+
+                        </td>
+                        <td valign="bottom">
+                            <div class="floatright">
+                                <table id="ctl00_ctl00_m_m_m_m_submitCommentButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_submitCommentButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$submitCommentButton$btnCTA" value="Submit" id="ctl00_ctl00_m_m_m_m_submitCommentButton_btnCTA" class="button"/>
+                   
+        </td>
+	</tr>
+</table>
+
+
+                            </div>
+                            <div class="floatright marginright5">        
+                                <table id="ctl00_ctl00_m_m_m_m_previewButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_m_m_m_previewButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$m$m$m$previewButton$btnCTA" value="PREVIEW" id="ctl00_ctl00_m_m_m_m_previewButton_btnCTA" class="button"/>
+                   
+        </td>
+	</tr>
+</table>
+
+
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+
+                   <a id="ctl00_ctl00_m_m_m_m_submitAnchor" name="submitAnchor"></a>
+                   <div class="clear"></div>
+                   
+   
+                   <div class="spacer-small clear"></div>
+                    <div class="darkgray">
+                       
+                           You are not logged in.
+                           <div class="spacer-tiny"></div>
+                           <div class="link-arrowbulletbluebg"></div>
+                           <div class="floatleft">
+                                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/signin?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-robotic-reflex-part-i-20895">Sign In</a> to post unmoderated comments.
+                           </div>
+                           <div class="clear"></div>
+                           <div class="link-arrowbulletbluebg"></div>
+                           <div class="floatleft">
+                                <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/register/?r=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-robotic-reflex-part-i-20895&amp;trksubprod=postcomment">Join the community</a> to create your free profile today.
+                           </div> 
+                                         
+                   
+                   </div>
+                   <div class="clear"></div>       
+            </div>
+        </div>
+       </div> 
+
+    
+       <div class="spacer"></div>
+    <div class="left-gutter">
+         <div><strong>Archive Category:</strong>&nbsp;<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/securitymonkey/categories/Casefiles">Casefiles</a></div>
+ 
+
+         <strong>Keyword Tags:</strong>&nbsp;security&nbsp; securitymonkey&nbsp; casefile
+         <div class="spacer"></div>
+         <div class="size11">
+         Disclaimer: Blog contents express the viewpoints of their independent authors and 
+         are not reviewed for correctness or accuracy by Toolbox for IT. Any opinions, comments, solutions or other 
+         commentary expressed by blog authors are not endorsed or recommended by Toolbox for IT or any vendor. 
+         If you feel a blog entry is inappropriate, 
+         <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/contact/blogs">click here</a> to notify Toolbox for IT.
+         </div>         
+     </div>
+     <div class="spacer"></div>
+     
+
+    <div class="spacer-small"></div>
+	<div class="floatright spacer-small">
+		
+<a class="link-button" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/it-blogs">Browse&nbsp;all&nbsp;IT&nbsp;Blogs</a>
+	</div>
+    <div class="clear spacer"></div>
+	    
+
+        <div class="sponsoredlinks">
+            <div class="spacer rule-gray"></div>
+            <div id="ctl00_ctl00_m_marchexAd" class="spacer">
+	
+                <script type="text/javascript" src="https://web.archive.org/web/20110114003847js_/http://jlinks.industrybrains.com/jsct?sid=940&amp;ct=TOOLBOX_ROS&amp;num=6&amp;layt=560x350&amp;fmt=simp"></script>
+            
+</div>
+            
+		</div>
+    </div>
+    <div class="content-rightcol">
+        
+        
+    
+<div class="box-standard">
+	
+        <div>
+	
+            <div class="cta-connecttoblog spacer-small">
+                
+                <div class="spacer-small">
+                    <span class="size15 bold blue spacer-small">Receive the latest blog posts in your inbox</span>
+                </div>
+            </div>
+            <div class="clear">
+                
+                <input name="ctl00$ctl00$m$r$r$r$ctl00$CTA$tbEmail" type="text" value="Your E-mail address" id="ctl00_ctl00_m_r_r_r_ctl00_CTA_tbEmail" class="textboxtiny cta-followblog-textbox" watermark="Your E-mail address" defaultbutton="ctl00_ctl00_m_r_r_r_ctl00_CTA_btnSubmit_btnCTA"/>
+                <div class="floatright">
+                    <table id="ctl00_ctl00_m_r_r_r_ctl00_CTA_btnSubmit_tbCt" class="button-outerorange" cellpadding="0" cellspacing="0">
+		<tr>
+			<td id="ctl00_ctl00_m_r_r_r_ctl00_CTA_btnSubmit_tdCt" class="button-innerorange">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$ctl00$CTA$btnSubmit$btnCTA" value="Follow this Blog" onclick="return TrackCallToAction(this,'BlogsConnect');" id="ctl00_ctl00_m_r_r_r_ctl00_CTA_btnSubmit_btnCTA" class="button"/>
+                   
+        </td>
+		</tr>
+	</table>
+	
+
+                </div>
+            </div>
+            <div class="clear"></div>
+        
+</div>                    
+    
+</div>
+
+<script language="javascript" type="text/javascript">
+// CALL TO ACTION TRACKING
+var IsCallToActionSet = false;
+var ctaBtnClicked = null;
+var ctaDtClicked = null;
+var ckUrl = null;
+function TrackCallToAction(sender, ctaName)
+{
+    try
+    {
+        if (sender != null && sender != ctaBtnClicked)
+        {
+            ctaBtnClicked = sender;
+            ctaDtClicked = new Date();
+	        var myUrl = 'http%3a%2f%2fit.toolbox.com%2fblogs%2fentry.aspx%3fslug%3dsecuritymonkey%26i%3d20895%26';
+	        ckUrl = 'https://web.archive.org/web/20110114003847/http://it.toolbox.com/api/ctatools/CreateCookie.aspx?CTAPage=' + myUrl + '&CTA=' + ctaName;
+        	
+	        document.getElementById('ctaimage').src = ckUrl;
+            // Give the image a second
+            setTimeout("ctaBtnClicked.click()", 1500);
+	    }
+        if ((new Date() - ctaDtClicked) > 1499)//the wait is over
+        {
+            IsCallToActionSet = true;
+        }
+        return IsCallToActionSet;
+    }
+    catch(e){}
+}
+function CallToActionSet(el)
+{
+    if (el.src)
+    {
+        IsCallToActionSet = true;
+        ctaBtnClicked.click();
+    }
+}
+</script>
+<img id="ctaimage" alt="" width="1" height="1" onload="CallToActionSet(this)"/>
+    
+    <div class="spacer-small"></div>
+    <div align="center" style="margin-top:inherit;margin-bottom:5px">
+	<script src="https://web.archive.org/web/20110114003847js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;cont=DM;sz=1x1,336x280,300x250,300x600;tile=7;ord=576201920">
+
+	</script>
+</div>
+    <div class="spacer-small"></div>
+    <div class="mboxDefault">
+        
+
+<div class="mboxDefault" style="margin-bottom:-10px">
+
+<div class="box-standard">
+	
+        <div class="background-lightblue spacer-tiny">
+            <div class="size15 bold blue cta-shareperspective">Share Your Perspective</div>
+        </div>
+        <div class="cta-startblog">
+            <div class="spacer-small">
+            Share your professional knowledge and experience with peers. Start a blog on Toolbox for IT today!
+            </div>
+            
+            <div class="floatright spacer">
+                <table id="ctl00_ctl00_m_r_r_r_ctl01_standardContainer_startYourBlogCTAButton_tbCt" class="button-outerorange" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_ctl01_standardContainer_startYourBlogCTAButton_tdCt" class="button-innerorange">
+            
+            <a id="ctl00_ctl00_m_r_r_r_ctl01_standardContainer_startYourBlogCTAButton_hlCTA" class="button" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/start">Begin Now</a>       
+        </td>
+	</tr>
+</table>
+
+
+            </div>
+        </div>
+    
+</div>
+</div>
+<script type="text/javascript">mboxCreate('blogs_cta_start_a_blog');</script>
+    </div>
+    
+
+    
+    <div class="spacer-small"></div>
+    <div align="center" style="margin-top:inherit;margin-bottom:5px">
+	<script src="https://web.archive.org/web/20110114003847js_/http://ad.doubleclick.net/adj/security.ittoolbox/blogs;pos=boxlarge2;role=0;cs=0;ind=0;kw=security;kw=securitymonkey;kw=casefile;cont=DM;sz=1x1,336x280,300x250,300x600;tile=8;ord=576201920">
+
+	</script>
+</div>
+    
+    <div class="spacer-small"></div>
+    
+<div class="spacer">
+<div class="box-standardtitle">
+	<span class="bold anthracite size12">Chief's Twitter-ings</span>
+</div>
+<div class="box-standard">
+	
+        <div>
+            <span><script src="https://web.archive.org/web/20110114003847js_/http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 10,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'default'
+  }
+}).render().setUser('chiefmonkey').start();
+</script></span>        
+        </div>        
+        <div class="floatright">
+            
+        </div>
+        <div class="clear"></div>
+    
+</div>
+<div class="spacer"></div>
+<div class="box-standardtitle">
+	<span class="bold anthracite size12">Categories</span>
+</div>
+<div class="box-standard">
+	     
+     <div>
+       <div class="floatleft"><select name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$categoryListDD" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD">
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/banana+cupboard+stories/2796">Banana Cupboard Stories</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/casefiles/2275">Casefiles</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/index/2277">Index</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/opinion/278">Opinion</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/outsourcing/31">Outsourcing</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/rant/2324">Rant</option>
+	<option value="http://it.toolbox.com/blogs/securitymonkey/categories/stay+current/276">Stay Current</option>
+
+</select></div>
+       <div class="floatleft"><table id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$r$r$r$blogsCustomContent$ctl02$container$goButton$btnCTA" value="Go" id="ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_btnCTA" class="button"/>
+                   
+        </td>
+	</tr>
+</table>
+
+</div>
+     </div>
+	<div class="clear"></div>
+    
+     <div class="clear"></div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_goButton_tbCt').click(function () {                    
+                    document.location = ($('#ctl00_ctl00_m_r_r_r_blogsCustomContent_ctl02_container_categoryListDD option:selected').val());
+                    return false;
+                })
+            });
+        </script>
+     
+</div>
+ 
+
+</div>
+    <div class="spacer-small"></div>
+    
+    
+
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<div>
+	
+ <div id="footer">
+ <div id="footer-inner">
+ <div>
+ <div>
+		
+  <div class="footer-colsmall">
+   
+<div class="footer-header lightgray spacer-small">Toolbox for IT</div>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/">My Home</a>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/topics/">Topics</a>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/people/">People</a>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/companies/">Companies</a>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/jobs/">Jobs</a>
+<a class="footer-link" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/companies/white-papers/">White Paper Library</a>
+   <br/>
+   
+<div class="footer-colsmall spacer-small">
+<div>
+			
+ <div class="footer-header lightgray">Collaboration Tools</div>
+ <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/groups/" class="footer-link">Discussion Groups</a>
+ <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/blogs/" class="footer-link">Blogs</a>
+ <a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/wiki/" class="footer-link">Wiki</a>  
+
+		</div>
+
+
+</div>
+   
+<div class="footer-header lightgray">Follow Toolbox.com</div>
+
+<a href="https://web.archive.org/web/20110114003847/http://twitter.com/toolboxforit" class="footer-link" target="_blank">Toolbox for IT on Twitter</a>  
+
+<a href="https://web.archive.org/web/20110114003847/http://twitter.com/toolboxdotcom" class="footer-link" target="_blank">Toolbox.com on Twitter</a>  
+<a href="https://web.archive.org/web/20110114003847/http://www.facebook.com/pages/Toolboxcom/117012708708" class="footer-link" target="_blank">Toolbox.com on Facebook</a>  
+
+  </div>
+  <div class="footer-colwide">
+<div class="footer-header lightgray spacer-small">Topics on Toolbox for IT</div>
+<div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Data Center</div>
+    <a href="https://web.archive.org/web/20110114003847/http://datacenter.ittoolbox.com/" class="footer-link">Data Center</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Development</div>
+    <a href="https://web.archive.org/web/20110114003847/http://c.ittoolbox.com/" class="footer-link">C Languages</a>
+    <a href="https://web.archive.org/web/20110114003847/http://java.ittoolbox.com/" class="footer-link">Java</a>
+    <a href="https://web.archive.org/web/20110114003847/http://visualbasic.ittoolbox.com/" class="footer-link">Visual Basic</a>
+    <a href="https://web.archive.org/web/20110114003847/http://webdesign.ittoolbox.com/" class="footer-link">Web Design &amp; Development</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Enterprise Applications</div>
+    <a href="https://web.archive.org/web/20110114003847/http://crm.ittoolbox.com/" class="footer-link">CRM</a>
+    <a href="https://web.archive.org/web/20110114003847/http://erp.ittoolbox.com/" class="footer-link">ERP</a>
+    <a href="https://web.archive.org/web/20110114003847/http://infor.ittoolbox.com/" class="footer-link">Infor</a>
+    <a href="https://web.archive.org/web/20110114003847/http://peoplesoft.ittoolbox.com/" class="footer-link">PeopleSoft</a>
+    <a href="https://web.archive.org/web/20110114003847/http://sap.ittoolbox.com/" class="footer-link">SAP</a>
+    <a href="https://web.archive.org/web/20110114003847/http://supplychain.ittoolbox.com/" class="footer-link">SCM</a>
+    <a href="https://web.archive.org/web/20110114003847/http://siebel.ittoolbox.com/" class="footer-link">Siebel</a>
+ </div>
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Enterprise Architecture &amp; EAI</div>
+    <a href="https://web.archive.org/web/20110114003847/http://eai.ittoolbox.com/" class="footer-link">Enterprise Architecture &amp; EAI</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray"> Information Management</div>
+    <a href="https://web.archive.org/web/20110114003847/http://businessintelligence.ittoolbox.com/" class="footer-link">Business Intelligence</a>
+    <a href="https://web.archive.org/web/20110114003847/http://database.ittoolbox.com/" class="footer-link">Database</a>
+    <a href="https://web.archive.org/web/20110114003847/http://datawarehouse.ittoolbox.com/" class="footer-link">Data Warehouse</a>
+    <a href="https://web.archive.org/web/20110114003847/http://knowledgemanagement.ittoolbox.com/" class="footer-link">Knowledge Management</a>
+    <a href="https://web.archive.org/web/20110114003847/http://oracle.ittoolbox.com/" class="footer-link">Oracle</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">IT Management &amp; Strategy</div>
+    <a href="https://web.archive.org/web/20110114003847/http://emergingtech.ittoolbox.com/" class="footer-link">Emerging Technology &amp; Trends</a>
+    <a href="https://web.archive.org/web/20110114003847/http://cio.ittoolbox.com/" class="footer-link">IT Management &amp; Strategy</a>
+    <a href="https://web.archive.org/web/20110114003847/http://projectmanagement.ittoolbox.com/" class="footer-link">Project &amp; Portfolio Management</a>
+
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Cloud Computing</div>
+    <a href="https://web.archive.org/web/20110114003847/http://cloud.ittoolbox.com/" class="footer-link">Cloud Computing</a>
+ </div>
+
+ <div class="footer-topicsbox">
+ <div class="footer-header lightgray">Networking &amp; Infrastructure</div>
+    <a href="https://web.archive.org/web/20110114003847/http://hardware.ittoolbox.com/" class="footer-link">Hardware</a>
+    <a href="https://web.archive.org/web/20110114003847/http://wireless.ittoolbox.com/" class="footer-link">Mobile &amp; Wireless</a>
+    <a href="https://web.archive.org/web/20110114003847/http://networking.ittoolbox.com/" class="footer-link">Networking</a>
+    <a href="https://web.archive.org/web/20110114003847/http://telephony.ittoolbox.com/" class="footer-link">Telephony</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Operating Systems</div>
+    <a href="https://web.archive.org/web/20110114003847/http://linux.ittoolbox.com/" class="footer-link">Linux</a>
+    <a href="https://web.archive.org/web/20110114003847/http://unix.ittoolbox.com/" class="footer-link">UNIX</a>
+    <a href="https://web.archive.org/web/20110114003847/http://windows.ittoolbox.com/" class="footer-link">Windows</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Security</div>
+    <a href="https://web.archive.org/web/20110114003847/http://security.ittoolbox.com/" class="footer-link">Security</a>
+ <div class="spacer"></div>
+ <div class="footer-header lightgray">Storage</div>
+    <a href="https://web.archive.org/web/20110114003847/http://storage.ittoolbox.com/" class="footer-link">Storage</a>
+ </div>
+ </div>    
+
+
+</div>
+  
+<div class="footer-colsmall">
+<div class="footer-header gray spacer-small">Toolbox.com</div>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/about/" class="footer-link-gray">About</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/news/" class="footer-link-gray">News</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/PrivacyPolicy.aspx" class="footer-link-gray">Privacy</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/TermsofUse.aspx" class="footer-link-gray">Terms of Use</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/careers/" class="footer-link-gray">Work at Toolbox.com</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/it/advertising/" class="footer-link-gray">Advertise</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/contact/" class="footer-link-gray">Contact us</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Provide Feedback</a>
+<br/>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/help" class="footer-link-gray">Help Topics</a>
+<a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/Feedback.aspx" class="footer-link-gray">Technical Support</a>
+
+<br/>
+<div>
+			
+ <div class="footer-header gray spacer-small">Other Communities</div>
+ 
+ <span>
+    <a href="https://web.archive.org/web/20110114003847/http://hr.toolbox.com/" class="footer-link-gray">Toolbox for HR</a> 
+ </span>
+ <span>
+    <a href="https://web.archive.org/web/20110114003847/http://finance.toolbox.com/" class="footer-link-gray">Toolbox for Finance</a> 
+ </span>
+
+		</div>
+
+</div>
+ 
+	</div>                
+ </div>
+ 
+ 
+<div style="clear:both"></div>
+<div id="footer-disclaimer">
+    Copyright 1998-2011 Toolbox.com. All rights reserved. All product names are trademarks of their respective companies. Toolbox.com is not<br/>
+    affiliated with or endorsed by any company listed at this site. Toolbox.com is a subsidiary of the
+    <a href="https://web.archive.org/web/20110114003847/http://www.exbd.com/">Corporate Executive Board</a>.
+</div>
+<br/><br/>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="minidash-outerbox" id="mdouter">
+    <div class="minidash-innerbox">
+            
+            <div class="floatleft">
+                <a><div class="userimage-defaulttiny">&nbsp;</div></a>
+                
+            </div>
+            <div class="minidash-divider"></div>
+
+            <!-- newToToolbox -->
+            <div class="minidash-item" id="mindash-newToToolbox" popup="true">
+                <div class="minidash-lgtrigger-up" id="mindash-newtotoolboxup" popdownbutton="true">New to Toolbox?</div>
+                <div popupbutton="true" class="anthracite">
+                    
+<div class="floatleft">
+    <div buttonview="true" style="display:none;">
+        <table class="button-outerminidash" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="button-innerminidash">
+                    <span class="bold size11 white">New to Toolbox?</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div buttonview="false">
+        <span class="anthracite">New to Toolbox?</span>
+    </div>
+</div>
+<div id="ctl00_ctl00_m_MiniDash1_newttb_notifierDiv" class="floatleft" notifierdiv="true" style="display:none;">
+    <table class="button-outernotifier" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="button-innernotifier">
+                <span class="bold size11 white" notifiercount="true">0</span>
+            </td>
+        </tr>
+    </table>
+</div>                 
+                </div>
+                <!-- NEW TO TOOLBOX panel -->
+                <div class="minidash-lgpanel" popuppanel="true">
+                    <div class="minidash-lgpanel-top white bold size12">New to Toolbox.com?</div>
+                    <div class="minidash-lgpanel-middle">
+                        <div class="minidash-joinmessage">
+                            The Toolbox.com community helps you solve workplace problems.<br/>
+                            <div class="spacer-small"></div>
+                            Get started today - solve your problems and stay current.
+                            <div class="spacer-tiny clear"></div>
+                            <div class="floatright">
+                                <img class="link-image-carat" src="https://web.archive.org/web/20110114003847im_/http://cdn.toolbox.com/BUILD_1406/rds/carat-blue.png" style="border-width:0px;"/>
+<a href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/register?trksubprod=ctajoin">Join Now</a>&nbsp;
+                            </div>
+                            <div class="clear"></div>
+                       </div>                       
+                    </div>
+                    <div class="minidash-lgpanel-bottom"></div>
+                </div>
+            </div>
+            <div class="minidash-divider"></div>
+            
+            <!-- Unrecognized Ask A Question-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" onclick="SiteCatalystLinkTracking('Minidash:UnRecognized:AskAQuestion')" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/ask-a-question">Ask A Question</a>
+            </div>
+            <div class="minidash-divider"></div>
+
+             <!-- Unrecognized Join-->
+            <div class="minidash-item">
+                
+<a class=" anthracite" onclick="SiteCatalystLinkTracking('Minidash:UnRecognized:Join')" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/register?trksubprod=ctajoin">Join</a>            
+            </div>
+            <div class="minidash-divider"></div>
+        
+    </div>
+</div>
+
+<div>
+    <a class="join-button" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/register?trksubprod=joinnow_stationary&amp;opi_t=Case+Of+The+Robotic+Reflex+-+Part+I&amp;opi_u=http%3a%2f%2fit.toolbox.com%2fblogs%2fsecuritymonkey%2fcase-of-the-robotic-reflex-part-i-20895&amp;opi_o=4"></a>
+</div>
+<div>
+    <div id="signin">
+        <div id="signinPanel" class="signin-panel">
+            <div style="padding: 5px;">
+                <div class="signin-box anthracite">
+                    <div id="signin_result">
+                        <div class="windowclosebutton" id="signin-msgclose" onclick="javascript:hideSigninMessage();"></div>
+                        <div id="signin_message"></div>
+                    </div>
+                    <div id="signin_form">
+                        <div>E-mail or User ID</div>
+                        <div><input name="ctl00$ctl00$m$txtSignin_Username" type="text" id="ctl00_ctl00_m_txtSignin_Username" tabindex="900" class="signin-textbox" defaultbutton="<% =btnSignIn.ClientID %>"/></div>
+                        <div>Password</div>
+                        <div><input name="ctl00$ctl00$m$txtSignin_Password" type="password" id="ctl00_ctl00_m_txtSignin_Password" tabindex="901" class="signin-textbox" defaultbutton="<% =btnSignIn.ClientID %>"/></div>                                                    
+                    </div>
+                    <div class="floatright">
+                        <table id="ctl00_ctl00_m_btnSignIn_tbCt" class="button-outerblue" cellpadding="0" cellspacing="0">
+	<tr>
+		<td id="ctl00_ctl00_m_btnSignIn_tdCt" class="button-innerblue">
+            <input type="submit" name="ctl00$ctl00$m$btnSignIn$btnCTA" value="Go" onclick="javascript:doHomePageSignIn();return false;" id="ctl00_ctl00_m_btnSignIn_btnCTA" tabindex="905" class="button"/>
+                   
+        </td>
+	</tr>
+</table>
+
+
+                    </div>
+                    <div class="floatleft">
+                        <div class="floatleft"><input type="checkbox" name="pageGroup" id="currentPage" value="currentPage" tabindex="902"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="currentPage">Stay on Current Page</label></div>
+                    </div>
+                    <div class="floatleft"> 
+                        <div class="clear floatleft"><input type="checkbox" name="pageGroup" id="kmsiCB" value="currentPage" tabindex="903"/></div> 
+                        <div class="floatleft" style="padding-top:2px"><label for="kmsiCB">Keep me signed in</label></div>
+                    </div>
+                    <div class="clear floatright">
+                        
+<a class="link-button" href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/help">Help?</a>
+                    </div>
+                    
+<a class="link-button" href="https://web.archive.org/web/20110114003847/http://it.toolbox.com/home/recover-password">Recover&nbsp;Password</a>
+                </div>
+                <div class="signin-boxright anthracite">
+                    <span class="bold darkgray">Sign in using your account with</span>
+                    <div class="clear"></div>
+                    <div class="spacer-tiny"></div>
+                    <a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/openid/signin/1/google" class="signin-link signin-google oidHrefHook"></a>
+                    <a href="https://web.archive.org/web/20110114003847/http://www.toolbox.com/openid/signin/1/yahoo" class="signin-link signin-yahoo oidHrefHook"></a>
+                    <div class="floatright signin-reglinkspacer">
+                        <div class="spacer-tiny"></div>
+                        <div class="clear floatleft"><input type="checkbox" name="retToPage" id="oidretToPage" value="currPage" tabindex="1005"/></div>
+                        <div class="floatleft" style="padding-top:2px"><label for="oidretToPage">Return to this page</label></div>                    
+                    </div>
+                    <div class="floatright signin-reglink">
+                        <div class="bold floatleft">Haven't registered yet?</div>
+                        <div class="floatleft"><a id="ctl00_ctl00_m_btnJoinNow_lb" tabindex="905" class="link-button" href="javascript:__doPostBack('ctl00$ctl00$m$btnJoinNow$lb','')">Register&nbsp;now</a>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="signin-button" id="signin-button" onclick="javascript:showSigninBox();"></a>
+    </div>
+</div>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFwKl+IHRBQLspq/1AgLl0tOdCALSr9DMDwL7xYS8BwKn0ZHODgKn0f3NDgLivob8DAKC2KzxBwKQ9r3MAgKxqY33DwK2l5odAtTg0NAEAon6mJkIAqmIsaEPAoHggokBAr/yvqIMAr/moLIKAqHjsNsNAtPx8pUBAqyQ1tkLAoKai70JAoKUnO0Du5+swXuBcThQkyrHkvQw+CCkwxk="/>
+</div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3Mjc5NDkwMDQPZBYCZg9kFgJmD2QWAmYPZBYIZg9kFgQCAQ8WAh4EaHJlZgUnaHR0cDovL2ltYWdlcy5pdHRvb2xib3guY29tL2Zhdmljb24uaWNvZAIDDxYCHwAFMWh0dHA6Ly9pY2RuLnRvb2xib3guY29tL0JVSUxEXzE0MDYvY3NzL21hc3Rlci5jc3NkAgEPFgQeBFRleHQFcjxzY3JpcHQgc3JjPSJodHRwOi8vaWNkbi50b29sYm94LmNvbS9CVUlMRF8xNDA2L2pzL21ib3guanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPjwvc2NyaXB0Ph4HVmlzaWJsZWdkAgIQZGQWEAIBDxYEHglpbm5lcmh0bWwF5gE8c3BhbiBzdHlsZT0iZm9udDpib2xkIDE0cHggYXJpYWw7IGNvbG9yOiNGRkZGRkY7Ij4NCkZlYXR1cmVkIFdlYmNhc3Q6IFdpbmRvd3MgNyBEZXBsb3ltZW50IC0gIkFuIEluc2lkZXIncyBHdWlkZSINCjwvc3Bhbj4NCjxhIGhyZWY9Imh0dHA6Ly9pdC50b29sYm94LmNvbS90cmQvODg1MTAxIiBzdHlsZT0iZm9udDoxMiBhcmlhbDsgY29sb3I6IzQ2ODJCNDsiPlJlZ2lzdGVyIFRvZGF5PC9hPg0KPC9hPh8CZ2QCAw8PFgIfAmhkZAINDxYCHwJoZAIPD2QWBAIBD2QWAgIBD2QWBgIBD2QWAmYPFgIeC18hSXRlbUNvdW50AgRkAgMPZBYSAgEPZBYCAgEPZBYEZg8PFgIfAmhkZAICDw8WBB4LTmF2aWdhdGVVcmwFO2h0dHA6Ly9pdC50b29sYm94LmNvbS9ob21lL2Jsb2cvZW50cmllcy8/ZWlkPTIwODk1JmJsb2dpZD0yHwJnZGQCAw9kFgpmDxYCHwJoZAICDw8WAh8CaGRkAgMPFgYeBWNsYXNzBR5ibHVlIHNpemUxNSBib2xkIGNvbnRlbnQtdGl0bGUfAwUjQ2FzZSBPZiBUaGUgUm9ib3RpYyBSZWZsZXggLSBQYXJ0IEkfAmdkAgQPDxYCHwJoZGQCBg8PFgIfAmhkZAIFDw8WBB8BBYgIPHA+PGhyPjx0YWJsZSB3aWR0aD0xMDAlIGJnY29sb3I9I0ZGRkZDQyBjZWxscGFkZGluZz05cHg+DQo8dHI+PHRkPjxpbWcgc3R5bGU9Im1hcmdpbi1yaWdodDogOXB4OyBmbG9hdDogbGVmdCIgc3JjPSJodHRwOi8vdXNlcmltYWdlcy5pdHRvb2xib3guY29tL3VzZXIvc182MTAwMDAuanBnIj48Yj48Zm9udCBmYWNlPSJBcmlhbCIgc2l6ZT00PkRJRCBZT1UgS05PVz88L2I+PC9mb250Pjxmb250IGZhY2U9IkFyaWFsIiBzaXplPTI+PHAgc3R5bGU9Im1hcmdpbi10b3A6IDJweCI+WW91IGNhbiByZWFkIGFsbCBvZiBTZWN1cml0eU1vbmtleSdzIGNhc2UgZmlsZXMhIDxicj5GaW5kIHRoZW0gPGI+PGEgaHJlZj0iaHR0cDovL2Jsb2dzLml0dG9vbGJveC5jb20vc2VjdXJpdHkvaW52ZXN0aWdhdG9yL2FyY2hpdmVzL29mZmljaWFsLXNlY3VyaXR5bW9ua2V5LWNhc2UtZmlsZS1pbmRleC0xNDc4NyI+aGVyZTwvYT48L2I+LiA8YnI+PGJyPllvdSBjYW4gYWxzbyByZWFkIGFsbCBvZiBTZWN1cml0eU1vbmtleSdzIDxicj4nQmFuYW5hIEN1cGJvYXJkJyBzdG9yaWVzIDxhIGhyZWY9Imh0dHA6Ly9ibG9ncy5pdHRvb2xib3guY29tL3NlY3VyaXR5L2ludmVzdGlnYXRvci9hcmNoaXZlcy9iYW5hbmEtY3VwYm9hcmQtc3Rvcmllcy1pbmRleC0yNTY0NyI+aGVyZTwvYT4uICA8YnI+PGJyPllvdSBtYXkgbm90IGdldCBhIGxvdCBkb25lIGZvciBhIGZldyBob3Vycy4uLiBvciBldmVuIGRheXMuPC9mb250Pjxicj48YnI+VGhlIHJldmlld3MgYXJlIGluLi4uPGJyPjxicj48aT4iQ29tcGxldGVseSBhZGRpY3RpdmUuLi4gc3VzcGVuc2VmdWwgYW5kIGluZm9ybWF0aXZlIGF0IHRoZSBzYW1lIHRpbWUhIjxicj4iQSBtaXggb2YgY2xhc3NpYyBkZXRlY3RpdmUgc2NyaXB0aW5nLCB0aW1pbmcsIGFuZCB0ZWNobm9sb2d5Li4uIjxicj4iQ2xldmVybHkgaW5qZWN0ZWQgaHVtb3IgbWFrZXMgdGhlc2UgY2FzZSBmaWxlcyBlYXN5IHRvIHJlYWQgYW5kIGhhcmQgdG8gcHV0IGRvd24hIjwvaT48L3RkPjwvdHI+PC90YWJsZT48aHI+PHA+HwJnZGQCBw9kFgJmDxYCHwQCAxYGAgEPZBYCAgEPZBYEZg8PFgIeCEltYWdlVXJsBTRodHRwOi8vY2RuLnRvb2xib3guY29tL0JVSUxEXzE0MDYvcmRzL2NhcmF0LWJsdWUucG5nZGQCAg8PFggeCENzc0NsYXNzZR8FBXlodHRwOi8vc2VjdXJpdHkuaXR0b29sYm94LmNvbS9yZXNlYXJjaC9oeWJyaWQtd2ViLXNlY3VyaXR5LXRoZS1iZXN0LW9mLWNsb3VkLWNvbXB1dGluZy1hbmQtb25wcmVtaXNlLWNvbWJpbmVkLTIyNzM1P3NwPWt3HgdUb29sVGlwZB4EXyFTQgICFgIeB29uY2xpY2sFSVNpdGVDYXRhbHlzdExpbmtUcmFja2luZygnQmxvZ3M6RW50cnk6UmVsYXRlZENvbnRlbnQ6UHJlbWl1bVdoaXRlUGFwZXJzJylkAgMPZBYCAgEPZBYEZg8PFgIfBwU0aHR0cDovL2Nkbi50b29sYm94LmNvbS9CVUlMRF8xNDA2L3Jkcy9jYXJhdC1ibHVlLnBuZ2RkAgIPDxYIHwhlHwUFc2h0dHA6Ly9zdG9yYWdlLml0dG9vbGJveC5jb20vcmVzZWFyY2gvc2VjdXJpdHktYmVzdC1wcmFjdGljZXMtZm9yLWRldmVsb3Bpbmctd2luZG93cy1henVyZS1hcHBsaWNhdGlvbnMtMjI4OTM/c3A9a3cfCWQfCgICFgIfCwVJU2l0ZUNhdGFseXN0TGlua1RyYWNraW5nKCdCbG9nczpFbnRyeTpSZWxhdGVkQ29udGVudDpQcmVtaXVtV2hpdGVQYXBlcnMnKWQCBQ9kFgICAQ9kFgRmDw8WAh8HBTRodHRwOi8vY2RuLnRvb2xib3guY29tL0JVSUxEXzE0MDYvcmRzL2NhcmF0LWJsdWUucG5nZGQCAg8PFggfCGUfBQVZaHR0cDovL3N0b3JhZ2UuaXR0b29sYm94LmNvbS9yZXNlYXJjaC91bmRlcnN0YW5kaW5nLXNlY3VyaXR5LWluLWNs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b3V0IDkgeWVhcnMgYnV0IGhpcyBuYW1lIHdhcyBLaXAgS2VycGF0cmljayBhbmQgaGUgbW92ZWQgb3V0IHRvIExBLiBCaWcgUmVkIEd1eSBmcm9tIEhhd2FpaSBpcyB0aGUgYmVzdCBkZXNjcmlwdGlvbi4gDQoNCg0fCAURYW50aHJhY2l0ZSBzaXplMTMfCgICZGQCDg9kFgQCAQ9kFgJmD2QWBGYPFQEHMTczOTkxNWQCAQ8VAQY4NTMxODlkAgMPZBYGZg9kFgICAQ8PFgIfAmdkFgJmDw8WAh8FBSdodHRwOi8vaXQudG9vbGJveC5jb20vcGVvcGxlL3Jkd2lsc29uMi9kFgJmDxYCHwwFN2h0dHA6Ly91c2VyaW1hZ2VzLml0dG9vbGJveC5jb20vdXNlci85LzgvMS9iXzg1MzE4OS5qcGdkAgQPZBYCAgEPDxYEHwgFBnNpemUxMR8KAgJkZAIGDw8WBh8BBYEGRGF0YWJpdC9NaWNoYWFlbCw8YnI+PGJyPlRoZSBqYW50b3IgZG9lc24ndCBldmVuIGhhdmUgdG8gdW5wbHVnIHRoZSBzZXJ2ZXIuICBUaGUgaG9zcGl0YWwgSSB3b3JrZWQgYXQgYSB3aGlsZSBiYWNrIGhhZCBhIGJyaWVmIHBlcmlvZCBvZiBpbnRlcm1pdHRlbnQgaXNzdWVzIHdpdGggdGhlIHN5c3RlbSBraWNraW5nIG92ZXIgdG8gdGhlIDE1S1ZBIFVQUyBhdCByZWFsbHkgd2llcmQgdGltZXMgb2YgbmlnaHQgYW5kIGRheXMgb2YgdGhlIHdlZWsuICBXZSBmaW5hbGx5IGZpZ3VyZWQgb3V0IHRoYXQgdGhlcmUgd2FzIGFuIGVsZWN0cmljIG91dGxldCBpbiB0aGUgbW9yZ3VlICh3aGljaCB3YXMgbmV4dCBkb29yIHRvIHRoZSBjb21wdXRlciByb29tKSB0aGF0IHdhcyBvbiB0aGUgc2FtZSBjaXJjdWl0IGFuZCB0aGUgamFuaXRvciB3b3VsZCBwZXJpb2RpY2FsbHkgcGx1ZyBvbmUgb2YgdGhvc2UgYmlnICg0OCIpIGZsb29yIHNjcnViYmVycyBpbnRvIHRoZSBvdXRsZXQgdG8gZG8gdGhlIGZsb29ycy4gIFNpbmNlIGhlIGRpZG4ndCBsaWtlIGRvaW5nIHRoZSBtb3JnZSAoZ28gZmlndXJlIDstKSwgdGhlIGphbml0b3Igd2FzIG5vdCByZWFsbHkgdG9vIGNvbnNpc3RlbnQgYWJvdXQgd2hlbiBoZSBkaWQgdGhlIGZsb29ycy48YnI+PGJyPkFzIHRoZSBvdGhlcnMgaGF2ZSBzYWlkLCBJIGxvb2sgZm9yd2FyZCB0byBmb2xsb3dpbmcgdGhlIHRlY2huaWNhbCBzZWFyY2ggZm9yIHRoZSBwcm92ZXJiaWFsIG1vdGggaW4gdGhlIGNpcmN1aXRzLiA7LSkNCg0KDR8IBRFhbnRocmFjaXRlIHNpemUxMx8KAgJkZAIQD2QWBAIBD2QWAmYPZBYEZg8VAQcxNzM5OTM2ZAIBDxUBBzExNDA4NDVkAgMPZBYGZg9kFgICAQ8PFgIfAmdkFgJmDw8WAh8FBSVodHRwOi8vaXQudG9vbGJveC5jb20vcGVvcGxlL3NweWtlMDEvZBYEZg8WAh8CaGQCAQ8WBB8GBRZ1c2VyaW1hZ2UtZGVmYXVsdGJhZGdlHwJnZAIED2QWAgIBDw8WBB8IBQZzaXplMTEfCgICZGQCBg8PFgYfAQWZAnNvdW5kcyBsaWtlIHNvbWUgb2YgdGhlIG9sZCBlcXVpcG1lbnQgbWlnaHQgaGF2ZSBhIGJhY2tkb29yIGluIGl0LG1heWJlIHRoZSBvbGQgY29tcGFueSBpcyBkb3dubG9hZGluZyB0aGUgbW92aWVzIG9mZiBvZiB0aGUgbmV3IGd1eXMgYW5kIGtpbGxpbmcgdGhlIG5ldHdvcmsgaW4gdGhlIHByb2Nlc3MuIEtpbmQgb2YgYSB3aWxkIGd1ZXNzIGJ1dCBpbGwgc3RpY2sgd2l0aCBpdCBmb3Igbm93LCBnbGFkIHRvIHNlZSBzb21lIHBvc3RzIGFnYWluIENoaWVmIGtlZXAgZW0gY29taW5nLg0KDQoNHwgFEWFudGhyYWNpdGUgc2l6ZTEzHwoCAmRkAhIPZBYEAgEPZBYCZg9kFgRmDxUBBzE3NDAxMDNkAgEPFQEHMTE1NTQzMmQCAw9kFgZmD2QWAgIBDw8WAh8CZ2QWAmYPDxYCHwUFJ2h0dHA6Ly9pdC50b29sYm94LmNvbS9wZW9wbGUvemVub2ZqYXp6L2QWAmYPFgIfDAU4aHR0cDovL3VzZXJpbWFnZXMuaXR0b29sYm94LmNvbS91c2VyLzIvMy80L2JfMTE1NTQzMi5qcGdkAgQPZBYCAgEPDxYEHwgFBnNpemUxMR8KAgJkZAIGDw8WBh8BBYQCSG0uIFBvdGVudGlhbGx5IHNlbnNpdGl2ZSBkYXRhLCBvbiBhIG5ldHdvcmsgdGhhdCBzaGFyZXMgYSBmYXQgcGlwZSB0byB0aGUgSW50ZXJuZXQuICAgUmVjZW50bHkgaW5oZXJpdGVkIGluZnJhc3RydWN0dXJlIGF0IHRoZSBvdGhlciBsb2NhdGlvbiwgcG9zc2libGUgaW5zaWRlcnMgd2hvIG1heSBiZSB1cHNldCBhYm91dCB0aGUgYWNxdWlzaXRpb24uPGJyPjxicj5TZXZlcmFsIGludGVyZXN0aW5nIHBhdGggbGVhZCBmcm9tIHRoaXMgcG9pbnQuDQoNCg0fCAURYW50aHJhY2l0ZSBzaXplMTMfCgICZGQCFA9kFgQCAQ9kFgJmD2QWBGYPFQEHMTc0MDM2MmQCAQ8VAQY4NzkwNjlkAgMPZBYGZg9kFgICAQ8PFgIfAmdkFgJmDw8WAh8FBSRodHRwOi8vaXQudG9vbGJveC5jb20vcGVvcGxlL2pibXYyMi9kFgRmDxYCHwJoZAIBDxYEHwYFFnVzZXJpbWFnZS1kZWZhdWx0YmFkZ2UfAmdkAgQPZBYCAgEPDxYEHwgFBnNpemUxMR8KAgJkZAIGDw8WBh8BBZoCSW4gb25lIG9mIG91ciBmYWNpbGl0aWVzIHRoYXQgaGFzIGEgcG9vbCwgYSBqYW5pdG9yIHdvdWxkIGFjdHVhbGx5IHRyaXAgYSBicmtyIHNvIGhlIGNvdWxkIHBvbGlzaCB0aGUgZmxvb3JzIHVuaW50ZXJydXBlZC4gIEl0IHdvdWxkIHRoZW4gY2F1c2UgYSBzd2l0Y2ggdG8gc2h1dGRvd24gYW5kIGFsbCB0aGUgY29tcHV0ZXJzIGNvbm5lY3RlZCB0byBpdCx3b3VsZCBsb3NlIGNvbm5lY3Rpdml0eSAgLiAgVG9vayBhd2hpbGUgZm9yIHRoZSB0ZWNoJ3MgdG8gZmlndXJlIGl0IG91dC4gIA0KDQoNHwgFEWFudGhyYWNpdGUgc2l6ZTEzHwoCAmRkAhYPZBYEAgEPZBYCZg9k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cnVlLA0KICAgIGhhc2h0YWdzOiB0cnVlLA0KICAgIHRpbWVzdGFtcDogdHJ1ZSwNCiAgICBhdmF0YXJzOiB0cnVlLA0KICAgIGJlaGF2aW9yOiAnZGVmYXVsdCcNCiAgfQ0KfSkucmVuZGVyKCkuc2V0VXNlcignY2hpZWZtb25rZXknKS5zdGFydCgpOw0KPC9zY3JpcHQ+ZAIBDw8WAh8CaGRkAgIPZBYCAgEPZBYCAgIPZBYCAgEPZBYCZg8QDxYGHg5EYXRhVmFsdWVGaWVsZAUFdmFsdWUeDURhdGFUZXh0RmllbGQFBHRleHQeC18hRGF0YUJvdW5kZ2QQFQcXQmFuYW5hIEN1cGJvYXJkIFN0b3JpZXMJQ2FzZWZpbGVzBUluZGV4B09waW5pb24LT3V0c291cmNpbmcEUmFudAxTdGF5IEN1cnJlbnQVB1JodHRwOi8vaXQudG9vbGJveC5jb20vYmxvZ3Mvc2VjdXJpdHltb25rZXkvY2F0ZWdvcmllcy9iYW5hbmErY3VwYm9hcmQrc3Rvcmllcy8yNzk2RGh0dHA6Ly9pdC50b29sYm94LmNvbS9ibG9ncy9zZWN1cml0eW1vbmtleS9jYXRlZ29yaWVzL2Nhc2VmaWxlcy8yMjc1QGh0dHA6Ly9pdC50b29sYm94LmNvbS9ibG9ncy9zZWN1cml0eW1vbmtleS9jYXRlZ29yaWVzL2luZGV4LzIyNzdBaHR0cDovL2l0LnRvb2xib3guY29tL2Jsb2dzL3NlY3VyaXR5bW9ua2V5L2NhdGVnb3JpZXMvb3Bpbmlvbi8yNzhEaHR0cDovL2l0LnRvb2xib3guY29tL2Jsb2dzL3NlY3VyaXR5bW9ua2V5L2NhdGVnb3JpZXMvb3V0c291cmNpbmcvMzE/aHR0cDovL2l0LnRvb2xib3guY29tL2Jsb2dzL3NlY3VyaXR5bW9ua2V5L2NhdGVnb3JpZXMvcmFudC8yMzI0Rmh0dHA6Ly9pdC50b29sYm94LmNvbS9ibG9ncy9zZWN1cml0eW1vbmtleS9jYXRlZ29yaWVzL3N0YXkrY3VycmVudC8yNzYUKwMHZ2dnZ2dnZ2RkAgYPZBYCZg8WAh8CaGQCFQ9kFgICAQ9kFgICAQ9kFgoCAQ9kFgJmD2QWBGYPFgIfAmhkAgEPFgQfBgUVdXNlcmltYWdlLWRlZmF1bHR0aW55HwJnZAIDD2QWBAIBDxYCHgVzdHlsZQUNZGlzcGxheTpub25lO2QCBQ8WAh8SBQ1kaXNwbGF5Om5vbmU7ZAIFD2QWBGYPDxYCHwcFNGh0dHA6Ly9jZG4udG9vbGJveC5jb20vQlVJTERfMTQwNi9yZHMvY2FyYXQtYmx1ZS5wbmdkZAICDw8WAh8FBTZodHRwOi8vaXQudG9vbGJveC5jb20vaG9tZS9yZWdpc3Rlcj90cmtzdWJwcm9kPWN0YWpvaW5kZAIHD2QWBGYPDxYEHwcFNGh0dHA6Ly9jZG4udG9vbGJveC5jb20vQlVJTERfMTQwNi9yZHMvY2FyYXQtYmx1ZS5wbmcfAmhkZAICDw8WBh8FBSRodHRwOi8vaXQudG9vbGJveC5jb20vYXNrLWEtcXVlc3Rpb24fCAULIGFudGhyYWNpdGUfCgICFgIfCwU+U2l0ZUNhdGFseXN0TGlua1RyYWNraW5nKCdNaW5pZGFzaDpVblJlY29nbml6ZWQ6QXNrQVF1ZXN0aW9uJylkAgkPZBYEZg8PFgQfBwU0aHR0cDovL2Nkbi50b29sYm94LmNvbS9CVUlMRF8xNDA2L3Jkcy9jYXJhdC1ibHVlLnBuZx8CaGRkAgIPDxYGHwUFNmh0dHA6Ly9pdC50b29sYm94LmNvbS9ob21lL3JlZ2lzdGVyP3Rya3N1YnByb2Q9Y3Rham9pbh8IBQsgYW50aHJhY2l0ZR8KAgIWAh8LBTZTaXRlQ2F0YWx5c3RMaW5rVHJhY2tpbmcoJ01pbmlkYXNoOlVuUmVjb2duaXplZDpKb2luJylkAhcPZBYCAgEPDxYCHwUF2AFodHRwOi8vaXQudG9vbGJveC5jb20vaG9tZS9yZWdpc3Rlcj90cmtzdWJwcm9kPWpvaW5ub3dfc3RhdGlvbmFyeSZvcGlfdD1DYXNlK09mK1RoZStSb2JvdGljK1JlZmxleCstK1BhcnQrSSZvcGlfdT1odHRwJTNhJTJmJTJmaXQudG9vbGJveC5jb20lMmZibG9ncyUyZnNlY3VyaXR5bW9ua2V5JTJmY2FzZS1vZi10aGUtcm9ib3RpYy1yZWZsZXgtcGFydC1pLTIwODk1Jm9waV9vPTRkZAIZD2QWBAIDD2QWBGYPDxYCHwJoZGQCAg8PFgQfBQUbaHR0cDovL3d3dy50b29sYm94LmNvbS9oZWxwHwJnZGQCBA9kFgRmDw8WAh8CaGRkAgIPDxYEHwUFK2h0dHA6Ly9pdC50b29sYm94LmNvbS9ob21lL3JlY292ZXItcGFzc3dvcmQfAmdkZAIDDw8WBB4OSmF2YVNjcmlwdEZpbGUFMWh0dHA6Ly9pY2RuLnRvb2xib3guY29tL0JVSUxEXzE0MDYvanMvb21uaXR1cmUuanMfAmdkZBgDBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUhY3RsMDAkY3RsMDAkbSRtJG0kbSRjb25uZWN0dG9ibG9nBRtjdGwwMCRjdGwwMCRtJE1pbmlEYXNoMSRtbXYPD2QCAWQFIGN0bDAwJGN0bDAwJG0kR04kdG9waWNzTXVsdGlWaWV3Dw9kZmS9BF/2sfvipZSb7YXtDxUncLt1MA=="/></form>
+<div>
+
+</div>
+
+	
+	
+    <script language="javascript" type="text/javascript" src="/web/20110114003847js_/http://it.toolbox.com/js/groupmessagevoting.js"></script>
+<script language="javascript" type="text/javascript">
+
+    var cTextId = "ctl00_ctl00_m_m_m_m_commentText"
+
+    function formatStr(v) {
+        var browserName = navigator.appName;
+        var txt = '';
+        if (browserName == "Microsoft Internet Explorer") {
+            txt = document.selection.createRange().text;
+            //if(txt !="") document.selection.createRange().text = '[' + v + ']' + txt + '[/' + v + ']';
+            if (txt != "") document.selection.createRange().text = '<' + v + '>' + txt + '</' + v + '>';
+        }
+        else {
+            txt = getSelection(v, "", cTextId);
+            document.getElementById(cTextId).value = txt;
+        }
+    }
+    function getSelection(v, url, txtBxId) {
+        el = document.getElementById(txtBxId);
+        var text = el.value;
+        if (el.selectionStart == undefined) {
+            var r = window.selection.createRange();
+            //return new Array( r.start, r.end );
+        }
+        else {
+            if (v == "link") {
+                return text.substring(0, el.selectionStart) + "<a href=\"" + url + "\">" + text.substring(el.selectionStart, el.selectionEnd) + "</a>" + text.substring(el.selectionEnd, text.length);
+            }
+            else {
+                return text.substring(0, el.selectionStart) + "<" + v + ">" + text.substring(el.selectionStart, el.selectionEnd) + "</" + v + ">" + text.substring(el.selectionEnd, text.length);
+            }
+            //return new Array( el.selectionStart, el.selectionEnd );
+        }
+    }
+
+    function insertLink() {
+        var str
+        var my_link = prompt('Enter URL. Please replace any "=" with "&#61;" for the URL to work properly', 'http://');
+        var browserName = navigator.appName;
+        if (browserName == "Microsoft Internet Explorer") {
+            str = document.selection.createRange().text;
+            if (my_link != null && str != null)
+                document.selection.createRange().text = '<a href="' + my_link + '">' + str + '</a>';
+        }
+        else {
+            str = getSelection("link", my_link, cTextId);
+            if (my_link != null && str != null)
+                document.getElementById(cTextId).value = str;
+        }
+    }
+</script>
+
+
+
+
+<script src="https://web.archive.org/web/20110114003847js_/http://icdn.toolbox.com/BUILD_1406/js/toolbox.common.js" language="javascript" type="text/javascript"></script> 
+<script type="text/javascript">
+    InitCodeHighlighting('https://web.archive.org/web/20110114003847/http://cdn.toolbox.com/BUILD_1406/', 'https://web.archive.org/web/20110114003847/http://it.toolbox.com/');
+</script>
+
+  
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 00:38:47 Jan 14, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:47:35 Oct 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1695.561
+  CDXLines.iter: 25.769 (3)
+  LoadShardBlock: 1637.959 (3)
+  PetaboxLoader3.datanode: 1772.095 (4)
+  esindex: 0.012
+  load_resource: 812.717
+  exclusion.robots: 0.28
+  exclusion.robots.policy: 0.258
+  PetaboxLoader3.resolve: 672.455 (2)
+  RedisCDXSource: 27.666
+-->
